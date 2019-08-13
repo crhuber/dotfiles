@@ -1,0 +1,2 @@
+# sytax highlighting for nano
+include /usr/local/share/nano/*.nanorc

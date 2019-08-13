@@ -1,0 +1,17 @@
+{
+    "explorer.openEditors.visible": 0,
+    "workbench.editor.showTabs": true,
+    "terminal.integrated.shell.osx": "/usr/local/bin/fish",
+    "editor.fontSize": 14,
+    "editor.formatOnSave": true,
+    "window.zoomLevel": 0,
+    "git.autofetch": true,
+    "window.restoreWindows": "none",
+    "files.trimTrailingWhitespace": true,
+    "editor.renderWhitespace": "boundary",
+    "terminal.integrated.scrollback": 10000,
+    "terminal.integrated.copyOnSelection": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "workbench.colorTheme": "Monokai",
+    "terminal.integrated.rendererType": "dom"
+}
