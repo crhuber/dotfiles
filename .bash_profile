@@ -1,5 +1,7 @@
 ## PATHS
 export PATH="$HOME/Documents/Applications:$PATH"
+export FLASK_APP=manage.py
+export FLASK_ENV=development
 
 ## HARDWARE
 
