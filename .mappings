@@ -1,0 +1,5 @@
+[general]
+"vim/vimrc" = "~/.vimrc"
+"nano/nanorc" = "~/.nanorc"
+"fish/k.fish" = "~/.config/fish/functions/k.fish"
+"fish/ls.fish" = "~/.config/fish/functions/ls.fish"
