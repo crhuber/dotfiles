@@ -4,3 +4,4 @@
 "fish/k.fish" = "~/.config/fish/functions/k.fish"
 "fish/ls.fish" = "~/.config/fish/functions/ls.fish"
 "fish/cat.fish" = "~/.config/fish/functions/cat.fish"
+"kelp/.kelp.json" = "~/.kelp/.kelp.json"

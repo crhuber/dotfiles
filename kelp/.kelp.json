@@ -1,0 +1,18 @@
+{
+    "sharkdp/fd": "latest",
+    "sharkdp/bat": "latest",
+    "ubnt-intrepid/dot": "latest",
+    "tsenart/vegeta": "latest",
+    "junegunn/fzf-bin": "latest",
+    "termit/flycut": "latest",
+    "rxhanson/rectangle": "latest",
+    "lwouis/alt-tab-macos": "latest",
+    "versent/saml2aws": "latest",
+    "watchexec/watchexec": "latest",
+    "wercker/stern": "latest",
+    "hashicorp/terraform": "latest",
+    "ogham/exa": "latest",
+    "Marginal/QLVideo": "latest",
+    "JohnCoates/Aerial": "latest"
+}
+
