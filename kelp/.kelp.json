@@ -10,9 +10,12 @@
     "versent/saml2aws": "latest",
     "watchexec/watchexec": "latest",
     "wercker/stern": "latest",
-    "hashicorp/terraform": "latest",
+    "hashicorp/terraform": "https://releases.hashicorp.com/terraform/0.11.14/terraform_0.11.14_darwin_amd64.zip",
     "ogham/exa": "latest",
     "Marginal/QLVideo": "latest",
-    "JohnCoates/Aerial": "latest"
+    "JohnCoates/Aerial": "latest",
+    "istio/istio": "latest",
+    "aws/aws-iam-authenticator": "https://amazon-eks.s3-us-west-2.amazonaws.com/1.14.6/2019-08-22/bin/darwin/amd64/aws-iam-authenticator",
+    "helm/helm": "2.16.0"
 }
 
