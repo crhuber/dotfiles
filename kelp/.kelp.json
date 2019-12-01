@@ -19,3 +19,4 @@
     "helm/helm": "https://get.helm.sh/helm-v2.16.0-darwin-amd64.tar.gz",
     "roboll/helmfile": "v0.94.1"
 }
+
