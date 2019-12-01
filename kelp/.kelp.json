@@ -16,6 +16,6 @@
     "JohnCoates/Aerial": "latest",
     "istio/istio": "latest",
     "aws/aws-iam-authenticator": "https://amazon-eks.s3-us-west-2.amazonaws.com/1.14.6/2019-08-22/bin/darwin/amd64/aws-iam-authenticator",
-    "helm/helm": "v2.16.0"
+    "helm/helm": "https://get.helm.sh/helm-v2.16.0-darwin-amd64.tar.gz",
+    "roboll/helmfile": "v0.94.1"
 }
-
