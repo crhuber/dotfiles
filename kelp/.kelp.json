@@ -19,5 +19,6 @@
     "helm/helm": "https://get.helm.sh/helm-v2.14.3-darwin-amd64.tar.gz",
     "roboll/helmfile": "v0.94.1",
     "FiloSottile/age": "latest",
-    "burntsushi/ripgrep": "latest"
+    "burntsushi/ripgrep": "latest",
+    "/xo/usql": "latest"
 }
