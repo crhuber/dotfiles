@@ -20,5 +20,5 @@
     "roboll/helmfile": "v0.94.1",
     "FiloSottile/age": "latest",
     "burntsushi/ripgrep": "latest",
-    "/xo/usql": "latest"
+    "xo/usql": "latest"
 }
