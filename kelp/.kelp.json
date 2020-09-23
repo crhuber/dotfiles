@@ -20,6 +20,5 @@
     "roboll/helmfile": "v0.94.1",
     "FiloSottile/age": "latest",
     "burntsushi/ripgrep": "latest",
-    "/xo/usql": "latest",
-    "crhuber/kelp": "latest"
+    "xo/usql": "latest"
 }

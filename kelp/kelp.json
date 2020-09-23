@@ -1,0 +1,102 @@
+[
+ {
+  "Owner": "crhuber",
+  "Repo": "kelp",
+  "Release": "latest"
+ },
+ {
+  "Owner": "sharkdp",
+  "Repo": "fd",
+  "Release": "latest"
+ },
+ {
+  "Owner": "sharkdp",
+  "Repo": "bat",
+  "Release": "latest"
+ },
+ {
+  "Owner": "ubnt-intrepid",
+  "Repo": "dot",
+  "Release": "latest"
+ },
+ {
+  "Owner": "tsenart",
+  "Repo": "vegeta",
+  "Release": "latest"
+ },
+ {
+  "Owner": "junegunn",
+  "Repo": "fzf-bin",
+  "Release": "latest"
+ },
+ {
+  "Owner": "watchexec",
+  "Repo": "watchexec",
+  "Release": "latest"
+ },
+ {
+  "Owner": "wercker",
+  "Repo": "stern",
+  "Release": "latest"
+ },
+ {
+  "Owner": "hashicorp",
+  "Repo": "terraform",
+  "Release": "https://releases.hashicorp.com/terraform/0.11.14/terraform_0.11.14_darwin_amd64.zip"
+ },
+ {
+  "Owner": "ogham",
+  "Repo": "exa",
+  "Release": "latest"
+ },
+ {
+  "Owner": "istio",
+  "Repo": "istio",
+  "Release": "latest"
+ },
+ {
+  "Owner": "aws",
+  "Repo": "aws-iam-authenticator",
+  "Release": "https://amazon-eks.s3-us-west-2.amazonaws.com/1.14.6/2019-08-22/bin/darwin/amd64/aws-iam-authenticator"
+ },
+ {
+  "Owner": "helm",
+  "Repo": "helm",
+  "Release": "https://get.helm.sh/helm-v2.14.3-darwin-amd64.tar.gz"
+ },
+ {
+  "Owner": "roboll",
+  "Repo": "helmfile",
+  "Release": "v0.94.1"
+ },
+ {
+  "Owner": "burntsushi",
+  "Repo": "ripgrep",
+  "Release": "latest"
+ },
+ {
+  "Owner": "xo",
+  "Repo": "usql",
+  "Release": "latest"
+ },
+ {
+  "Owner": "termit",
+  "Repo": "flycut",
+  "Release": "https://github.com/TermiT/Flycut/releases/download/1.9.4/Flycut.1.9.4.zip"
+ },
+ {
+  "Owner": "rxhanson",
+  "Repo": "rectangle",
+  "Release": "https://github.com/rxhanson/Rectangle/releases/download/v0.24/Rectangle0.24.dmg"
+ },
+ {
+  "Owner": "lwouis",
+  "Repo": "alt-tab-macos",
+  "Release": "https://github.com/lwouis/alt-tab-macos/releases/download/v3.7.1/AltTab-3.7.1.zip"
+ },
+ {
+  "Owner": "marginal",
+  "Repo": "qlvideo",
+  "Release": "https://github.com/Marginal/QLVideo/releases/download/rel-193/QLVideo_193.pkg"
+ }
+]
