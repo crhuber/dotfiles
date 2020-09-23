@@ -1,3 +1,3 @@
 function cat --description 'like cat with wings'
-	bat $argv;
+	bat $argv -l p; 
 end
