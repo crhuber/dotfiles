@@ -42,7 +42,7 @@
  {
   "Owner": "hashicorp",
   "Repo": "terraform",
-  "Release": "https://releases.hashicorp.com/terraform/0.11.14/terraform_0.11.14_darwin_amd64.zip"
+  "Release": "https://releases.hashicorp.com/terraform/0.13.15/terraform_0.13.15_darwin_amd64.zip"
  },
  {
   "Owner": "ogham",
@@ -52,7 +52,7 @@
  {
   "Owner": "istio",
   "Repo": "istio",
-  "Release": "latest"
+  "Release": "1.6.8"
  },
  {
   "Owner": "aws",
@@ -62,7 +62,7 @@
  {
   "Owner": "helm",
   "Repo": "helm",
-  "Release": "https://get.helm.sh/helm-v2.14.3-darwin-amd64.tar.gz"
+  "Release": "https://get.helm.sh/helm-v2.16.9-darwin-amd64.tar.gz"
  },
  {
   "Owner": "roboll",
@@ -98,5 +98,35 @@
   "Owner": "marginal",
   "Repo": "qlvideo",
   "Release": "https://github.com/Marginal/QLVideo/releases/download/rel-193/QLVideo_193.pkg"
+ },
+ {
+  "Owner": "nikolaeu",
+  "Repo": "numi",
+  "Release": "latest"
+ },
+ {
+  "Owner": "rakyll",
+  "Repo": "hey",
+  "Release": "latest"
+ },
+ {
+  "Owner": "jigish",
+  "Repo": "slate",
+  "Release": "http://www.ninjamonkeysoftware.com/slate/versions/slate-latest.tar.gz"
+ },
+ {
+  "Owner": "tankerhq",
+  "Repo": "ruplacer",
+  "Release": "latest"
+ },
+ {
+  "Owner": "fairwindsops",
+  "Repo": "pluto",
+  "Release": "latest"
+ },
+ {
+  "Owner": "github",
+  "Repo": "hub",
+  "Release": "v2.14.2"
  }
 ]
