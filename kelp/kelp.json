@@ -128,5 +128,35 @@
   "Owner": "github",
   "Repo": "hub",
   "Release": "v2.14.2"
+ },
+ {
+  "Owner": "fullstorydev",
+  "Repo": "grpcurl",
+  "Release": "latest"
+ },
+ {
+  "Owner": "httpie",
+  "Repo": "httpie",
+  "Release": "latest"
+ },
+ {
+  "Owner": "canop",
+  "Repo": "broot",
+  "Release": "latest"
+ },
+ {
+  "Owner": "schollz",
+  "Repo": "croc",
+  "Release": "latest"
+ },
+ {
+  "Owner": "mikefarah",
+  "Repo": "yq",
+  "Release": "latest"
+ },
+ {
+  "Owner": "ajeetdsouza",
+  "Repo": "zoxide",
+  "Release": "latest"
  }
 ]
