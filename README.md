@@ -14,7 +14,7 @@ dot init crhuber/dotfiles
 ## fisher
 
 ```
-curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
-fisher add jethrokuan/z
-fisher add jethrokuan/fzf
+curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
+fisher install jorgebucaran/nvm.fish
+fisher install jethrokuan/fzf
 ```
