@@ -1,0 +1,101 @@
+config defaultToCurrentScreen true
+config modalEscapeKey esc
+config nudgePercentOf screenSize
+config resizePercentOf screenSize
+config windowHintsShowIcons true
+config windowHintsIgnoreHiddenWindows false
+config windowHintsSpread true
+config windowHintsSpreadSearchWidth 200
+config windowHintsSpreadSearchHeight 200
+config windowHintsFontColor 255;87;1;1
+# Modal key
+alias modal-key cmd,e
+
+# Hints
+bind /:${modal-key} hint ASDFGHJKLQWERTYUIOPCVBN
+
+# Some apps
+alias app-browser 'Google Chrome'
+alias app-editor 'Code'
+alias app-chat 'Slack'
+alias app-music 'Spotify'
+alias app-terminal 'iTerm2'
+alias app-work 'Jira'
+alias app-notes 'Notable'
+
+# Easy helpers for long variable names...
+alias sox screenOriginX
+alias soy screenOriginY
+alias ssx screenSizeX
+alias ssy screenSizeY
+
+# Positioning aliases
+alias full move ${sox};${soy} ${ssx};${ssy}
+alias left-half move ${sox};${soy} ${ssx}/2+1;${ssy}
+alias right-half move ${sox}+${ssx}/2;${soy} ${ssx}/2;${ssy}
+alias top-half move ${sox};${soy} ${ssx};${ssy}/2
+alias bot-half move ${sox};${soy}+${ssy}/2 ${ssx};${ssy}/2
+
+# Move windows to certain locations on the screen
+bind f:cmd,alt ${full}
+bind left:cmd,alt ${left-half}
+bind right:cmd,alt ${right-half}
+bind down:cmd,alt ${bot-half}
+bind up:cmd,alt ${top-half}
+
+
+# Focus helpers
+bind b:${modal-key} focus ${app-browser}
+bind e:${modal-key} focus ${app-editor}
+bind c:${modal-key} focus ${app-chat}
+bind m:${modal-key} focus ${app-music}
+bind t:${modal-key} focus ${app-terminal}
+bind w:${modal-key} focus ${app-work}
+bind n:${modal-key} focus ${app-notes} 
+# Layouts
+
+## This Layout is for 2 screens with VSCode + Iterm On Big Screen
+layout 2coding 'Code':REPEAT ${left-half} 0
+layout 2coding 'iTerm2':REPEAT ${right-half} 0
+### Secondary Apps On Small Screen
+layout 2coding 'Google Chrome':REPEAT ${left-half} 1
+layout 2coding 'Jira':REPEAT ${full} 1
+layout 2coding 'Spotify':REPEAT ${full} 1
+layout 2coding 'TextEdit':REPEAT ${full} 1
+layout 2coding 'Calendar':REPEAT ${full} 1
+layout 2coding 'Jira':REPEAT ${full} 1
+layout 2coding 'Slack':REPEAT ${full} 1
+layout 2coding 'Notable':REPEAT ${full} 1
+
+## This Layout is for 2 Screens with VSCode + Chrome On Big Screen
+layout 3coding 'Code':REPEAT ${left-half} 0
+layout 3coding 'Google Chrome':REPEAT ${right-half} 0
+### Secondary Apps On Small Screen
+layout 3coding 'iTerm2':REPEAT ${right-half} 1
+layout 3coding 'Jira':REPEAT ${full} 1
+layout 3coding 'Spotify':REPEAT ${full} 1
+layout 3coding 'TextEdit':REPEAT ${full} 1
+layout 3coding 'Calendar':REPEAT ${full} 1
+layout 3coding 'Jira':REPEAT ${full} 1
+layout 3coding 'Slack':REPEAT ${full} 1
+layout 3coding 'Notable':REPEAT ${full} 1
+
+## This Layout is for 2 Screens with Chrome + terminal On Big Screen
+layout 4coding 'Google Chrome':REPEAT ${left-half} 0
+layout 4coding 'iTerm2':REPEAT ${right-half} 0
+### Secondary Apps On Small Screen
+layout 4coding 'Code':REPEAT ${left-half} 1
+layout 4coding 'Jira':REPEAT ${full} 1
+layout 4coding 'Spotify':REPEAT ${full} 1
+layout 4coding 'TextEdit':REPEAT ${full} 1
+layout 4coding 'Calendar':REPEAT ${full} 1
+layout 4coding 'Jira':REPEAT ${full} 1
+layout 4coding 'Slack':REPEAT ${full} 1
+layout 4coding 'Notable':REPEAT ${full} 1
+
+
+
+# Activate layouts, this is all done via modal-keys
+bind 2:${modal-key} sequence layout 2coding
+bind 3:${modal-key} sequence layout 3coding
+bind 4:${modal-key} sequence layout 4coding
