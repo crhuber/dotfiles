@@ -5,4 +5,5 @@
 "fish/lls.fish" = "~/.config/fish/functions/lls.fish"
 "fish/ccat.fish" = "~/.config/fish/functions/ccat.fish"
 "fish/ttree.fish" = "~/.config/fish/functions/ttree.fish"
+"fish/http.fish" = "~/.config/fish/functions/http.fish"
 "kelp/kelp.json" = "~/.kelp/kelp.json"
