@@ -7,3 +7,4 @@
 "fish/ttree.fish" = "~/.config/fish/functions/ttree.fish"
 "fish/http.fish" = "~/.config/fish/functions/http.fish"
 "kelp/kelp.json" = "~/.kelp/kelp.json"
+"terraform/.terraformrc" = "~/.terraformrc"

@@ -343,5 +343,25 @@
   "Owner": "gohugoio",
   "Repo": "hugo",
   "Release": "latest"
+ },
+ {
+  "Owner": "kubectl",
+  "Repo": "kubectl",
+  "Release": "https://dl.k8s.io/release/v1.26.0/bin/darwin/arm64/kubectl"
+ },
+ {
+  "Owner": "google",
+  "Repo": "gcloud",
+  "Release": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-421.0.0-darwin-arm.tar.gz"
+ },
+ {
+  "Owner": "ahmetb",
+  "Repo": "kubectx",
+  "Release": "latest"
+ },
+ {
+  "Owner": "tfutils",
+  "Repo": "tfenv",
+  "Release": "latest"
  }
 ]
