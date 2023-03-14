@@ -6,5 +6,7 @@
 "fish/ccat.fish" = "~/.config/fish/functions/ccat.fish"
 "fish/ttree.fish" = "~/.config/fish/functions/ttree.fish"
 "fish/http.fish" = "~/.config/fish/functions/http.fish"
+"fish/ktx.fish" = "~/.config/fish/functions/ktx.fish"
+"fish/kns.fish" = "~/.config/fish/functions/kns.fish"
 "kelp/kelp.json" = "~/.kelp/kelp.json"
 "terraform/.terraformrc" = "~/.terraformrc"
