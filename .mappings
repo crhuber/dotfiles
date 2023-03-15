@@ -10,3 +10,4 @@
 "fish/kns.fish" = "~/.config/fish/functions/kns.fish"
 "kelp/kelp.json" = "~/.kelp/kelp.json"
 "terraform/.terraformrc" = "~/.terraformrc"
+"git/.gitignore" = "~/.gitignore"
