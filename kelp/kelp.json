@@ -42,7 +42,7 @@
  {
   "Owner": "helm",
   "Repo": "helm",
-  "Release": "https://get.helm.sh/helm-v3.7.1-darwin-amd64.tar.gz"
+  "Release": "https://get.helm.sh/helm-v3.11.2-darwin-arm64.tar.gz"
  },
  {
   "Owner": "roboll",
@@ -362,6 +362,46 @@
  {
   "Owner": "tfutils",
   "Repo": "tfenv",
+  "Release": "latest"
+ },
+ {
+  "Owner": "derailed",
+  "Repo": "k9s",
+  "Release": "latest"
+ },
+ {
+  "Owner": "datawire",
+  "Repo": "telepresence",
+  "Release": "https://app.getambassador.io/download/tel2/darwin/amd64/2.6.6/telepresence"
+ },
+ {
+  "Owner": "argoproj",
+  "Repo": "argo-cd",
+  "Release": "latest"
+ },
+ {
+  "Owner": "argoproj",
+  "Repo": "argo-rollouts",
+  "Release": "latest"
+ },
+ {
+  "Owner": "crhuber",
+  "Repo": "dev-proxy",
+  "Release": "latest"
+ },
+ {
+  "Owner": "goflink",
+  "Repo": "json-schema-docs",
+  "Release": "latest"
+ },
+ {
+  "Owner": "norwoodj",
+  "Repo": "helm-docs",
+  "Release": "latest"
+ },
+ {
+  "Owner": "bwplotka",
+  "Repo": "mdox",
   "Release": "latest"
  }
 ]
