@@ -408,5 +408,15 @@
   "Owner": "helix-editor",
   "Repo": "helix",
   "Release": "latest"
+ },
+ {
+  "Owner": "ffmpeg",
+  "Repo": "ffmpeg",
+  "Release": "https://evermeet.cx/ffmpeg/ffmpeg-6.0.7z"
+ },
+ {
+  "Owner": "ffprobe",
+  "Repo": "ffprobe",
+  "Release": "https://evermeet.cx/ffmpeg/ffprobe-6.0.7z"
  }
 ]
