@@ -403,5 +403,10 @@
   "Owner": "bwplotka",
   "Repo": "mdox",
   "Release": "latest"
+ },
+ {
+  "Owner": "helix-editor",
+  "Repo": "helix",
+  "Release": "latest"
  }
 ]

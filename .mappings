@@ -12,4 +12,5 @@
 "kelp/kelp.json" = "~/.kelp/kelp.json"
 "terraform/.terraformrc" = "~/.terraformrc"
 "git/.gitignore" = "~/.gitignore"
+"direnv/direnv.toml" = "~/.config/direnv/direnv.toml"
 
