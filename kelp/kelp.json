@@ -185,11 +185,6 @@
   "Release": "latest"
  },
  {
-  "Owner": "kind",
-  "Repo": "kind",
-  "Release": "https://kind.sigs.k8s.io/dl/v0.11.1/kind-darwin-amd64"
- },
- {
   "Owner": "hashicorp",
   "Repo": "vault",
   "Release": "https://releases.hashicorp.com/vault/1.10.3/vault_1.10.3_darwin_amd64.zip"
@@ -418,5 +413,10 @@
   "Owner": "ffprobe",
   "Repo": "ffprobe",
   "Release": "https://evermeet.cx/ffmpeg/ffprobe-6.0.7z"
+ },
+ { 
+  "Owner": "kubernetes-sigs",
+  "Repo": "kind",
+  "Release": "latest"
  }
 ]
