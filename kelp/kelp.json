@@ -42,7 +42,7 @@
  {
   "Owner": "helm",
   "Repo": "helm",
-  "Release": "https://get.helm.sh/helm-v3.11.2-darwin-arm64.tar.gz"
+  "Release": "https://get.helm.sh/helm-v3.11.3-darwin-arm64.tar.gz"
  },
  {
   "Owner": "roboll",
@@ -414,9 +414,29 @@
   "Repo": "ffprobe",
   "Release": "https://evermeet.cx/ffmpeg/ffprobe-6.0.7z"
  },
- { 
+ {
   "Owner": "kubernetes-sigs",
   "Repo": "kind",
+  "Release": "latest"
+ },
+ {
+  "Owner": "GoogleCloudPlatform",
+  "Repo": "cloud-sql-proxy",
+  "Release": "latest"
+ },
+ {
+  "Owner": "jq",
+  "Repo": "jq",
+  "Release": "https://github.com/stedolan/jq/releases/download/jq-1.6/jq-osx-amd64"
+ },
+ {
+  "Owner": "golangci",
+  "Repo": "golangci-lint",
+  "Release": "latest"
+ },
+ {
+  "Owner": "jetstack",
+  "Repo": "version-checker",
   "Release": "latest"
  }
 ]
