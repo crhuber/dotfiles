@@ -35,11 +35,6 @@
   "Release": "https://releases.hashicorp.com/terraform/0.13.15/terraform_0.13.15_darwin_amd64.zip"
  },
  {
-  "Owner": "ogham",
-  "Repo": "exa",
-  "Release": "latest"
- },
- {
   "Owner": "helm",
   "Repo": "helm",
   "Release": "https://get.helm.sh/helm-v3.11.3-darwin-arm64.tar.gz"
@@ -132,7 +127,7 @@
  {
   "Owner": "mikefarah",
   "Repo": "yq",
-  "Release": "latest"
+  "Release": "https://github.com/mikefarah/yq/releases/download/v4.25.2/yq_darwin_arm64.tar.gz"
  },
  {
   "Owner": "ajeetdsouza",
@@ -222,7 +217,7 @@
  {
   "Owner": "nektos",
   "Repo": "act",
-  "Release": "latest"
+  "Release": "v0.2.48"
  },
  {
   "Owner": "exelban",
@@ -350,11 +345,6 @@
   "Release": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-421.0.0-darwin-arm.tar.gz"
  },
  {
-  "Owner": "ahmetb",
-  "Repo": "kubectx",
-  "Release": "latest"
- },
- {
   "Owner": "tfutils",
   "Repo": "tfenv",
   "Release": "latest"
@@ -372,7 +362,7 @@
  {
   "Owner": "argoproj",
   "Repo": "argo-cd",
-  "Release": "latest"
+  "Release": "v2.7.9"
  },
  {
   "Owner": "argoproj",
@@ -432,11 +422,51 @@
  {
   "Owner": "golangci",
   "Repo": "golangci-lint",
-  "Release": "latest"
+  "Release": "v1.53.3"
  },
  {
   "Owner": "jetstack",
   "Repo": "version-checker",
+  "Release": "latest"
+ },
+ {
+  "Owner": "grpc-ecosystem",
+  "Repo": "grpc-health-probe",
+  "Release": "latest"
+ },
+ {
+  "Owner": "goflink",
+  "Repo": "flinkit",
+  "Release": "https://github.com/goflink/flinkit/releases/download/v0.13.1/flinkit_Darwin_arm64.tar.gz"
+ },
+ {
+  "Owner": "charmbracelet",
+  "Repo": "mods",
+  "Release": "latest"
+ },
+ {
+  "Owner": "rantav",
+  "Repo": "go-archetype",
+  "Release": "latest"
+ },
+ {
+  "Owner": "terraform-docs",
+  "Repo": "terraform-docs",
+  "Release": "latest"
+ },
+ {
+  "Owner": "lindell",
+  "Repo": "multi-gitter",
+  "Release": "latest"
+ },
+ {
+  "Owner": "aquasecurity",
+  "Repo": "trivy",
+  "Release": "latest"
+ },
+ {
+  "Owner": "ogham",
+  "Repo": "exa",
   "Release": "latest"
  }
 ]

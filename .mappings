@@ -9,8 +9,8 @@
 "fish/ktx.fish" = "~/.config/fish/functions/ktx.fish"
 "fish/kns.fish" = "~/.config/fish/functions/kns.fish"
 "fish/yaml.fish" = "~/.config/fish/functions/yaml.fish"
+"fish/ji.fish" = "~/.config/fish/functions/ji.fish"
 "kelp/kelp.json" = "~/.kelp/kelp.json"
 "terraform/.terraformrc" = "~/.terraformrc"
 "git/.gitignore" = "~/.gitignore"
 "direnv/direnv.toml" = "~/.config/direnv/direnv.toml"
-
