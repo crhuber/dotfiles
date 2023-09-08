@@ -1,3 +1,3 @@
 function yaml --description 'yq using bat'
-	bat -ppl yaml $argv; 
+	bat -ppl yaml $argv;
 end
