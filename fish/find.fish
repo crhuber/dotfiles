@@ -1,3 +1,3 @@
 function ffind --description 'ripgrep'
-	rg $argv
+	rg $argv;
 end
