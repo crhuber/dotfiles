@@ -210,8 +210,8 @@
  {
   "Owner": "crhuber",
   "Repo": "kelp",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
+  "Release": "v1.12.2",
+  "UpdatedAt": "2024-01-25T13:36:07.167688+01:00",
   "Description": "Homebrew alternative",
   "Binary": ""
  },
@@ -314,8 +314,8 @@
  {
   "Owner": "stern",
   "Repo": "stern",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
+  "Release": "v1.27.0",
+  "UpdatedAt": "2023-11-21T13:40:40.136033+01:00",
   "Description": "",
   "Binary": ""
  },
@@ -380,7 +380,7 @@
   "Repo": "age",
   "Release": "latest",
   "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
+  "Description": "Gpg replacement",
   "Binary": ""
  },
  {
@@ -396,7 +396,7 @@
   "Repo": "task",
   "Release": "latest",
   "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
+  "Description": "Make replacement",
   "Binary": ""
  },
  {
@@ -404,7 +404,7 @@
   "Repo": "curlie",
   "Release": "latest",
   "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
+  "Description": "Curl replacement",
   "Binary": ""
  },
  {
@@ -426,9 +426,9 @@
  {
   "Owner": "crhuber",
   "Repo": "golinks",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
+  "Release": "0.0.12",
+  "UpdatedAt": "2023-11-13T11:43:29.807213+01:00",
+  "Description": "Golinks service",
   "Binary": ""
  },
  {
@@ -436,7 +436,7 @@
   "Repo": "popeye",
   "Release": "latest",
   "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
+  "Description": "Kubernetes cluster resource sanitizer",
   "Binary": ""
  },
  {
@@ -548,14 +548,14 @@
   "Repo": "k9s",
   "Release": "v0.27.4",
   "UpdatedAt": "2023-09-09T18:59:27.342084+03:00",
-  "Description": "",
+  "Description": "Manage Kube from tui",
   "Binary": ""
  },
  {
   "Owner": "datawire",
   "Repo": "telepresence",
-  "Release": "https://app.getambassador.io/download/tel2/darwin/amd64/2.6.6/telepresence",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
+  "Release": "https://app.getambassador.io/download/tel2/darwin/amd64/2.18.1/telepresence",
+  "UpdatedAt": "2024-01-16T15:17:13.691653+01:00",
   "Description": "",
   "Binary": ""
  },
@@ -596,7 +596,7 @@
   "Repo": "helm-docs",
   "Release": "latest",
   "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
+  "Description": "generating markdown documentation for helm charts",
   "Binary": ""
  },
  {
@@ -610,9 +610,9 @@
  {
   "Owner": "helix-editor",
   "Repo": "helix",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
+  "Release": "23.10",
+  "UpdatedAt": "2024-01-25T18:01:01.876185+01:00",
+  "Description": "Vi Replacement",
   "Binary": "hx"
  },
  {
@@ -634,9 +634,9 @@
  {
   "Owner": "kubernetes-sigs",
   "Repo": "kind",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
+  "Release": "v0.20.0",
+  "UpdatedAt": "2024-01-24T09:42:33.879829+01:00",
+  "Description": "Kubernetes mini cluster",
   "Binary": ""
  },
  {
@@ -660,7 +660,7 @@
   "Repo": "golangci-lint",
   "Release": "v1.53.3",
   "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
+  "Description": "Golang linter",
   "Binary": ""
  },
  {
@@ -682,8 +682,8 @@
  {
   "Owner": "goflink",
   "Repo": "flinkit",
-  "Release": "https://github.com/goflink/flinkit/releases/download/v0.13.1/flinkit_Darwin_arm64.tar.gz",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
+  "Release": "https://github.com/goflink/flinkit/releases/download/v0.16.0/flinkit_Darwin_arm64.tar.gz",
+  "UpdatedAt": "2023-09-26T13:17:21.542107+02:00",
   "Description": "",
   "Binary": ""
  },
@@ -692,7 +692,7 @@
   "Repo": "mods",
   "Release": "latest",
   "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
+  "Description": "Openai on code",
   "Binary": ""
  },
  {
@@ -700,7 +700,7 @@
   "Repo": "go-archetype",
   "Release": "latest",
   "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
+  "Description": "Project templating",
   "Binary": ""
  },
  {
@@ -716,7 +716,7 @@
   "Repo": "multi-gitter",
   "Release": "latest",
   "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
+  "Description": "Update multiple repos at same time",
   "Binary": ""
  },
  {
@@ -724,7 +724,7 @@
   "Repo": "trivy",
   "Release": "latest",
   "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
+  "Description": "Container security scan",
   "Binary": ""
  },
  {
@@ -732,7 +732,7 @@
   "Repo": "exa",
   "Release": "latest",
   "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
+  "Description": "Replacement for ls",
   "Binary": ""
  },
  {
@@ -740,7 +740,143 @@
   "Repo": "jira-cli",
   "Release": "v1.4.0",
   "UpdatedAt": "2023-09-09T18:45:57.095879+03:00",
-  "Description": "",
+  "Description": "Jira from cli",
   "Binary": "jira"
+ },
+ {
+  "Owner": "oven-sh",
+  "Repo": "bun",
+  "Release": "bun-v1.0.0",
+  "UpdatedAt": "2023-09-09T22:03:46.853733+03:00",
+  "Description": "Replacement for node",
+  "Binary": ""
+ },
+ {
+  "Owner": "antonmedv",
+  "Repo": "fx",
+  "Release": "latest",
+  "UpdatedAt": "2023-09-19T13:39:15.276291+02:00",
+  "Description": "Json viewer",
+  "Binary": ""
+ },
+ {
+  "Owner": "atuinsh",
+  "Repo": "atuin",
+  "Release": "latest",
+  "UpdatedAt": "2023-09-25T10:15:29.079123+02:00",
+  "Description": "Shell history",
+  "Binary": ""
+ },
+ {
+  "Owner": "sharkdp",
+  "Repo": "pastel",
+  "Release": "latest",
+  "UpdatedAt": "2023-10-09T23:58:43.46349+02:00",
+  "Description": "Convert colors on command line",
+  "Binary": ""
+ },
+ {
+  "Owner": "sxyazi",
+  "Repo": "yazi",
+  "Release": "https://github.com/sxyazi/yazi/releases/download/v0.1.4/yazi-x86_64-apple-darwin.zip",
+  "UpdatedAt": "2023-10-10T22:29:16.906045+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "trufflesecurity",
+  "Repo": "trufflehog",
+  "Release": "latest",
+  "UpdatedAt": "2023-10-19T15:56:24.555261+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "tsl0922",
+  "Repo": "ttyd",
+  "Release": "latest",
+  "UpdatedAt": "2023-10-31T17:44:06.331392+01:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "nilic",
+  "Repo": "kubectl-netshoot",
+  "Release": "latest",
+  "UpdatedAt": "2023-11-02T14:35:57.135939+01:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "jmalloc",
+  "Repo": "echo-server",
+  "Release": "latest",
+  "UpdatedAt": "2023-11-02T15:55:40.281023+01:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "jmorganca",
+  "Repo": "ollama",
+  "Release": "latest",
+  "UpdatedAt": "2023-11-07T07:07:50.355257+01:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "instrumenta",
+  "Repo": "kubeval",
+  "Release": "latest",
+  "UpdatedAt": "2023-11-14T15:31:53.952828+01:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "operator-framework",
+  "Repo": "operator-sdk",
+  "Release": "latest",
+  "UpdatedAt": "2023-11-17T10:40:24.666264+01:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "gitleaks",
+  "Repo": "gitleaks",
+  "Release": "latest",
+  "UpdatedAt": "2023-11-29T11:21:49.854757+01:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "Zheoni",
+  "Repo": "cooklang-chef",
+  "Release": "v0.8.0",
+  "UpdatedAt": "2024-01-17T07:01:16.114885+01:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "usebruno",
+  "Repo": "bruno",
+  "Release": "latest",
+  "UpdatedAt": "2024-01-05T18:18:30.398314+01:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "temporalio",
+  "Repo": "cli",
+  "Release": "latest",
+  "UpdatedAt": "2024-01-17T16:30:32.217381+01:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "tellerops",
+  "Repo": "teller",
+  "Release": "latest",
+  "UpdatedAt": "2024-01-22T14:11:15.026713+01:00",
+  "Description": "",
+  "Binary": ""
  }
 ]

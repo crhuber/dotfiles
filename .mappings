@@ -11,6 +11,7 @@
 "fish/yaml.fish" = "~/.config/fish/functions/yaml.fish"
 "fish/ji.fish" = "~/.config/fish/functions/ji.fish"
 "fish/ffind.fish" = "~/.config/fish/functions/ffind.fish"
+"fish/jb.fish" = "~/.config/fish/functions/jb.fish"
 "kelp/kelp-work.json" = "~/.kelp/kelp-work.json"
 "terraform/.terraformrc" = "~/.terraformrc"
 "git/.gitignore" = "~/.gitignore"
