@@ -1,3 +1,3 @@
-function ffind --description 'ripgrep'
+function ffind --description 'fd'
 	fd $argv;
 end

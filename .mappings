@@ -16,3 +16,4 @@
 "terraform/.terraformrc" = "~/.terraformrc"
 "git/.gitignore" = "~/.gitignore"
 "direnv/direnv.toml" = "~/.config/direnv/direnv.toml"
+"wezterm/.wezterm.lua" = "~/.config/wezterm/wezterm.lua"
