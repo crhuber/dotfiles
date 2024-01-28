@@ -1,0 +1,778 @@
+[
+    {
+        "Owner": "sharkdp",
+        "Repo": "fd",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "sharkdp",
+        "Repo": "bat",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "ubnt-intrepid",
+        "Repo": "dot",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "tsenart",
+        "Repo": "vegeta",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "junegunn",
+        "Repo": "fzf-bin",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "watchexec",
+        "Repo": "watchexec",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "hashicorp",
+        "Repo": "terraform",
+        "Release": "https://releases.hashicorp.com/terraform/1.5.6/terraform_1.5.6_darwin_arm64.zip",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "ogham",
+        "Repo": "exa",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "helm",
+        "Repo": "helm",
+        "Release": "https://get.helm.sh/helm-v3.11.2-darwin-arm64.tar.gz",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "roboll",
+        "Repo": "helmfile",
+        "Release": "v0.141.0",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "burntsushi",
+        "Repo": "ripgrep",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "xo",
+        "Repo": "usql",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "termit",
+        "Repo": "flycut",
+        "Release": "https://github.com/TermiT/Flycut/releases/download/1.9.4/Flycut.1.9.4.zip",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "rxhanson",
+        "Repo": "rectangle",
+        "Release": "https://github.com/rxhanson/Rectangle/releases/download/v0.24/Rectangle0.24.dmg",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "lwouis",
+        "Repo": "alt-tab-macos",
+        "Release": "https://github.com/lwouis/alt-tab-macos/releases/download/v3.7.1/AltTab-3.7.1.zip",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "marginal",
+        "Repo": "qlvideo",
+        "Release": "https://github.com/Marginal/QLVideo/releases/download/rel-194/QLVideo_194.pkg",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "nikolaeu",
+        "Repo": "numi",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "rakyll",
+        "Repo": "hey",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "jigish",
+        "Repo": "slate",
+        "Release": "http://www.ninjamonkeysoftware.com/slate/versions/slate-latest.tar.gz",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "tankerhq",
+        "Repo": "ruplacer",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "fairwindsops",
+        "Repo": "pluto",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "github",
+        "Repo": "hub",
+        "Release": "v2.14.2",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "fullstorydev",
+        "Repo": "grpcurl",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "httpie",
+        "Repo": "httpie",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "canop",
+        "Repo": "broot",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "schollz",
+        "Repo": "croc",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "mikefarah",
+        "Repo": "yq",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "ajeetdsouza",
+        "Repo": "zoxide",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "crhuber",
+        "Repo": "kelp",
+        "Release": "v1.12.1",
+        "UpdatedAt": "2024-01-24T22:39:39.917016+01:00",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "slok",
+        "Repo": "sloth",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "fairwindsops",
+        "Repo": "polaris",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "accurics",
+        "Repo": "terrascan",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "tfsec",
+        "Repo": "tfsec",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "open-policy-agent",
+        "Repo": "conftest",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "open-policy-agent",
+        "Repo": "opa",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "direnv",
+        "Repo": "direnv",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "jgm",
+        "Repo": "pandoc",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "kind",
+        "Repo": "kind",
+        "Release": "https://kind.sigs.k8s.io/dl/v0.11.1/kind-darwin-amd64",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "hashicorp",
+        "Repo": "vault",
+        "Release": "https://releases.hashicorp.com/vault/1.10.3/vault_1.10.3_darwin_amd64.zip",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "cli",
+        "Repo": "cli",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "typesense",
+        "Repo": "typesense",
+        "Release": "https://dl.typesense.org/releases/0.21.0/typesense-server-0.21.0-darwin-amd64.tar.gz",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "cosmtrek",
+        "Repo": "air",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "stern",
+        "Repo": "stern",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "johncoates",
+        "Repo": "aerial",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "containers",
+        "Repo": "podman",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "nektos",
+        "Repo": "act",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "exelban",
+        "Repo": "stats",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "ankitpokhrel",
+        "Repo": "jira-cli",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "up9inc",
+        "Repo": "mizu",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "kyverno",
+        "Repo": "kyverno",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "ktr0731",
+        "Repo": "evans",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "filosottile",
+        "Repo": "age",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "PaulJuliusMartinez",
+        "Repo": "jless",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "go-task",
+        "Repo": "task",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "rs",
+        "Repo": "curlie",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "charmbracelet",
+        "Repo": "glow",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "svenstaro",
+        "Repo": "genact",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "crhuber",
+        "Repo": "golinks",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "derailed",
+        "Repo": "popeye",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "kornelski",
+        "Repo": "cavif-rs",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "veeso",
+        "Repo": "termscp",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "shakiba",
+        "Repo": "svgexport",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "denisbrodbeck",
+        "Repo": "sqip",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "rustls",
+        "Repo": "rustls",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "charmbracelet",
+        "Repo": "vhs",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "gruntwork-io",
+        "Repo": "terragrunt",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "kubescape",
+        "Repo": "kubescape",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "grafana",
+        "Repo": "k6",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "gohugoio",
+        "Repo": "hugo",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "kubectl",
+        "Repo": "kubectl",
+        "Release": "https://dl.k8s.io/release/v1.26.0/bin/darwin/arm64/kubectl",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "google",
+        "Repo": "gcloud",
+        "Release": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-421.0.0-darwin-arm.tar.gz",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "ahmetb",
+        "Repo": "kubectx",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "tfutils",
+        "Repo": "tfenv",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "derailed",
+        "Repo": "k9s",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "datawire",
+        "Repo": "telepresence",
+        "Release": "https://app.getambassador.io/download/tel2/darwin/amd64/2.6.6/telepresence",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "argoproj",
+        "Repo": "argo-cd",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "argoproj",
+        "Repo": "argo-rollouts",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "crhuber",
+        "Repo": "dev-proxy",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "goflink",
+        "Repo": "json-schema-docs",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "norwoodj",
+        "Repo": "helm-docs",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "bwplotka",
+        "Repo": "mdox",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "helix-editor",
+        "Repo": "helix",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "ffmpeg",
+        "Repo": "ffmpeg",
+        "Release": "https://evermeet.cx/ffmpeg/ffmpeg-6.0.7z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "ffprobe",
+        "Repo": "ffprobe",
+        "Release": "https://evermeet.cx/ffmpeg/ffprobe-6.0.7z",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "golangci",
+        "Repo": "golangci-lint",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "reugn",
+        "Repo": "fsweeper",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "yt-dlp",
+        "Repo": "yt-dlp",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "qarmin",
+        "Repo": "czkawka",
+        "Release": "latest",
+        "UpdatedAt": "0001-01-01T00:00:00Z",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "rclone",
+        "Repo": "rclone",
+        "Release": "https://downloads.rclone.org/v1.64.0/rclone-v1.64.0-osx-arm64.zip",
+        "UpdatedAt": "2023-09-13T21:52:17.547157+02:00",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "awslabs",
+        "Repo": "git-secrets",
+        "Release": "https://github.com/awslabs/git-secrets/archive/refs/tags/1.3.0.zip",
+        "UpdatedAt": "2023-09-14T23:47:21.652802+02:00",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "gitleaks",
+        "Repo": "gitleaks",
+        "Release": "latest",
+        "UpdatedAt": "2023-09-14T23:52:01.925817+02:00",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "trufflesecurity",
+        "Repo": "trufflehog",
+        "Release": "latest",
+        "UpdatedAt": "2023-10-18T21:00:13.668809+02:00",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "firebase",
+        "Repo": "firebase-tools",
+        "Release": "v12.0.0",
+        "UpdatedAt": "2023-12-02T18:50:05.989702+01:00",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "blackironj",
+        "Repo": "ses-gui",
+        "Release": "latest",
+        "UpdatedAt": "2023-12-05T20:21:35.951607+01:00",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "temporalio",
+        "Repo": "cli",
+        "Release": "latest",
+        "UpdatedAt": "2024-01-19T20:22:46.433096+01:00",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "tellerops",
+        "Repo": "teller",
+        "Release": "latest",
+        "UpdatedAt": "2024-01-22T19:47:40.177085+01:00",
+        "Description": "",
+        "Binary": ""
+    },
+    {
+        "Owner": "gopasspw",
+        "Repo": "gopass",
+        "Release": "latest",
+        "UpdatedAt": "2024-01-24T22:24:21.869703+01:00",
+        "Description": "",
+        "Binary": ""
+    }
+]
