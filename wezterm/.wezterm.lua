@@ -13,7 +13,7 @@ end
 
 -- This is where you actually apply your config choices
 -- For example, changing the color scheme:
-config.color_scheme = 'Monokai Remastered'
+config.color_scheme = 'Monokai Soda'
 config.enable_scroll_bar = true
 config.font = wezterm.font 'Jetbrains Mono'
 config.font_size = 12

@@ -1,0 +1,29 @@
+theme = "monokai"
+
+[editor]
+mouse = true
+gutters = ["diff", "diagnostics", "line-numbers", "spacer"]
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.whitespace.render]
+space = "all"
+tab = "all"
+newline = "none"
+
+[editor.file-picker]
+hidden = false
+
+[editor.indent-guides]
+render = true
+
+[keys.normal]
+C-x = ":qa"
+d = ["ensure_selections_forward", "extend_to_line_end", "delete_selection"]
+
+[keys.insert]
+# ctlr-z to undo
+C-z = "undo"
