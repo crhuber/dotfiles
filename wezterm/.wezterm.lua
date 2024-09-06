@@ -13,15 +13,22 @@ end
 
 -- This is where you actually apply your config choices
 -- For example, changing the color scheme:
-config.color_scheme = 'Monokai Soda'
+config.color_scheme = 'tokyonight'
 config.enable_scroll_bar = true
-config.font = wezterm.font 'Jetbrains Mono'
+config.font = wezterm.font { family = 'Jetbrains Mono', weight = 'Bold'}
 config.font_size = 12
 config.scrollback_lines = 100000
 config.hide_tab_bar_if_only_one_tab = true
 config.adjust_window_size_when_changing_font_size = false
+config.window_background_opacity = 0.95
+config.macos_window_background_blur = 10
 -- we achieve a minimalist design by disabling the title bar and enabling the resizable borders
 -- config.window_decorations = "TITLE"
+
+config.colors = {
+  -- The default text color
+  foreground = 'white',
+}
 
 --  so you can easily see which pane you're currently on when you switch between them.
 config.inactive_pane_hsb = {
@@ -44,8 +51,8 @@ config.keys = {
 
 config.launch_menu = {
   {
-    label = 'bash',
-    args = { '/bin/bash'},
+    label = 'fish',
+    args = { '/usr/local/bin/fish'},
   },
 }
 

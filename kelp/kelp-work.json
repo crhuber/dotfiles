@@ -48,14 +48,6 @@
   "Binary": ""
  },
  {
-  "Owner": "hashicorp",
-  "Repo": "terraform",
-  "Release": "https://releases.hashicorp.com/terraform/0.13.15/terraform_0.13.15_darwin_amd64.zip",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
   "Owner": "helm",
   "Repo": "helm",
   "Release": "https://get.helm.sh/helm-v3.11.3-darwin-arm64.tar.gz",
@@ -210,8 +202,8 @@
  {
   "Owner": "crhuber",
   "Repo": "kelp",
-  "Release": "v1.12.6",
-  "UpdatedAt": "2024-02-16T10:11:40.299639+01:00",
+  "Release": "v1.13.2",
+  "UpdatedAt": "2024-05-29T10:49:53.00822+02:00",
   "Description": "Homebrew alternative",
   "Binary": ""
  },
@@ -290,8 +282,8 @@
  {
   "Owner": "cli",
   "Repo": "cli",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
+  "Release": "v0.13.2",
+  "UpdatedAt": "2024-07-31T10:08:17.724605+02:00",
   "Description": "Github CLI",
   "Binary": "gh"
  },
@@ -316,14 +308,6 @@
   "Repo": "stern",
   "Release": "v1.28.0",
   "UpdatedAt": "2024-03-15T10:03:50.777687+01:00",
-  "Description": "",
-  "Binary": ""
- },
- {
-  "Owner": "johncoates",
-  "Repo": "aerial",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
   "Description": "",
   "Binary": ""
  },
@@ -410,8 +394,8 @@
  {
   "Owner": "charmbracelet",
   "Repo": "glow",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
+  "Release": "v1.5.1",
+  "UpdatedAt": "2024-07-31T15:06:59.661569+02:00",
   "Description": "Render markdown on the CLI",
   "Binary": ""
  },
@@ -522,8 +506,8 @@
  {
   "Owner": "kubectl",
   "Repo": "kubectl",
-  "Release": "https://dl.k8s.io/release/v1.26.0/bin/darwin/arm64/kubectl",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
+  "Release": "https://dl.k8s.io/release/v1.29.0/bin/darwin/arm64/kubectl",
+  "UpdatedAt": "2024-07-15T11:45:04.850054+02:00",
   "Description": "",
   "Binary": ""
  },
@@ -531,14 +515,6 @@
   "Owner": "google",
   "Repo": "gcloud",
   "Release": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-421.0.0-darwin-arm.tar.gz",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
-  "Owner": "tfutils",
-  "Repo": "tfenv",
-  "Release": "latest",
   "UpdatedAt": "0001-01-01T00:00:00Z",
   "Description": "",
   "Binary": ""
@@ -554,8 +530,8 @@
  {
   "Owner": "datawire",
   "Repo": "telepresence",
-  "Release": "https://app.getambassador.io/download/tel2/darwin/amd64/2.19.3/telepresence",
-  "UpdatedAt": "2024-04-18T10:47:08.910995+02:00",
+  "Release": "https://app.getambassador.io/download/tel2/darwin/arm64/2.19.6/telepresence",
+  "UpdatedAt": "2024-07-29T11:57:15.634154+02:00",
   "Description": "",
   "Binary": ""
  },
@@ -634,8 +610,8 @@
  {
   "Owner": "kubernetes-sigs",
   "Repo": "kind",
-  "Release": "v0.20.0",
-  "UpdatedAt": "2024-01-24T09:42:33.879829+01:00",
+  "Release": "v0.23.0",
+  "UpdatedAt": "2024-07-03T15:55:06.420648+02:00",
   "Description": "Kubernetes mini cluster",
   "Binary": ""
  },
@@ -682,8 +658,8 @@
  {
   "Owner": "goflink",
   "Repo": "flinkit",
-  "Release": "latest",
-  "UpdatedAt": "2024-03-28T17:36:30.831558+01:00",
+  "Release": "v0.23.0",
+  "UpdatedAt": "2024-05-29T13:26:08.561983+02:00",
   "Description": "",
   "Binary": ""
  },
@@ -725,14 +701,6 @@
   "Release": "latest",
   "UpdatedAt": "0001-01-01T00:00:00Z",
   "Description": "Container security scan",
-  "Binary": ""
- },
- {
-  "Owner": "ogham",
-  "Repo": "exa",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "Replacement for ls",
   "Binary": ""
  },
  {
@@ -818,8 +786,8 @@
  {
   "Owner": "jmorganca",
   "Repo": "ollama",
-  "Release": "latest",
-  "UpdatedAt": "2023-11-07T07:07:50.355257+01:00",
+  "Release": "v0.1.32",
+  "UpdatedAt": "2024-04-23T16:24:00.019349+02:00",
   "Description": "",
   "Binary": ""
  },
@@ -874,16 +842,16 @@
  {
   "Owner": "tellerops",
   "Repo": "teller",
-  "Release": "v1.5.6",
-  "UpdatedAt": "2024-03-13T14:44:19.811832+01:00",
+  "Release": "v2.0.7",
+  "UpdatedAt": "2024-07-22T11:40:19.774481+02:00",
   "Description": "",
   "Binary": ""
  },
  {
   "Owner": "terrastruct",
   "Repo": "d2",
-  "Release": "latest",
-  "UpdatedAt": "2024-02-04T13:21:32.591558+01:00",
+  "Release": "v0.6.5",
+  "UpdatedAt": "2024-07-11T16:16:57.890932+02:00",
   "Description": "",
   "Binary": ""
  },
@@ -922,8 +890,120 @@
  {
   "Owner": "goflink",
   "Repo": "gh-props",
-  "Release": "v0.0.1-rc.2",
-  "UpdatedAt": "2024-04-19T11:48:37.017914+02:00",
+  "Release": "v0.0.6",
+  "UpdatedAt": "2024-08-06T14:12:04.874848+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "securego",
+  "Repo": "gosec",
+  "Release": "latest",
+  "UpdatedAt": "2024-05-13T10:42:56.661774+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "",
+  "Repo": "mogensen",
+  "Release": "latest",
+  "UpdatedAt": "2024-05-14T11:39:00.462635+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "mogensen",
+  "Repo": "kubernetes-split-yaml",
+  "Release": "latest",
+  "UpdatedAt": "2024-05-14T11:39:03.26449+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "starship",
+  "Repo": "starship",
+  "Release": "v1.20.1",
+  "UpdatedAt": "2024-08-13T15:29:27.220623+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "zellij-org",
+  "Repo": "zellij",
+  "Release": "latest",
+  "UpdatedAt": "2024-05-29T10:57:55.083785+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "crhuber",
+  "Repo": "cellar",
+  "Release": "latest",
+  "UpdatedAt": "2024-05-30T14:45:57.296022+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "tofuutils",
+  "Repo": "tenv",
+  "Release": "latest",
+  "UpdatedAt": "2024-06-12T16:02:40.141158+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "knative",
+  "Repo": "client",
+  "Release": "latest",
+  "UpdatedAt": "2024-07-03T14:52:45.278324+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "knative-extensions",
+  "Repo": "kn-plugin-quickstart",
+  "Release": "latest",
+  "UpdatedAt": "2024-07-03T14:54:07.526661+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "knative",
+  "Repo": "func",
+  "Release": "latest",
+  "UpdatedAt": "2024-07-03T16:02:55.018994+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "eza-community",
+  "Repo": "eza",
+  "Release": "latest",
+  "UpdatedAt": "2024-07-22T11:24:57.356484+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "crhuber",
+  "Repo": "pocket-exporter",
+  "Release": "latest",
+  "UpdatedAt": "2024-08-13T15:29:49.785707+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "sundowndev",
+  "Repo": "phoneinfoga",
+  "Release": "latest",
+  "UpdatedAt": "2024-08-13T16:39:22.645978+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "dandavison",
+  "Repo": "delta",
+  "Release": "latest",
+  "UpdatedAt": "2024-09-05T20:07:33.646938+02:00",
   "Description": "",
   "Binary": ""
  }
