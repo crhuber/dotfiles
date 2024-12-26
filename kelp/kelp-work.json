@@ -570,8 +570,8 @@
  {
   "Owner": "norwoodj",
   "Repo": "helm-docs",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
+  "Release": "v1.14.2",
+  "UpdatedAt": "2024-09-23T17:06:21.875425+02:00",
   "Description": "generating markdown documentation for helm charts",
   "Binary": ""
  },
@@ -666,8 +666,8 @@
  {
   "Owner": "charmbracelet",
   "Repo": "mods",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
+  "Release": "v1.6.0",
+  "UpdatedAt": "2024-11-20T10:22:14.614094+01:00",
   "Description": "Openai on code",
   "Binary": ""
  },
@@ -786,8 +786,8 @@
  {
   "Owner": "jmorganca",
   "Repo": "ollama",
-  "Release": "v0.1.32",
-  "UpdatedAt": "2024-04-23T16:24:00.019349+02:00",
+  "Release": "v0.4.2",
+  "UpdatedAt": "2024-11-20T10:21:05.518866+01:00",
   "Description": "",
   "Binary": ""
  },
@@ -1004,6 +1004,38 @@
   "Repo": "delta",
   "Release": "latest",
   "UpdatedAt": "2024-09-05T20:07:33.646938+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "aristocratos",
+  "Repo": "btop",
+  "Release": "latest",
+  "UpdatedAt": "2024-09-20T15:28:46.098401+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "goreleaser",
+  "Repo": "goreleaser",
+  "Release": "latest",
+  "UpdatedAt": "2024-10-21T19:31:59.514882+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "goflink",
+  "Repo": "fproxy",
+  "Release": "latest",
+  "UpdatedAt": "2024-10-21T19:37:53.815497+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "protocolbuffers",
+  "Repo": "protobuf",
+  "Release": "latest",
+  "UpdatedAt": "2024-11-28T11:58:59.910389+01:00",
   "Description": "",
   "Binary": ""
  }
