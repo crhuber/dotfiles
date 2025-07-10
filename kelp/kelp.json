@@ -226,8 +226,8 @@
  {
   "Owner": "crhuber",
   "Repo": "kelp",
-  "Release": "v1.12.1",
-  "UpdatedAt": "2024-01-24T22:39:39.917016+01:00",
+  "Release": "v1.14.1",
+  "UpdatedAt": "2025-03-15T10:02:48.557735+01:00",
   "Description": "",
   "Binary": ""
  },
@@ -780,6 +780,54 @@
   "Repo": "asdf",
   "Release": "latest",
   "UpdatedAt": "2025-02-27T16:15:42.901388+01:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "crhuber",
+  "Repo": "pocket-exporter",
+  "Release": "latest",
+  "UpdatedAt": "2025-03-11T11:20:12.389457+01:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "crhuber",
+  "Repo": "pd-etl",
+  "Release": "latest",
+  "UpdatedAt": "2025-03-11T11:20:25.604548+01:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "crhuber",
+  "Repo": "personal-data-etl",
+  "Release": "v0.0.2",
+  "UpdatedAt": "2025-03-15T10:03:15.039881+01:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "crhuber",
+  "Repo": "github-exporter",
+  "Release": "latest",
+  "UpdatedAt": "2025-03-11T17:57:26.561866+01:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "cooklang",
+  "Repo": "cookcli",
+  "Release": "latest",
+  "UpdatedAt": "2025-03-19T18:02:15.927263+01:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "restic",
+  "Repo": "restic",
+  "Release": "latest",
+  "UpdatedAt": "2025-06-09T07:21:09.528477+02:00",
   "Description": "",
   "Binary": ""
  }
