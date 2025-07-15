@@ -282,8 +282,8 @@
  {
   "Owner": "direnv",
   "Repo": "direnv",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
+  "Release": "v2.37.0",
+  "UpdatedAt": "2025-07-10T07:49:35.264878+02:00",
   "Description": "",
   "Binary": ""
  },
