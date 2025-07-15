@@ -202,8 +202,8 @@
  {
   "Owner": "crhuber",
   "Repo": "kelp",
-  "Release": "v1.13.2",
-  "UpdatedAt": "2024-05-29T10:49:53.00822+02:00",
+  "Release": "v1.14.1",
+  "UpdatedAt": "2025-03-04T14:00:43.860883+01:00",
   "Description": "Homebrew alternative",
   "Binary": ""
  },
@@ -306,8 +306,8 @@
  {
   "Owner": "stern",
   "Repo": "stern",
-  "Release": "v1.28.0",
-  "UpdatedAt": "2024-03-15T10:03:50.777687+01:00",
+  "Release": "v1.32.0",
+  "UpdatedAt": "2025-07-01T16:51:31.724425+02:00",
   "Description": "",
   "Binary": ""
  },
@@ -522,17 +522,9 @@
  {
   "Owner": "derailed",
   "Repo": "k9s",
-  "Release": "v0.40.4",
-  "UpdatedAt": "2025-02-18T10:17:53.488466+01:00",
+  "Release": "v0.50.6",
+  "UpdatedAt": "2025-06-05T11:56:50.116077+02:00",
   "Description": "Manage Kube from tui",
-  "Binary": ""
- },
- {
-  "Owner": "datawire",
-  "Repo": "telepresence",
-  "Release": "https://app.getambassador.io/download/tel2/darwin/arm64/2.19.6/telepresence",
-  "UpdatedAt": "2024-07-29T11:57:15.634154+02:00",
-  "Description": "",
   "Binary": ""
  },
  {
@@ -634,8 +626,8 @@
  {
   "Owner": "golangci",
   "Repo": "golangci-lint",
-  "Release": "v1.53.3",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
+  "Release": "v2.0.2",
+  "UpdatedAt": "2025-04-02T14:44:57.759281+02:00",
   "Description": "Golang linter",
   "Binary": ""
  },
@@ -652,14 +644,6 @@
   "Repo": "grpc-health-probe",
   "Release": "latest",
   "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
-  "Owner": "goflink",
-  "Repo": "flinkit",
-  "Release": "v0.23.0",
-  "UpdatedAt": "2024-05-29T13:26:08.561983+02:00",
   "Description": "",
   "Binary": ""
  },
@@ -690,16 +674,16 @@
  {
   "Owner": "lindell",
   "Repo": "multi-gitter",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
+  "Release": "v0.56.0",
+  "UpdatedAt": "2025-03-05T14:41:27.693032+01:00",
   "Description": "Update multiple repos at same time",
   "Binary": ""
  },
  {
   "Owner": "aquasecurity",
   "Repo": "trivy",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
+  "Release": "v0.57.1",
+  "UpdatedAt": "2025-03-13T16:29:49.959624+01:00",
   "Description": "Container security scan",
   "Binary": ""
  },
@@ -922,8 +906,8 @@
  {
   "Owner": "starship",
   "Repo": "starship",
-  "Release": "v1.22.1",
-  "UpdatedAt": "2025-02-25T13:16:09.555781+01:00",
+  "Release": "v1.23.0",
+  "UpdatedAt": "2025-06-25T11:26:23.374438+02:00",
   "Description": "",
   "Binary": ""
  },
@@ -1060,6 +1044,46 @@
   "Repo": "kubecolor",
   "Release": "latest",
   "UpdatedAt": "2025-02-27T11:07:50.109482+01:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "mineiros-io",
+  "Repo": "terradoc",
+  "Release": "latest",
+  "UpdatedAt": "2025-03-25T11:39:37.640542+01:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "envoyproxy",
+  "Repo": "gateway",
+  "Release": "v1.4.0",
+  "UpdatedAt": "2025-05-26T10:52:09.297448+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "bonaysoft",
+  "Repo": "seenvoy",
+  "Release": "latest",
+  "UpdatedAt": "2025-05-07T15:11:32.866475+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "Orange-OpenSource",
+  "Repo": "hurl",
+  "Release": "latest",
+  "UpdatedAt": "2025-06-18T16:57:09.760383+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "block",
+  "Repo": "goose",
+  "Release": "latest",
+  "UpdatedAt": "2025-06-25T14:26:24.144222+02:00",
   "Description": "",
   "Binary": ""
  }
