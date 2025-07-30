@@ -630,5 +630,13 @@
   "UpdatedAt": "2025-07-30T21:47:46.961651+02:00",
   "Description": "",
   "Binary": ""
+ },
+ {
+  "Owner": "sxyazi",
+  "Repo": "yazi",
+  "Release": "v25.5.31",
+  "UpdatedAt": "2025-07-30T22:25:52.75734+02:00",
+  "Description": "",
+  "Binary": ""
  }
 ]

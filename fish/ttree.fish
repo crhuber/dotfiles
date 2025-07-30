@@ -1,3 +1,4 @@
 function ttree
-	broot -sdp $argv;
+    yazi $argv
+
 end
