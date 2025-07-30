@@ -7,10 +7,10 @@ APPS = {
   {shortcut = "c", name = "Visual Studio Code"},
   {shortcut = "b", name = "Google Chrome"},
   {shortcut = "s", name = "Slack"},
-  {shortcut = "1", name = "Visual Studio Code"},
-  {shortcut = "2", name = "Ghostty"},
-  {shortcut = "3", name = "Google Chrome"},
-  {shortcut = "4", name = "Slack"},
+  {shortcut = "m", name = "Visual Studio Code"},
+  {shortcut = ",", name = "Ghostty"},
+  {shortcut = ".", name = "Google Chrome"},
+  {shortcut = "/", name = "Slack"},
 }
 
 -- Bind application shortcuts
