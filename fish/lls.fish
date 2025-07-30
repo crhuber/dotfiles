@@ -1,3 +1,3 @@
-function lls --description 'alias for using exa instad of ls'
+function lls
     eza --header -la --git $argv
 end

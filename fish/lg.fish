@@ -1,0 +1,3 @@
+function lg
+	lagzygit
+end

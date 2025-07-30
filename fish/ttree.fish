@@ -1,3 +1,3 @@
-function ttree --description 'better tree'
+function ttree
 	broot -sdp $argv;
 end

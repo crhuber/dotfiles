@@ -1,3 +1,3 @@
-function ffind --description 'fd'
+function ffind
 	fd $argv;
 end

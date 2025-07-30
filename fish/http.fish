@@ -1,3 +1,3 @@
-function http --description 'alias for using http instad of curlie'
+function http
     curlie $argv;
 end
