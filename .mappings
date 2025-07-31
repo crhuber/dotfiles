@@ -1,6 +1,5 @@
 [general]
-"vim/.vimrc" = "~/.vimrc"
-"nano/.nanorc" = "~/.nanorc"
+# fish functions
 "fish/k.fish" = "~/.config/fish/functions/k.fish"
 "fish/lls.fish" = "~/.config/fish/functions/lls.fish"
 "fish/ccat.fish" = "~/.config/fish/functions/ccat.fish"
@@ -16,7 +15,10 @@
 "fish/ddu.fish" = "~/.config/fish/functions/ddu.fish"
 "fish/lg.fish" = "~/.config/fish/functions/lg.fish"
 "fish/ttop.fish" = "~/.config/fish/functions/ttop.fish"
-
+"fish/ccurl.fish" = "~/.config/fish/functions/ccurl.fish"
+# apps
+"vim/.vimrc" = "~/.vimrc"
+"nano/.nanorc" = "~/.nanorc"
 "kelp/kelp-work.json" = "~/.kelp/kelp-work.json"
 "terraform/.terraformrc" = "~/.terraformrc"
 "git/.gitignore" = "~/.gitignore"
