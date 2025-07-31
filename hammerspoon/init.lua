@@ -5,12 +5,15 @@ MODIFIERS = {"ctrl", "alt"}    -- Modifiers used for app shortcuts
 APPS = {
   {shortcut = "t", name = "Ghostty"},
   {shortcut = "c", name = "Visual Studio Code"},
-  {shortcut = "b", name = "Google Chrome"},
+  {shortcut = "b", name = "Brave Browser"},
   {shortcut = "s", name = "Slack"},
   {shortcut = "m", name = "Visual Studio Code"},
-  {shortcut = ",", name = "Ghostty"},
-  {shortcut = ".", name = "Google Chrome"},
-  {shortcut = "/", name = "Slack"},
+  {shortcut = "n", name = "Obsidian"},
+  {shortcut = "m", name = "Music"},
+  {shortcut = "1", name = "Visual Studio Code"},
+  {shortcut = "2", name = "Ghostty"},
+  {shortcut = "3", name = "Brave Browser"},
+  {shortcut = "4", name = "Slack"},
 }
 
 -- Bind application shortcuts
