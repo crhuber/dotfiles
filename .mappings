@@ -26,4 +26,10 @@
 "zed/settings.json" = "~/.config/zed/settings.json"
 "ghostty/config" = "~/.config/ghostty/config"
 "ghostty/themes/tokyonight-custom" = "~/.config/ghostty/themes/tokyonight-custom"
+
+
+[work]
+"hammerspoon/init-work.lua" = "~/.hammerspoon/init.lua"
+
+[home]
 "hammerspoon/init.lua" = "~/.hammerspoon/init.lua"
