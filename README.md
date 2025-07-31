@@ -2,18 +2,17 @@
 
 # how to use
 
-1. install https://github.com/ubnt-intrepid/dot
-2. run
+1. install https://github.com/crhuber/dot
+
+2. Clone
 
 ```
-dot init crhuber/dotfiles
+dot clone https://github.com/crhuber/dotfiles
 ```
 
-# other customizations
-
-## fisher
+3. Link
 
 ```
-curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
-fisher install jethrokuan/fzf
+dot link
 ```
+
