@@ -16,14 +16,6 @@
   "Binary": ""
  },
  {
-  "Owner": "ubnt-intrepid",
-  "Repo": "dot",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
   "Owner": "tsenart",
   "Repo": "vegeta",
   "Release": "latest",
@@ -636,6 +628,14 @@
   "Repo": "yazi",
   "Release": "v25.5.31",
   "UpdatedAt": "2025-07-30T22:25:52.75734+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "crhuber",
+  "Repo": "dot",
+  "Release": "v0.0.1",
+  "UpdatedAt": "2025-07-31T21:42:52.812721+02:00",
   "Description": "",
   "Binary": ""
  }
