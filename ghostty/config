@@ -2,3 +2,4 @@ theme = tokyonight-custom
 shell-integration = fish
 command = /usr/local/bin/fish
 scrollback-limit = 100000000
+keybind = shift+enter=text:\n

@@ -16,14 +16,6 @@
   "Binary": ""
  },
  {
-  "Owner": "ubnt-intrepid",
-  "Repo": "dot",
-  "Release": "v0.1.4",
-  "UpdatedAt": "2023-09-09T19:57:17.219575+03:00",
-  "Description": "Management tool for dotfiles",
-  "Binary": ""
- },
- {
   "Owner": "tsenart",
   "Repo": "vegeta",
   "Release": "latest",
@@ -146,8 +138,8 @@
  {
   "Owner": "fairwindsops",
   "Repo": "pluto",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
+  "Release": "v5.22.5",
+  "UpdatedAt": "2025-09-02T10:22:52.195135+02:00",
   "Description": "Discover deprecated apiVersions in Kubernetes",
   "Binary": ""
  },
@@ -402,8 +394,8 @@
  {
   "Owner": "svenstaro",
   "Repo": "genact",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
+  "Release": "v1.4.2",
+  "UpdatedAt": "2025-08-23T23:17:04.321767+02:00",
   "Description": "Nonsense activity generator",
   "Binary": ""
  },
@@ -466,8 +458,8 @@
  {
   "Owner": "charmbracelet",
   "Repo": "vhs",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
+  "Release": "v0.10.0",
+  "UpdatedAt": "2025-08-30T20:24:32.224185+02:00",
   "Description": "Recorder of your command line",
   "Binary": ""
  },
@@ -1010,8 +1002,8 @@
  {
   "Owner": "goflink",
   "Repo": "fproxy",
-  "Release": "latest",
-  "UpdatedAt": "2024-10-21T19:37:53.815497+02:00",
+  "Release": "0.0.2",
+  "UpdatedAt": "2025-09-01T10:41:10.869075+02:00",
   "Description": "",
   "Binary": ""
  },
@@ -1084,6 +1076,62 @@
   "Repo": "goose",
   "Release": "latest",
   "UpdatedAt": "2025-06-25T14:26:24.144222+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "crhuber",
+  "Repo": "dot",
+  "Release": "v0.0.1",
+  "UpdatedAt": "2025-08-01T10:02:15.519412+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "crhuber",
+  "Repo": "crumb",
+  "Release": "v0.0.7",
+  "UpdatedAt": "2025-08-16T00:51:24.271322+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "SecureAuthCorp",
+  "Repo": "oauth2c",
+  "Release": "v1.17.2",
+  "UpdatedAt": "2025-08-06T10:21:56.830848+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "jackielii",
+  "Repo": "skhd.zig",
+  "Release": "v0.0.12",
+  "UpdatedAt": "2025-08-15T20:41:23.634922+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "neovim",
+  "Repo": "neovim",
+  "Release": "v0.11.3",
+  "UpdatedAt": "2025-08-16T17:20:27.802614+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "fullstorydev",
+  "Repo": "grpcui",
+  "Release": "v1.4.3",
+  "UpdatedAt": "2025-08-22T23:50:20.386438+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "googleapis",
+  "Repo": "genai-toolbox",
+  "Release": "https://storage.googleapis.com/genai-toolbox/v0.13.0/darwin/arm64/toolbox",
+  "UpdatedAt": "2025-09-01T13:14:31.596117+02:00",
   "Description": "",
   "Binary": ""
  }

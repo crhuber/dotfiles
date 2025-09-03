@@ -1,5 +1,5 @@
 -- Constants
-MODIFIERS = {"ctrl", "alt"}    -- Modifiers used for app shortcuts
+MODIFIERS = { "alt"}    -- Modifiers used for app shortcuts
 
 -- App configuration
 APPS = {
@@ -7,8 +7,8 @@ APPS = {
   {shortcut = "c", name = "Visual Studio Code"},
   {shortcut = "b", name = "Google Chrome"},
   {shortcut = "s", name = "Slack"},
-  {shortcut = "m", name = "Visual Studio Code"},
   {shortcut = "n", name = "Obsidian"},
+  {shortcut = "a", name = "Claude"},
   {shortcut = "m", name = "Spotify"},
   {shortcut = "1", name = "Visual Studio Code"},
   {shortcut = "2", name = "Ghostty"},
