@@ -1,0 +1,29 @@
+[core]
+    pager = delta
+    excludesfile = /Users/craig/.gitignore
+
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+    navigate = true    # use n and N to move between diff sections
+
+[merge]
+    conflictstyle = diff3
+
+[diff]
+    colorMoved = default
+
+[credential]
+        helper = osxkeychain
+
+[user]
+        name = crhuber
+        email = crhuber@users.noreply.github.com
+[alias]
+        co = checkout
+        br = branch
+        ci = commit
+        st = status
+[pull]
+        rebase = true
