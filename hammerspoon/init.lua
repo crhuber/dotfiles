@@ -1,5 +1,5 @@
 -- Constants
-MODIFIERS = {"ctrl", "alt"}    -- Modifiers used for app shortcuts
+MODIFIERS = {"alt"}    -- Modifiers used for app shortcuts
 
 -- App configuration
 APPS = {

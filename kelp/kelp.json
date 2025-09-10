@@ -387,9 +387,9 @@
   "Owner": "helix-editor",
   "Repo": "helix",
   "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
+  "UpdatedAt": "2025-07-31T22:01:08.132141+02:00",
   "Description": "",
-  "Binary": ""
+  "Binary": "hx"
  },
  {
   "Owner": "ffmpeg",
@@ -530,10 +530,10 @@
  {
   "Owner": "cooklang",
   "Repo": "cookcli",
-  "Release": "v0.14.0",
-  "UpdatedAt": "2025-07-15T17:20:18.287946+02:00",
+  "Release": "latest",
+  "UpdatedAt": "2025-07-31T22:00:36.270007+02:00",
   "Description": "",
-  "Binary": ""
+  "Binary": "cook"
  },
  {
   "Owner": "restic",
@@ -554,8 +554,8 @@
  {
   "Owner": "crhuber",
   "Repo": "crumb",
-  "Release": "v0.0.5",
-  "UpdatedAt": "2025-07-29T07:31:23.006911+02:00",
+  "Release": "v0.0.11",
+  "UpdatedAt": "2025-09-09T19:04:37.605749+02:00",
   "Description": "",
   "Binary": ""
  },
@@ -634,8 +634,8 @@
  {
   "Owner": "crhuber",
   "Repo": "dot",
-  "Release": "v0.0.1",
-  "UpdatedAt": "2025-07-31T21:42:52.812721+02:00",
+  "Release": "v0.0.2",
+  "UpdatedAt": "2025-09-10T19:41:53.907823+02:00",
   "Description": "",
   "Binary": ""
  }
