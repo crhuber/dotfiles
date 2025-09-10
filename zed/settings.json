@@ -7,7 +7,7 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
-  "theme": "tokyonight",
+  "theme": "Tokyo Night",
   "show_whitespaces": "all",
   "remove_trailing_whitespace_on_save": true,
   "ui_font_size": 14,
@@ -17,5 +17,6 @@
     "shell": {
       "program": "fish"
     }
-  }
+  },
+  "vim_mode": true
 }

@@ -58,8 +58,8 @@
  {
   "Owner": "burntsushi",
   "Repo": "ripgrep",
-  "Release": "13.0.0",
-  "UpdatedAt": "2023-09-09T19:09:56.459024+03:00",
+  "Release": "14.1.1",
+  "UpdatedAt": "2025-09-03T20:51:21.939508+02:00",
   "Description": "Searches directories for a regex pattern",
   "Binary": ""
  },
@@ -682,8 +682,8 @@
  {
   "Owner": "ankitpokhrel",
   "Repo": "jira-cli",
-  "Release": "v1.4.0",
-  "UpdatedAt": "2023-09-09T18:45:57.095879+03:00",
+  "Release": "v1.7.0",
+  "UpdatedAt": "2025-09-04T14:08:42.804997+02:00",
   "Description": "Jira from cli",
   "Binary": "jira"
  },
@@ -1090,8 +1090,8 @@
  {
   "Owner": "crhuber",
   "Repo": "crumb",
-  "Release": "v0.0.7",
-  "UpdatedAt": "2025-08-16T00:51:24.271322+02:00",
+  "Release": "v0.0.11",
+  "UpdatedAt": "2025-09-09T18:08:52.475885+02:00",
   "Description": "",
   "Binary": ""
  },

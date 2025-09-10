@@ -1,3 +1,3 @@
 function ccat
-	bat $argv --style=plain;
+	bat $argv;
 end

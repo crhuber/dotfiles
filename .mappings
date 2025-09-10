@@ -28,6 +28,7 @@
 "zed/settings.json" = "~/.config/zed/settings.json"
 "ghostty/config" = "~/.config/ghostty/config"
 "ghostty/themes/tokyonight-custom" = "~/.config/ghostty/themes/tokyonight-custom"
+"bat/config" = "~/.config/bat/config"
 
 
 [work]
