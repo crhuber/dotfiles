@@ -17,6 +17,7 @@
 "fish/ttop.fish" = "~/.config/fish/functions/ttop.fish"
 "fish/ccurl.fish" = "~/.config/fish/functions/ccurl.fish"
 "fish/weather.fish" = "~/.config/fish/functions/weather.fish"
+"fish/code-ui.fish" = "~/.config/fish/functions/code-ui.fish"
 # apps
 "vim/.vimrc" = "~/.vimrc"
 "nano/.nanorc" = "~/.nanorc"
