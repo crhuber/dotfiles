@@ -466,8 +466,8 @@
  {
   "Owner": "trufflesecurity",
   "Repo": "trufflehog",
-  "Release": "latest",
-  "UpdatedAt": "2023-10-18T21:00:13.668809+02:00",
+  "Release": "v3.90.6",
+  "UpdatedAt": "2025-09-17T19:35:46.072825+02:00",
   "Description": "",
   "Binary": ""
  },
@@ -636,6 +636,14 @@
   "Repo": "dot",
   "Release": "v0.0.2",
   "UpdatedAt": "2025-09-10T19:41:53.907823+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "chipsenkbeil",
+  "Repo": "choose",
+  "Release": "1.5.0",
+  "UpdatedAt": "2025-09-18T20:20:51.037691+02:00",
   "Description": "",
   "Binary": ""
  }
