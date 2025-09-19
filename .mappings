@@ -18,6 +18,7 @@
 "fish/ccurl.fish" = "~/.config/fish/functions/ccurl.fish"
 "fish/weather.fish" = "~/.config/fish/functions/weather.fish"
 "fish/code-ui.fish" = "~/.config/fish/functions/code-ui.fish"
+"fish/nnano.fish" = "~/.config/fish/functions/nnano.fish"
 # apps
 "vim/.vimrc" = "~/.vimrc"
 "nano/.nanorc" = "~/.nanorc"
@@ -32,6 +33,7 @@
 "ghostty/config" = "~/.config/ghostty/config"
 "ghostty/themes/tokyonight-custom" = "~/.config/ghostty/themes/tokyonight-custom"
 "bat/config" = "~/.config/bat/config"
+"nvim/init.vim" = "~/.config/nvim/init.vim"
 
 
 [work]
