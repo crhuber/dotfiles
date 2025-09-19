@@ -26,8 +26,8 @@
  {
   "Owner": "junegunn",
   "Repo": "fzf",
-  "Release": "0.42.0",
-  "UpdatedAt": "2023-09-09T19:56:09.183789+03:00",
+  "Release": "v0.65.2",
+  "UpdatedAt": "2025-09-15T21:43:51.071177+02:00",
   "Description": "Command-line fuzzy finder",
   "Binary": "fzf"
  },
@@ -42,8 +42,8 @@
  {
   "Owner": "helm",
   "Repo": "helm",
-  "Release": "https://get.helm.sh/helm-v3.11.3-darwin-arm64.tar.gz",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
+  "Release": "https://get.helm.sh/helm-v3.18.4-darwin-arm64.tar.gz",
+  "UpdatedAt": "2025-09-17T10:49:40.623319+02:00",
   "Description": "",
   "Binary": ""
  },
@@ -522,8 +522,8 @@
  {
   "Owner": "argoproj",
   "Repo": "argo-cd",
-  "Release": "v2.7.9",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
+  "Release": "v3.1.5",
+  "UpdatedAt": "2025-09-17T10:40:01.776976+02:00",
   "Description": "",
   "Binary": "argocd"
  },
@@ -603,14 +603,6 @@
   "Owner": "GoogleCloudPlatform",
   "Repo": "cloud-sql-proxy",
   "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
-  "Owner": "jq",
-  "Repo": "jq",
-  "Release": "https://github.com/stedolan/jq/releases/download/jq-1.6/jq-osx-amd64",
   "UpdatedAt": "0001-01-01T00:00:00Z",
   "Description": "",
   "Binary": ""
@@ -1082,8 +1074,8 @@
  {
   "Owner": "crhuber",
   "Repo": "dot",
-  "Release": "v0.0.1",
-  "UpdatedAt": "2025-08-01T10:02:15.519412+02:00",
+  "Release": "v0.0.2",
+  "UpdatedAt": "2025-09-10T16:51:24.635671+02:00",
   "Description": "",
   "Binary": ""
  },
@@ -1132,6 +1124,38 @@
   "Repo": "genai-toolbox",
   "Release": "https://storage.googleapis.com/genai-toolbox/v0.13.0/darwin/arm64/toolbox",
   "UpdatedAt": "2025-09-01T13:14:31.596117+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "darksworm",
+  "Repo": "argonaut",
+  "Release": "v1.16.1",
+  "UpdatedAt": "2025-09-11T14:38:44.572393+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "asciinema",
+  "Repo": "asciinema",
+  "Release": "v3.0.0",
+  "UpdatedAt": "2025-09-15T21:44:36.52057+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "chipsenkbeil",
+  "Repo": "choose",
+  "Release": "1.5.0",
+  "UpdatedAt": "2025-09-17T11:51:24.719385+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "jqlang",
+  "Repo": "jq",
+  "Release": "jq-1.8.1",
+  "UpdatedAt": "2025-09-17T14:14:30.909152+02:00",
   "Description": "",
   "Binary": ""
  }

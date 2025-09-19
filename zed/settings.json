@@ -7,8 +7,10 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "icon_theme": "Material Icon Theme",
   "theme": "Tokyo Night",
   "show_whitespaces": "all",
+  "format_on_save": "off",
   "remove_trailing_whitespace_on_save": true,
   "ui_font_size": 14,
   "buffer_font_size": 12,
