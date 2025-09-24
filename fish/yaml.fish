@@ -1,3 +1,3 @@
 function yaml
-	bat -ppl yaml $argv;
+	bat -l yaml $argv;
 end
