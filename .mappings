@@ -15,7 +15,7 @@
 "fish/md.fish" = "~/.config/fish/functions/md.fish"
 "fish/nnano.fish" = "~/.config/fish/functions/nnano.fish"
 "fish/prl.fish" = "~/.config/fish/functions/prl.fish"
-"fish/ro.fish" = "~/.config/fish/functions/ro.fish"
+"fish/rc.fish" = "~/.config/fish/functions/rc.fish"
 "fish/rs.fish" = "~/.config/fish/functions/rs.fish"
 "fish/sl.fish" = "~/.config/fish/functions/sl.fish"
 "fish/ttop.fish" = "~/.config/fish/functions/ttop.fish"

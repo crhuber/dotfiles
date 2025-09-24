@@ -1,4 +1,4 @@
-function ro --description 'repo open in vscode'
+function rc --description 'repo open in vscode'
    argparse 'ui' -- $argv
    or return
 
