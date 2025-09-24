@@ -46,3 +46,4 @@
 
 [home]
 "hammerspoon/init.lua" = "~/.hammerspoon/init.lua"
+"starship/starship.toml" = "~/.config/starship.toml"
