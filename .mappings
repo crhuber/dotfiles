@@ -22,6 +22,7 @@
 "fish/ttree.fish" = "~/.config/fish/functions/ttree.fish"
 "fish/weather.fish" = "~/.config/fish/functions/weather.fish"
 "fish/yaml.fish" = "~/.config/fish/functions/yaml.fish"
+"fish/cs.fish" = "~/.config/fish/functions/cs.fish"
 
 # configs
 ".hushlogin" = "~/.hushlogin"
