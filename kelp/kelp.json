@@ -2,32 +2,16 @@
  {
   "Owner": "sharkdp",
   "Repo": "fd",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
+  "Release": "v10.3.0",
+  "UpdatedAt": "2025-09-24T21:30:31.797242+02:00",
   "Description": "",
   "Binary": ""
  },
  {
   "Owner": "sharkdp",
   "Repo": "bat",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
-  "Owner": "tsenart",
-  "Repo": "vegeta",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
-  "Owner": "junegunn",
-  "Repo": "fzf-bin",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
+  "Release": "v0.25.0",
+  "UpdatedAt": "2025-09-24T21:30:23.169133+02:00",
   "Description": "",
   "Binary": ""
  },
@@ -50,8 +34,8 @@
  {
   "Owner": "burntsushi",
   "Repo": "ripgrep",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
+  "Release": "14.1.1",
+  "UpdatedAt": "2025-09-24T21:32:30.734405+02:00",
   "Description": "",
   "Binary": ""
  },
@@ -59,30 +43,6 @@
   "Owner": "xo",
   "Repo": "usql",
   "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
-  "Owner": "termit",
-  "Repo": "flycut",
-  "Release": "https://github.com/TermiT/Flycut/releases/download/1.9.4/Flycut.1.9.4.zip",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
-  "Owner": "lwouis",
-  "Repo": "alt-tab-macos",
-  "Release": "https://github.com/lwouis/alt-tab-macos/releases/download/v3.7.1/AltTab-3.7.1.zip",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
-  "Owner": "marginal",
-  "Repo": "qlvideo",
-  "Release": "https://github.com/Marginal/QLVideo/releases/download/rel-194/QLVideo_194.pkg",
   "UpdatedAt": "0001-01-01T00:00:00Z",
   "Description": "",
   "Binary": ""
@@ -120,22 +80,6 @@
   "Binary": ""
  },
  {
-  "Owner": "fullstorydev",
-  "Repo": "grpcurl",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
-  "Owner": "httpie",
-  "Repo": "httpie",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
   "Owner": "schollz",
   "Repo": "croc",
   "Release": "latest",
@@ -162,8 +106,8 @@
  {
   "Owner": "crhuber",
   "Repo": "kelp",
-  "Release": "v1.16.0",
-  "UpdatedAt": "2025-07-25T23:05:50.835931+02:00",
+  "Release": "v1.17.0",
+  "UpdatedAt": "2025-09-24T21:32:05.756791+02:00",
   "Description": "",
   "Binary": ""
  },
@@ -200,14 +144,6 @@
   "Binary": ""
  },
  {
-  "Owner": "typesense",
-  "Repo": "typesense",
-  "Release": "https://dl.typesense.org/releases/0.21.0/typesense-server-0.21.0-darwin-amd64.tar.gz",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
   "Owner": "cosmtrek",
   "Repo": "air",
   "Release": "latest",
@@ -216,24 +152,8 @@
   "Binary": ""
  },
  {
-  "Owner": "johncoates",
-  "Repo": "aerial",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
   "Owner": "exelban",
   "Repo": "stats",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
-  "Owner": "ktr0731",
-  "Repo": "evans",
   "Release": "latest",
   "UpdatedAt": "0001-01-01T00:00:00Z",
   "Description": "",
@@ -258,8 +178,8 @@
  {
   "Owner": "go-task",
   "Repo": "task",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
+  "Release": "v3.45.4",
+  "UpdatedAt": "2025-09-24T21:37:08.784862+02:00",
   "Description": "",
   "Binary": ""
  },
@@ -268,14 +188,6 @@
   "Repo": "curlie",
   "Release": "v1.8.2",
   "UpdatedAt": "2025-07-29T22:27:31.117036+02:00",
-  "Description": "",
-  "Binary": ""
- },
- {
-  "Owner": "charmbracelet",
-  "Repo": "glow",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
   "Description": "",
   "Binary": ""
  },
@@ -352,14 +264,6 @@
   "Binary": ""
  },
  {
-  "Owner": "gohugoio",
-  "Repo": "hugo",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
   "Owner": "google",
   "Repo": "gcloud",
   "Release": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-421.0.0-darwin-arm.tar.gz",
@@ -386,24 +290,16 @@
  {
   "Owner": "helix-editor",
   "Repo": "helix",
-  "Release": "latest",
-  "UpdatedAt": "2025-07-31T22:01:08.132141+02:00",
+  "Release": "25.07.1",
+  "UpdatedAt": "2025-09-24T21:04:05.684871+02:00",
   "Description": "",
   "Binary": "hx"
  },
  {
   "Owner": "ffmpeg",
   "Repo": "ffmpeg",
-  "Release": "https://evermeet.cx/ffmpeg/ffmpeg-6.0.7z",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
-  "Owner": "ffprobe",
-  "Repo": "ffprobe",
-  "Release": "https://evermeet.cx/ffmpeg/ffprobe-6.0.7z",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
+  "Release": "https://evermeet.cx/ffmpeg/ffmpeg-8.0.zip",
+  "UpdatedAt": "2025-09-24T21:35:56.759715+02:00",
   "Description": "",
   "Binary": ""
  },
@@ -644,6 +540,22 @@
   "Repo": "choose",
   "Release": "1.5.0",
   "UpdatedAt": "2025-09-18T20:20:51.037691+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "junegunn",
+  "Repo": "fzf",
+  "Release": "v0.65.2",
+  "UpdatedAt": "2025-09-24T20:59:46.607949+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "fastfetch-cli",
+  "Repo": "fastfetch",
+  "Release": "2.53.0",
+  "UpdatedAt": "2025-09-24T21:01:00.174241+02:00",
   "Description": "",
   "Binary": ""
  }
