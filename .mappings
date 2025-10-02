@@ -28,6 +28,7 @@
 ".hushlogin" = "~/.hushlogin"
 "bat/config" = "~/.config/bat/config"
 "direnv/direnv.toml" = "~/.config/direnv/direnv.toml"
+"dust/config.toml" = "~/.config/dust/config.toml"
 "fastfetch/config.jsonc" = "~/.config/fastfetch/config.jsonc"
 "fish/config.fish" = "~/.config/fish/config.fish"
 "ghostty/config" = "~/.config/ghostty/config"
