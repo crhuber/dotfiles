@@ -1042,8 +1042,8 @@
  {
   "Owner": "envoyproxy",
   "Repo": "gateway",
-  "Release": "v1.4.0",
-  "UpdatedAt": "2025-05-26T10:52:09.297448+02:00",
+  "Release": "v1.5.2",
+  "UpdatedAt": "2025-10-06T11:56:38.708962+02:00",
   "Description": "",
   "Binary": ""
  },
@@ -1156,6 +1156,14 @@
   "Repo": "jq",
   "Release": "jq-1.8.1",
   "UpdatedAt": "2025-09-17T14:14:30.909152+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "rcoh",
+  "Repo": "angle-grinder",
+  "Release": "v0.19.6",
+  "UpdatedAt": "2025-10-11T09:22:50.490813+02:00",
   "Description": "",
   "Binary": ""
  }
