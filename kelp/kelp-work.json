@@ -10,8 +10,8 @@
  {
   "Owner": "sharkdp",
   "Repo": "bat",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
+  "Release": "v0.26.0",
+  "UpdatedAt": "2025-10-21T11:10:59.90607+02:00",
   "Description": "Cat clone in rust",
   "Binary": ""
  },
@@ -1082,8 +1082,8 @@
  {
   "Owner": "crhuber",
   "Repo": "crumb",
-  "Release": "v0.0.11",
-  "UpdatedAt": "2025-09-09T18:08:52.475885+02:00",
+  "Release": "v0.0.12",
+  "UpdatedAt": "2025-10-20T17:04:32.786959+02:00",
   "Description": "",
   "Binary": ""
  },

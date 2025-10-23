@@ -1,2 +1,3 @@
 --style="changes" # no grid or header
 --paging="never"
+--theme="Catppuccin"
