@@ -558,5 +558,13 @@
   "UpdatedAt": "2025-09-24T21:01:00.174241+02:00",
   "Description": "",
   "Binary": ""
+ },
+ {
+  "Owner": "mpv-player",
+  "Repo": "mpv",
+  "Release": "https://nightly.link/mpv-player/mpv/workflows/build/master/mpv-macos-15-arm.zip",
+  "UpdatedAt": "2025-10-23T17:27:05.898367+02:00",
+  "Description": "",
+  "Binary": ""
  }
 ]
