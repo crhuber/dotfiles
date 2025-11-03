@@ -1074,16 +1074,16 @@
  {
   "Owner": "crhuber",
   "Repo": "dot",
-  "Release": "v0.0.4",
-  "UpdatedAt": "2025-10-02T11:27:29.06737+02:00",
+  "Release": "v0.0.5",
+  "UpdatedAt": "2025-10-31T11:56:08.085658+01:00",
   "Description": "",
   "Binary": ""
  },
  {
   "Owner": "crhuber",
   "Repo": "crumb",
-  "Release": "v0.0.12",
-  "UpdatedAt": "2025-10-20T17:04:32.786959+02:00",
+  "Release": "v0.0.16",
+  "UpdatedAt": "2025-10-31T18:29:42.018249+01:00",
   "Description": "",
   "Binary": ""
  },
@@ -1164,6 +1164,14 @@
   "Repo": "angle-grinder",
   "Release": "v0.19.6",
   "UpdatedAt": "2025-10-11T09:22:50.490813+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "mike-engel",
+  "Repo": "jwt-cli",
+  "Release": "6.2.0",
+  "UpdatedAt": "2025-10-27T16:30:37.171038+01:00",
   "Description": "",
   "Binary": ""
  }

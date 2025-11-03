@@ -7,8 +7,10 @@ if status is-interactive
     starship init fish | source
     # mise
     mise activate fish | source
-    # fish
+    # fzf
     fzf --fish | source
+    # crumb
+    crumb hook --shell fish | source
     # greeting
     function fish_greeting
         fastfetch
