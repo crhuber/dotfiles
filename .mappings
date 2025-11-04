@@ -37,6 +37,8 @@
 "git/.gitignore" = "~/.gitignore"
 "helix/config.toml" = "~/.config/helix/config.toml"
 "helix/themes/tokyonight.toml" = "~/.config/helix/themes/tokyonight.toml"
+"k9s/config.yaml" = "~/.config/k9s/config.yaml"
+"k9s/skins/catppuccin-mocha.yaml" = "~/.config/k9s/skins/catppuccin-mocha.yaml"
 "kelp/kelp-work.json" = "~/.kelp/kelp-work.json"
 "nano/.nanorc" = "~/.nanorc"
 "nvim/init.vim" = "~/.config/nvim/init.vim"
