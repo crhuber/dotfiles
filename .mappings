@@ -27,6 +27,7 @@
 # configs
 ".hushlogin" = "~/.hushlogin"
 "bat/config" = "~/.config/bat/config"
+"btop/btop.conf" = "~/.config/btop/btop.conf"
 "direnv/direnv.toml" = "~/.config/direnv/direnv.toml"
 "dust/config.toml" = "~/.config/dust/config.toml"
 "fastfetch/config.jsonc" = "~/.config/fastfetch/config.jsonc"

@@ -33,6 +33,9 @@
       "type": "localip"
     },
     {
+      "type": "dns"
+    },
+    {
       "type": "battery",
       "keyColor": "green"
     },
