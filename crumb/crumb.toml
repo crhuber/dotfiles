@@ -1,2 +1,2 @@
-shell=fish
-show_values=true
+shell = "fish"
+show_values = true
