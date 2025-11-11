@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+set -e
+set -u
+set -o pipefail
+
+#-resize 800x>
+#Set the width to 800px and maintain aspect ratio without upscaling smaller images. Use 800x to also upscale smaller images.
+
+#-strip
+#Remove EXIF, IPTC, XMP, and embedded color profiles to reduce file size.
+
+#-quality 75
+#Set JPEG compression to 75.
+
+#-interlace Plane
+#Interlace the image so that it progressively sharpens as more data arrives.
+
+magick $1 \
+    -resize 800x> \
+    -strip \
+    -quality 75 \
+    -interlace Plane \
+    $2

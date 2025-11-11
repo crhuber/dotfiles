@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+set -e
+set -u
+set -o pipefail
+
+# fuzz 7%
+#Allow a 7% color difference when comparing pixels for optimization. This helps further reduce size by treating near-identical colors as the same.
+
+#-layers optimize
+#Optimize the GIF animation by reducing redundant pixels between frames, which can reduce file size.
+
+magick $1 \
+    -fuzz 7% \
+    -layers optimize \
+    $2

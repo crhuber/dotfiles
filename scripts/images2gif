@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+set -e
+set -u
+set -o pipefail
+
+#-delay 100
+#Pause for 1 second between frames.
+
+#-loop 5
+#Loop the frames five times. Use -loop 0 to loop forever.
+
+#-dispose previous
+# Clears the previous frame before drawing the next.
+
+magick $@ \
+    -delay 100 \
+    -loop 5 \
+    -dispose previous \
+    output.gif
