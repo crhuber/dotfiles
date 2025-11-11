@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -e
+set -u
+set -o pipefail
+
+# Check if argument is provided
+if [ $# -eq 0 ]; then
+    echo "Usage: $0 <column_number>"
+    exit 1
+fi
+
+# Get the column number from the first argument
+col=$1
+
+# Use awk to print the specified column
+awk "{ print \$$col }"

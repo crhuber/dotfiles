@@ -17,16 +17,21 @@ def parse_args():
     parser = argparse.ArgumentParser(description="get your IP address")
     parser.add_argument(
         "desired",
-        nargs="+",
+        nargs="?",  # Changed to "?" for optional single argument
         choices=["local", "l", "global", "g", "gl", "lg"],
-        help="what kind of IP do you want?",
+        default=None,  # Set default to None
+        help="what kind of IP do you want? (default: both)",
     )
     args = parser.parse_args()
 
-    desired = set(args.desired)
-    wants_both_shorthand = "gl" in desired or "lg" in desired
-    wants_local = wants_both_shorthand or "local" in desired or "l" in desired
-    wants_global = wants_both_shorthand or "global" in desired or "g" in desired
+    # Default to BOTH if no arguments provided
+    if args.desired is None:
+        return DesiredResults.BOTH
+
+    desired = args.desired
+    wants_both_shorthand = desired in ["gl", "lg"]
+    wants_local = wants_both_shorthand or desired in ["local", "l"]
+    wants_global = wants_both_shorthand or desired in ["global", "g"]
 
     if wants_local and wants_global:
         return DesiredResults.BOTH
@@ -55,11 +60,9 @@ def main():
         print(local_ip())
     elif desired_results == DesiredResults.GLOBAL:
         print(global_ip())
-    elif desired_results == DesiredResults.BOTH:
+    else:  # BOTH or default
         print("local:", local_ip())
         print("global:", global_ip())
-    else:
-        raise Exception("internal error parsing desired results")
 
 
 if __name__ == "__main__":

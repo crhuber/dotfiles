@@ -3,4 +3,4 @@ set -e
 set -u
 set -o pipefail
 
-exec mpv --no-video --ytdl-format=worstaudio "$@"
+openssl rand -base64 16 | colrm 17

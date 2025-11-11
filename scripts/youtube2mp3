@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+success_count=0
+
+# Check if music.txt exists
+if [ ! -f "$PWD/music.txt" ]; then
+    echo "Error: music.txt not found in the current directory"
+    echo "Please create a music.txt file with YouTube links (one per line)"
+    exit 1
+fi
+
+mkdir -p "$PWD/music"
+for link in $(cat "$PWD/music.txt")
+do
+    echo "downloading $link"
+    yt-dlp -x --audio-format mp3 -o "$PWD/music/%(title)s.%(ext)s" "$link"
+    success_count=$(($success_count + 1))
+    echo "downloaded: $success_count"
+done

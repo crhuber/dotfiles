@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#- -vf video filter
+# fps 10 frames per second
+# scale 320:-1 width 320, height -1 to keep aspect ratio
+# flags lanczos use lanczos rescaling algorithm
+# c:v coded for video gif format
+ffmpeg -i $1 -vf "fps=10,scale=320:-1:flags=lanczos" -c:v gif $2

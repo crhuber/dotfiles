@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# -vcodec video codec libx264
+# -crf constant rate factor 21 (lower is better quality, 18-28 is a good range). 23 is a common default.
+ffmpeg -i $1 -vcodec libx264 -crf 21 $2

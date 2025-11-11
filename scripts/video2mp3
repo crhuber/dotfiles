@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# -vn no video
+ffmpeg -i $1 -vn -acodec mp3 $2
