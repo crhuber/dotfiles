@@ -442,16 +442,16 @@
  {
   "Owner": "jdx",
   "Repo": "mise",
-  "Release": "latest",
-  "UpdatedAt": "2025-07-16T18:45:58.648022+02:00",
+  "Release": "v2025.11.2",
+  "UpdatedAt": "2025-11-07T14:32:39.30399+01:00",
   "Description": "",
   "Binary": ""
  },
  {
   "Owner": "crhuber",
   "Repo": "crumb",
-  "Release": "v0.0.11",
-  "UpdatedAt": "2025-09-09T19:04:37.605749+02:00",
+  "Release": "v0.0.19",
+  "UpdatedAt": "2025-11-10T19:06:34.769908+01:00",
   "Description": "",
   "Binary": ""
  },
@@ -530,8 +530,8 @@
  {
   "Owner": "crhuber",
   "Repo": "dot",
-  "Release": "v0.0.4",
-  "UpdatedAt": "2025-10-02T23:02:34.719652+02:00",
+  "Release": "v0.0.6",
+  "UpdatedAt": "2025-11-08T21:37:31.836354+01:00",
   "Description": "",
   "Binary": ""
  },

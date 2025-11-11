@@ -2,65 +2,68 @@
 set -e
 set -u
 
-statuses="100 Continue
-101 Switching Protocols
-102 Processing
-200 OK
-201 Created
-202 Accepted
-203 Non-Authoritative Information
-204 No Content
-205 Reset Content
-206 Partial Content
-207 Multi-Status
-208 Already Reported
-300 Multiple Choices
-301 Moved Permanently
-302 Found
-303 See Other
-304 Not Modified
-305 Use Proxy
-307 Temporary Redirect
-400 Bad Request
-401 Unauthorized
-402 Payment Required
-403 Forbidden
-404 Not Found
-405 Method Not Allowed
-406 Not Acceptable
-407 Proxy Authentication Required
-408 Request Timeout
-409 Conflict
-410 Gone
-411 Length Required
-412 Precondition Failed
-413 Request Entity Too Large
-414 Request-URI Too Large
-415 Unsupported Media Type
-416 Request Range Not Satisfiable
-417 Expectation Failed
-418 I'm a teapot
-420 Blaze it
-422 Unprocessable Entity
-423 Locked
-424 Failed Dependency
-425 No code
-426 Upgrade Required
-428 Precondition Required
-429 Too Many Requests
-431 Request Header Fields Too Large
-449 Retry with
-500 Internal Server Error
-501 Not Implemented
-502 Bad Gateway
-503 Service Unavailable
-504 Gateway Timeout
-505 HTTP Version Not Supported
-506 Variant Also Negotiates
-507 Insufficient Storage
-509 Bandwidth Limit Exceeded
-510 Not Extended
-511 Network Authentication Required"
+statuses="100 Continue - Server has received request headers, client should send request body
+101 Switching Protocols - Server is switching protocols as requested by client
+102 Processing - Server has received and is processing the request (WebDAV)
+103 Early Hints - Server is sending headers before final response for resource preloading
+200 OK - Request was successful
+201 Created - Request was successful and a new resource was created
+202 Accepted - Request has been accepted but not yet processed
+203 Non-Authoritative Information - Returned metadata is from a local or third-party copy
+204 No Content - Server successfully processed request, returning no content
+205 Reset Content - Request fulfilled, client should reset the document view
+206 Partial Content - Server is delivering only part of the requested resource
+207 Multi-Status - Provides status for multiple independent operations (WebDAV)
+208 Already Reported - Members of a DAV binding have already been enumerated (WebDAV)
+226 IM Used - Response is a representation of one or more instance-manipulations
+300 Multiple Choices - Multiple possible responses, user or agent should choose one
+301 Moved Permanently - Resource has been moved permanently to a new URL
+302 Found - Resource resides temporarily under a different URL
+303 See Other - Response can be found under a different URL using GET
+304 Not Modified - Resource has not been modified since last request
+305 Use Proxy - Requested resource must be accessed through proxy (deprecated)
+307 Temporary Redirect - Resource temporarily resides under a different URL
+308 Permanent Redirect - Resource has permanently moved to a new URL
+400 Bad Request - Request cannot be fulfilled due to bad syntax
+401 Unauthorized - Authentication is required and has failed or not been provided
+402 Payment Required - Reserved for future use
+403 Forbidden - Server refuses to respond to the request
+404 Not Found - Requested resource could not be found
+405 Method Not Allowed - Request method is not supported for the requested resource
+406 Not Acceptable - Resource can only generate content not acceptable per Accept headers
+407 Proxy Authentication Required - Client must authenticate itself with the proxy
+408 Request Timeout - Server timed out waiting for the request
+409 Conflict - Request could not be completed due to conflict with resource state
+410 Gone - Resource is no longer available and will not be available again
+411 Length Required - Request did not specify the length of its content
+412 Precondition Failed - Server does not meet preconditions in the request
+413 Content Too Large - Request is larger than the server is willing to process
+414 URI Too Long - URI provided was too long for the server to process
+415 Unsupported Media Type - Request entity has a media type the server does not support
+416 Range Not Satisfiable - Server cannot supply the requested portion of the file
+417 Expectation Failed - Server cannot meet requirements of Expect request-header
+418 I'm a teapot - HTCPC/1.0 teapot cannot brew coffee (RFC 2324)
+421 Misdirected Request - Request was directed at a server that cannot produce a response
+422 Unprocessable Content - Request was well-formed but unable to be followed (WebDAV)
+423 Locked - Resource that is being accessed is locked (WebDAV)
+424 Failed Dependency - Request failed because it depended on another failed request (WebDAV)
+425 Too Early - Server is unwilling to risk processing a request that might be replayed
+426 Upgrade Required - Client should switch to a different protocol
+428 Precondition Required - Origin server requires the request to be conditional
+429 Too Many Requests - User has sent too many requests in a given amount of time
+431 Request Header Fields Too Large - Server is unwilling to process request due to large headers
+451 Unavailable For Legal Reasons - Server is denying access due to legal demand
+500 Internal Server Error - Generic error message when no more specific message is suitable
+501 Not Implemented - Server does not recognize request method or lacks ability to fulfill it
+502 Bad Gateway - Server was acting as gateway and received invalid response from upstream
+503 Service Unavailable - Server is currently unavailable (overloaded or down for maintenance)
+504 Gateway Timeout - Server was acting as gateway and did not receive timely response
+505 HTTP Version Not Supported - Server does not support the HTTP protocol version used
+506 Variant Also Negotiates - Transparent content negotiation results in circular reference
+507 Insufficient Storage - Server is unable to store the representation needed (WebDAV)
+508 Loop Detected - Server detected an infinite loop while processing request (WebDAV)
+510 Not Extended - Further extensions to the request are required for server to fulfill it
+511 Network Authentication Required - Client needs to authenticate to gain network access"
 
 if [ $# -eq 0 ]; then
   echo "$statuses"
