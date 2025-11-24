@@ -72,38 +72,6 @@
   "Binary": ""
  },
  {
-  "Owner": "termit",
-  "Repo": "flycut",
-  "Release": "https://github.com/TermiT/Flycut/releases/download/1.9.4/Flycut.1.9.4.zip",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
-  "Owner": "rxhanson",
-  "Repo": "rectangle",
-  "Release": "https://github.com/rxhanson/Rectangle/releases/download/v0.24/Rectangle0.24.dmg",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
-  "Owner": "lwouis",
-  "Repo": "alt-tab-macos",
-  "Release": "https://github.com/lwouis/alt-tab-macos/releases/download/v3.7.1/AltTab-3.7.1.zip",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
-  "Owner": "marginal",
-  "Repo": "qlvideo",
-  "Release": "https://github.com/Marginal/QLVideo/releases/download/rel-194/QLVideo_194.pkg",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
   "Owner": "nikolaeu",
   "Repo": "numi",
   "Release": "latest",
@@ -152,14 +120,6 @@
   "Binary": ""
  },
  {
-  "Owner": "httpie",
-  "Repo": "httpie",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
   "Owner": "canop",
   "Repo": "broot",
   "Release": "latest",
@@ -197,14 +157,6 @@
   "Release": "v1.14.1",
   "UpdatedAt": "2025-03-04T14:00:43.860883+01:00",
   "Description": "Homebrew alternative",
-  "Binary": ""
- },
- {
-  "Owner": "slok",
-  "Repo": "sloth",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "Prometheus SLO generator",
   "Binary": ""
  },
  {
@@ -264,14 +216,6 @@
   "Binary": ""
  },
  {
-  "Owner": "hashicorp",
-  "Repo": "vault",
-  "Release": "https://releases.hashicorp.com/vault/1.10.3/vault_1.10.3_darwin_amd64.zip",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
   "Owner": "cli",
   "Repo": "cli",
   "Release": "v2.64.0",
@@ -325,14 +269,6 @@
   "Release": "latest",
   "UpdatedAt": "0001-01-01T00:00:00Z",
   "Description": "macOS system monitor in your menu bar",
-  "Binary": ""
- },
- {
-  "Owner": "up9inc",
-  "Repo": "mizu",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "The API traffic analyzer for Kubernetes",
   "Binary": ""
  },
  {
@@ -696,14 +632,6 @@
   "Binary": ""
  },
  {
-  "Owner": "atuinsh",
-  "Repo": "atuin",
-  "Release": "latest",
-  "UpdatedAt": "2023-09-25T10:15:29.079123+02:00",
-  "Description": "Shell history",
-  "Binary": ""
- },
- {
   "Owner": "sharkdp",
   "Repo": "pastel",
   "Release": "latest",
@@ -768,14 +696,6 @@
   "Binary": ""
  },
  {
-  "Owner": "operator-framework",
-  "Repo": "operator-sdk",
-  "Release": "latest",
-  "UpdatedAt": "2023-11-17T10:40:24.666264+01:00",
-  "Description": "",
-  "Binary": ""
- },
- {
   "Owner": "gitleaks",
   "Repo": "gitleaks",
   "Release": "latest",
@@ -788,14 +708,6 @@
   "Repo": "cooklang-chef",
   "Release": "v0.9.1",
   "UpdatedAt": "2024-04-19T17:13:58.769921+02:00",
-  "Description": "",
-  "Binary": ""
- },
- {
-  "Owner": "usebruno",
-  "Repo": "bruno",
-  "Release": "latest",
-  "UpdatedAt": "2024-01-05T18:18:30.398314+01:00",
   "Description": "",
   "Binary": ""
  },
@@ -1008,14 +920,6 @@
   "Binary": ""
  },
  {
-  "Owner": "asdf-vm",
-  "Repo": "asdf",
-  "Release": "latest",
-  "UpdatedAt": "2025-02-06T15:35:39.580424+01:00",
-  "Description": "",
-  "Binary": ""
- },
- {
   "Owner": "astral-sh",
   "Repo": "uv",
   "Release": "latest",
@@ -1172,6 +1076,30 @@
   "Repo": "jwt-cli",
   "Release": "6.2.0",
   "UpdatedAt": "2025-10-27T16:30:37.171038+01:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "kubeshark",
+  "Repo": "kubeshark",
+  "Release": "v52.9.0",
+  "UpdatedAt": "2025-11-14T12:20:44.395591+01:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "yonahd",
+  "Repo": "kor",
+  "Release": "v0.6.5",
+  "UpdatedAt": "2025-11-19T13:21:29.946736+01:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "ookla",
+  "Repo": "speedtest",
+  "Release": "https://install.speedtest.net/app/cli/ookla-speedtest-1.2.0-macosx-universal.tgz",
+  "UpdatedAt": "2025-11-24T10:21:12.985957+01:00",
   "Description": "",
   "Binary": ""
  }
