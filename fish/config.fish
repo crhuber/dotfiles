@@ -1,3 +1,19 @@
+# editors
+set -gx EDITOR hx
+set -gx KUBE_EDITOR 'code --wait'
+set -gx FZF_CTRL_T_OPTS	"--walker-skip .git,node_modules,target --preview 'bat -n --color=always {}'"
+# my tools
+set -gx GOLINKS_DB $HOME/.golinks/golinks.db
+set -gx KELP_CONFIG	$HOME/.dotfiles/kelp/kelp-work.json
+set -gx K9S_CONFIG_DIR $HOME/.config/k9s
+set -gx USE_GKE_GCLOUD_AUTH_PLUGIN true
+# homebrew
+set -gx HOMEBREW_NO_AUTO_UPDATE 1
+set -gx HOMEBREW_PREFIX "/opt/homebrew"
+set -gx HOMEBREW_CELLAR "/opt/homebrew/Cellar"
+set -gx HOMEBREW_REPOSITORY "/opt/homebrew"
+
+
 if status is-interactive
     # Commands to run in interactive sessions can go here
     zoxide init fish | source
