@@ -1,3 +1,6 @@
+# add aliases and functions
+source $HOME/.config/fish/alias.fish
+
 # editors
 set -gx EDITOR hx
 set -gx KUBE_EDITOR 'code --wait'

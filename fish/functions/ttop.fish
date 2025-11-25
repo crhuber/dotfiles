@@ -1,3 +1,0 @@
-function ttop
-	btop
-end
