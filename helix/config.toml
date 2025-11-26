@@ -22,6 +22,7 @@ render = true
 
 [keys.normal]
 C-x = ":qa"
+C-g = [":new", ":insert-output lazygit", ":buffer-close!", ":redraw"]
 #d = ["ensure_selections_forward", "extend_to_line_end", "delete_selection"]
 C-d = ["move_prev_word_start", "move_next_word_end", "search_selection", "extend_search_next"]
 D = ["ensure_selections_forward", "extend_to_line_end", "delete_selection"]
