@@ -65,6 +65,22 @@ function k --wraps kubectl
     command kubecolor $argv
 end
 
+function kgd --wraps kubectl
+    command kubecolor get deployment $argv
+end
+
+function kgp --wraps kubectl
+    command kubecolor get pod $argv
+end
+
+function kgsvc --wraps kubectl
+    command kubecolor get service $argv
+end
+
+function kgsec --wraps kubectl
+    command kubecolor get secret $argv
+end
+
 # --
 function god
     set -x -g KUBECONFIG "/Users/craig/.kube/config-$argv"

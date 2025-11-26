@@ -4,6 +4,8 @@ source $HOME/.config/fish/alias.fish
 # editors
 set -gx EDITOR hx
 set -gx KUBE_EDITOR 'code --wait'
+# fzf - tokyonight theme
+set -gx FZF_DEFAULT_OPTS "--color=fg:#c0caf5,bg:#1a1b26,hl:#bb9af7 --color=fg+:#c0caf5,bg+:#1f2335,hl+:#7dcfff --color=info:#7aa2f7,prompt:#7dcfff,pointer:#7dcfff --color=marker:#9ece6a,spinner:#9ece6a,header:#9ece6a"
 set -gx FZF_CTRL_T_OPTS	"--walker-skip .git,node_modules,target --preview 'bat -n --color=always {}'"
 # my tools
 set -gx GOLINKS_DB $HOME/.golinks/golinks.db

@@ -25,5 +25,6 @@
         br = branch
         ci = commit
         st = status
+        uncommit = reset --soft HEAD~1
 [pull]
         rebase = true
