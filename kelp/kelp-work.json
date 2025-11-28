@@ -1102,5 +1102,13 @@
   "UpdatedAt": "2025-11-24T10:21:12.985957+01:00",
   "Description": "",
   "Binary": ""
+ },
+ {
+  "Owner": "tealdeer-rs",
+  "Repo": "tealdeer",
+  "Release": "v1.8.1",
+  "UpdatedAt": "2025-11-27T13:13:28.450138+01:00",
+  "Description": "",
+  "Binary": ""
  }
 ]

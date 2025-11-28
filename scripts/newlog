@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+set -e
+set -u
+set -o pipefail
+
+# Get the current date and time in YYYY-MM-DD HH:MM:SS format
+date=$(date +"%Y-%m-%d %H:%M:%S")
+
+# Get the note text from all arguments
+note="$*"
+
+# Create the Notes directory if it doesn't exist
+mkdir -p "$HOME/Notes"
+
+# Append the date and note to the log file
+echo "$date $note" >> "$HOME/Notes/log.txt"
+
+echo "Log entry added: $date $note"
