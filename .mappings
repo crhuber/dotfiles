@@ -7,6 +7,7 @@
 "bat/config" = "~/.config/bat/config"
 "btop/btop.conf" = "~/.config/btop/btop.conf"
 "crumb/crumb.toml" = "~/.config/crumb/crumb.toml"
+"dev-proxy/config.toml" = "~/.dotfiles/dev-proxy/config.toml"
 "direnv/direnv.toml" = "~/.config/direnv/direnv.toml"
 "dust/config.toml" = "~/.config/dust/config.toml"
 "fastfetch/config.jsonc" = "~/.config/fastfetch/config.jsonc"
