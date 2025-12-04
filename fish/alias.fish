@@ -120,7 +120,15 @@ function rc --description 'repo open in vscode'
     if set -q _flag_ui
         ls -t ~/Documents/Development/ | choose -s 20 -w 20 -c 7287fd | xargs -I {} code ~/Documents/Development/{}
     else
-        ls -t ~/Documents/Development/ | fzf | xargs -I {} code ~/Documents/Development/{}
+        set folder (ls -t ~/Documents/Development/ | fzf )
+        set editor (echo -e "hx\ncode" | fzf)
+        if test "$editor" = hx
+            hx ~/Documents/Development/$folder
+        else if test "$editor" = code
+            code ~/Documents/Development/$folder
+        else
+            echo "unsupported editor"
+        end
     end
 end
 
