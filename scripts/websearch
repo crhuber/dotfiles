@@ -1,0 +1,46 @@
+#!/usr/bin/env bash
+set -o pipefail
+
+declare -a SEARCH_ENGINES=(
+    "amazon https://www.amazon.com/s?k="
+    "bbc https://www.bbc.co.uk/search?q="
+    "bing https://www.bing.com/search?q="
+    "brave https://search.brave.com/search?q="
+    "coinmarketcap https://coinmarketcap.com/currencies/"
+    "duckduckgo https://duckduckgo.com/?q="
+    "ebay https://www.ebay.com/sch/i.html?_nkw="
+    "ecosia https://www.ecosia.org/search?q="
+    "github https://github.com/search?q="
+    "goodreads https://www.goodreads.com/search?q="
+    "google https://www.google.com/search?q="
+    "googlefinance https://www.google.com/finance/quote/"
+    "googleimages https://www.google.com/images?q="
+    "googlemaps https://www.google.com/maps/search/"
+    "googlenews https://news.google.com/search?q="
+    "googletranslate https://translate.google.com/?sl=auto&tl=en&text="
+    "imdb https://www.imdb.com/find?q="
+    "linkedin https://www.linkedin.com/search/results/all/?keywords="
+    "pinterest https://www.pinterest.com/search/pins/?q="
+    "reddit https://www.reddit.com/search/?q="
+    "startpage https://www.startpage.com/do/search?q="
+    "stackoverflow https://stackoverflow.com/search?q="
+    "twitter https://twitter.com/search?q="
+    "wikipedia https://en.wikipedia.org/w/index.php?search="
+    "yahoo https://search.yahoo.com/search?p="
+    "youtube https://www.youtube.com/results?search_query="
+)
+
+while [ -z "$engine" ]; do
+    engine=$(printf "%s\n" "${SEARCH_ENGINES[@]}" | cut -d' ' -f1 | fzf --prompt="Select search engine: ")
+done
+
+engine_url=$(printf "%s\n" "${SEARCH_ENGINES[@]}" | grep "^${engine} " | cut -d' ' -f2-)
+
+while [ -z "$query" ]; do
+    query=$(echo "" | fzf --prompt="Enter search query: " --print-query | tail -n1)
+done
+
+search_url="${engine_url}$(echo "$query" | sed 's/ /%20/g')"
+echo "Opening: $search_url"
+
+open -a "Brave Browser" "$search_url"
