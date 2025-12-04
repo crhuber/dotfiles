@@ -1,6 +1,12 @@
 #!/usr/bin/env bash
 set -o pipefail
 
+# Parse command line arguments
+USE_CHOOSE=false
+if [ "$1" = "-ui" ]; then
+    USE_CHOOSE=true
+fi
+
 declare -a SEARCH_ENGINES=(
     "amazon https://www.amazon.com/s?k="
     "bbc https://www.bbc.co.uk/search?q="
@@ -30,17 +36,26 @@ declare -a SEARCH_ENGINES=(
     "youtube https://www.youtube.com/results?search_query="
 )
 
+# Select search engine
 while [ -z "$engine" ]; do
-    engine=$(printf "%s\n" "${SEARCH_ENGINES[@]}" | cut -d' ' -f1 | fzf --prompt="Select search engine: ")
+    if [ "$USE_CHOOSE" = true ]; then
+        engine=$(printf "%s\n" "${SEARCH_ENGINES[@]}" | cut -d' ' -f1 | choose)
+    else
+        engine=$(printf "%s\n" "${SEARCH_ENGINES[@]}" | cut -d' ' -f1 | fzf --prompt="Select search engine: ")
+    fi
 done
 
 engine_url=$(printf "%s\n" "${SEARCH_ENGINES[@]}" | grep "^${engine} " | cut -d' ' -f2-)
 
+# Get search query
 while [ -z "$query" ]; do
-    query=$(echo "" | fzf --prompt="Enter search query: " --print-query | tail -n1)
+    if [ "$USE_CHOOSE" = true ]; then
+        query=$(osascript -e 'text returned of (display dialog "Enter search query:" default answer "")')
+    else
+        query=$(echo "" | fzf --prompt="Enter search query: " --print-query | tail -n1)
+    fi
 done
 
 search_url="${engine_url}$(echo "$query" | sed 's/ /%20/g')"
 echo "Opening: $search_url"
-
 open -a "Brave Browser" "$search_url"
