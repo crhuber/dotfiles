@@ -8,7 +8,7 @@ if [ "$1" = "-ui" ]; then
 fi
 
 # Get search query
-while [ -z "$query" ]; do
+if [ -z "$query" ]; then
     if [ "$USE_CHOOSE" = true ]; then
         query=$(osascript -e 'text returned of (display dialog "Enter search query:" default answer "")')
     else
@@ -46,7 +46,7 @@ declare -a SEARCH_ENGINES=(
 )
 
 # Select search engine
-while [ -z "$engine" ]; do
+if [ -z "$engine" ]; then
     if [ "$USE_CHOOSE" = true ]; then
         engine=$(printf "%s\n" "${SEARCH_ENGINES[@]}" | cut -d' ' -f1 | choose)
     else
