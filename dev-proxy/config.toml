@@ -1,5 +1,1 @@
-
-[go]
-  hostname = "go.internal"
-  port = 8998
-  virtualIP = "127.0.0.2"
+/Users/craig/.dotfiles/dev-proxy/config.toml

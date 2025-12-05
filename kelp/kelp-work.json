@@ -530,8 +530,8 @@
  {
   "Owner": "kubernetes-sigs",
   "Repo": "kind",
-  "Release": "v0.23.0",
-  "UpdatedAt": "2024-07-03T15:55:06.420648+02:00",
+  "Release": "v0.30.0",
+  "UpdatedAt": "2025-12-04T16:44:59.411906+01:00",
   "Description": "Kubernetes mini cluster",
   "Binary": ""
  },
