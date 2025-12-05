@@ -7,6 +7,15 @@ if [ "$1" = "-ui" ]; then
     USE_CHOOSE=true
 fi
 
+# Get search query
+while [ -z "$query" ]; do
+    if [ "$USE_CHOOSE" = true ]; then
+        query=$(osascript -e 'text returned of (display dialog "Enter search query:" default answer "")')
+    else
+        query=$(echo "" | fzf --prompt="Enter search query: " --print-query | tail -n1)
+    fi
+done
+
 declare -a SEARCH_ENGINES=(
     "amazon https://www.amazon.com/s?k="
     "bbc https://www.bbc.co.uk/search?q="
@@ -46,15 +55,6 @@ while [ -z "$engine" ]; do
 done
 
 engine_url=$(printf "%s\n" "${SEARCH_ENGINES[@]}" | grep "^${engine} " | cut -d' ' -f2-)
-
-# Get search query
-while [ -z "$query" ]; do
-    if [ "$USE_CHOOSE" = true ]; then
-        query=$(osascript -e 'text returned of (display dialog "Enter search query:" default answer "")')
-    else
-        query=$(echo "" | fzf --prompt="Enter search query: " --print-query | tail -n1)
-    fi
-done
 
 search_url="${engine_url}$(echo "$query" | sed 's/ /%20/g')"
 echo "Opening: $search_url"
