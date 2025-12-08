@@ -14,12 +14,11 @@ if [ -z "$query" ]; then
     else
         query=$(echo "" | fzf --prompt="Enter search query: " --print-query | tail -n1)
     fi
-done
+fi
 
 declare -a SEARCH_ENGINES=(
     "amazon https://www.amazon.com/s?k="
     "bbc https://www.bbc.co.uk/search?q="
-    "bing https://www.bing.com/search?q="
     "brave https://search.brave.com/search?q="
     "coinmarketcap https://coinmarketcap.com/currencies/"
     "duckduckgo https://duckduckgo.com/?q="
@@ -33,6 +32,7 @@ declare -a SEARCH_ENGINES=(
     "googlemaps https://www.google.com/maps/search/"
     "googlenews https://news.google.com/search?q="
     "googletranslate https://translate.google.com/?sl=auto&tl=en&text="
+    "grok https://grok.com/search?q="
     "imdb https://www.imdb.com/find?q="
     "linkedin https://www.linkedin.com/search/results/all/?keywords="
     "pinterest https://www.pinterest.com/search/pins/?q="
@@ -52,7 +52,7 @@ if [ -z "$engine" ]; then
     else
         engine=$(printf "%s\n" "${SEARCH_ENGINES[@]}" | cut -d' ' -f1 | fzf --prompt="Select search engine: ")
     fi
-done
+fi
 
 engine_url=$(printf "%s\n" "${SEARCH_ENGINES[@]}" | grep "^${engine} " | cut -d' ' -f2-)
 

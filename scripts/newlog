@@ -3,6 +3,15 @@ set -e
 set -u
 set -o pipefail
 
+# if user proviles -l then cat the notes file
+if [ "$1" = "-l" ]; then
+    if [ -f "$HOME/Documents/Notes/log.txt" ]; then
+        bat "$HOME/Documents/Notes/log.txt"
+    else
+        echo "No notes found."
+    fi
+    exit 0
+fi
 # Get the current date and time in YYYY-MM-DD HH:MM:SS format
 date=$(date +"%Y-%m-%d %H:%M:%S")
 
