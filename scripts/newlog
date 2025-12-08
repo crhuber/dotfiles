@@ -10,9 +10,9 @@ date=$(date +"%Y-%m-%d %H:%M:%S")
 note="$*"
 
 # Create the Notes directory if it doesn't exist
-mkdir -p "$HOME/Notes"
+mkdir -p "$HOME/Documents/Notes"
 
 # Append the date and note to the log file
-echo "$date $note" >> "$HOME/Notes/log.txt"
+echo "$date $note" >> "$HOME/Documents/Notes/log.txt"
 
 echo "Log entry added: $date $note"
