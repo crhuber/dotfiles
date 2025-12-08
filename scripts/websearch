@@ -7,6 +7,9 @@ if [ "$1" = "-ui" ]; then
     USE_CHOOSE=true
 fi
 
+# Get the query from all arguments
+query="$*"
+
 # Get search query
 if [ -z "$query" ]; then
     if [ "$USE_CHOOSE" = true ]; then
