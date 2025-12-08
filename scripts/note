@@ -32,7 +32,7 @@ def main():
 
     filename = get_filename(now, args.title)
 
-    notes_path = Path.home() / "notes"
+    notes_path = Path.home() / "Documents" / "Notes"
     path = notes_path
     if args.archive:
         path /= "archive"
