@@ -401,17 +401,9 @@
  },
  {
   "Owner": "crhuber",
-  "Repo": "pd-etl",
-  "Release": "latest",
-  "UpdatedAt": "2025-03-11T11:20:25.604548+01:00",
-  "Description": "",
-  "Binary": ""
- },
- {
-  "Owner": "crhuber",
-  "Repo": "personal-data-etl",
-  "Release": "v0.0.2",
-  "UpdatedAt": "2025-03-15T10:03:15.039881+01:00",
+  "Repo": "timeline",
+  "Release": "v0.0.3",
+  "UpdatedAt": "2025-12-11T21:33:34.045946+01:00",
   "Description": "",
   "Binary": ""
  },
@@ -434,8 +426,8 @@
  {
   "Owner": "restic",
   "Repo": "restic",
-  "Release": "latest",
-  "UpdatedAt": "2025-06-09T07:21:09.528477+02:00",
+  "Release": "v0.18.1",
+  "UpdatedAt": "2025-12-12T08:56:12.038514+01:00",
   "Description": "",
   "Binary": ""
  },
@@ -564,6 +556,14 @@
   "Repo": "imagemagick",
   "Release": "https://imagemagick.org/archive/binaries/ImageMagick-x86_64-apple-darwin20.1.0.tar.gz",
   "UpdatedAt": "2025-11-11T20:46:03.88151+01:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "huseyinbabal",
+  "Repo": "taws",
+  "Release": "v1.3.0-rc.3",
+  "UpdatedAt": "2026-01-23T22:21:32.743938+01:00",
   "Description": "",
   "Binary": ""
  }

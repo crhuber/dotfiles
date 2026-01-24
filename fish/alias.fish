@@ -112,6 +112,12 @@ function prl
     gh search prs --author=@me --state open --json url --jq '.[].url'
 end
 
+function push
+    git add .
+    git commit -m "$argv"
+    git push
+end
+
 # --
 function rc --description 'repo open in vscode'
     argparse ui -- $argv
