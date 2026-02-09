@@ -1,0 +1,137 @@
+#!/usr/bin/env bash
+# agenda.sh - Show today's calendar events sorted by time
+#
+# Usage:
+#   ./agenda.sh                    # Uses default calendar
+#   ./agenda.sh "Work"             # Uses "Work" calendar
+#   ./agenda.sh --list             # Lists available calendars
+#
+# Configure your default calendar below:
+DEFAULT_CALENDAR="Calendar"
+
+if [ "$1" = "--list" ]; then
+    osascript -e '
+        tell application "Calendar"
+            set calNames to {}
+            repeat with c in calendars
+                set end of calNames to name of c
+            end repeat
+            set AppleScript'\''s text item delimiters to linefeed
+            return calNames as text
+        end tell
+    '
+    exit 0
+fi
+
+CALENDAR="${1:-$DEFAULT_CALENDAR}"
+
+osascript - "$CALENDAR" <<'APPLESCRIPT'
+on run argv
+    set calName to item 1 of argv
+
+    set todayStart to current date
+    set time of todayStart to 0
+
+    set todayEnd to todayStart + (1 * days)
+
+    tell application "Calendar"
+        try
+            set theCal to calendar calName
+        on error
+            return "Error: Calendar \"" & calName & "\" not found. Use --list to see available calendars."
+        end try
+
+        set dayEvents to (every event of theCal whose start date ≥ todayStart and start date < todayEnd)
+
+        if (count of dayEvents) = 0 then
+            return "No events today on \"" & calName & "\"."
+        end if
+
+        -- collect events with numeric sort key
+        set eventList to {}
+        repeat with e in dayEvents
+            set eStart to start date of e
+            set eEnd to end date of e
+            set eSummary to summary of e
+            set allDay to allday event of e
+
+            -- seconds since midnight for sorting
+            set secsSinceMidnight to (time of eStart)
+            if allDay then set secsSinceMidnight to -1
+
+            set end of eventList to {startTime:eStart, endTime:eEnd, title:eSummary, isAllDay:allDay, sortKey:secsSinceMidnight}
+        end repeat
+
+        -- bubble sort using numeric sortKey and index swapping
+        set n to count of eventList
+        set idxs to {}
+        repeat with i from 1 to n
+            set end of idxs to i
+        end repeat
+
+        repeat with i from 1 to n - 1
+            repeat with j from 1 to n - i
+                set keyA to sortKey of item (item j of idxs) of eventList
+                set keyB to sortKey of item (item (j + 1) of idxs) of eventList
+                if keyA > keyB then
+                    set temp to item j of idxs
+                    set item j of idxs to item (j + 1) of idxs
+                    set item (j + 1) of idxs to temp
+                end if
+            end repeat
+        end repeat
+
+        set sortedList to {}
+        repeat with i in idxs
+            set end of sortedList to item i of eventList
+        end repeat
+        set eventList to sortedList
+
+        -- format output
+        set output to "Today's agenda (" & calName & "):" & linefeed
+        set output to output & "─────────────────────────────────" & linefeed
+
+        repeat with e in eventList
+            if isAllDay of e then
+                set timeStr to "  All day   "
+            else
+                set h to hours of (startTime of e) as integer
+                set m to minutes of (startTime of e) as integer
+                set h2 to hours of (endTime of e) as integer
+                set m2 to minutes of (endTime of e) as integer
+
+                -- format start time
+                set ampm to "AM"
+                set displayH to h
+                if h ≥ 12 then set ampm to "PM"
+                if h > 12 then set displayH to h - 12
+                if h = 0 then set displayH to 12
+                if m < 10 then
+                    set startStr to (displayH as text) & ":0" & (m as text) & " " & ampm
+                else
+                    set startStr to (displayH as text) & ":" & (m as text) & " " & ampm
+                end if
+
+                -- format end time
+                set ampm2 to "AM"
+                set displayH2 to h2
+                if h2 ≥ 12 then set ampm2 to "PM"
+                if h2 > 12 then set displayH2 to h2 - 12
+                if h2 = 0 then set displayH2 to 12
+                if m2 < 10 then
+                    set endStr to (displayH2 as text) & ":0" & (m2 as text) & " " & ampm2
+                else
+                    set endStr to (displayH2 as text) & ":" & (m2 as text) & " " & ampm2
+                end if
+
+                set timeStr to "  " & startStr & " - " & endStr
+            end if
+
+            set output to output & timeStr & "  " & title of e
+            set output to output & linefeed
+        end repeat
+
+        return output
+    end tell
+end run
+APPLESCRIPT
