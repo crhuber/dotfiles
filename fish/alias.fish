@@ -30,6 +30,10 @@ function ddu
     dust $argv
 end
 
+function docker
+    podman $argv
+end
+
 # --
 function ffind
     fd $argv
@@ -171,6 +175,10 @@ function sl --description 'slack prs'
         gh search prs --author=@me --state open --json url,title --jq '.[] | "\(.title) - \(.url)"' | fzf | pbcopy
         echo "Copied to clipboard"
     end
+end
+
+function tailscale
+    "/Applications/Tailscale.app/Contents/MacOS/Tailscale" $argv
 end
 
 function ttop
