@@ -770,8 +770,8 @@
  {
   "Owner": "goflink",
   "Repo": "gh-props",
-  "Release": "v0.0.6",
-  "UpdatedAt": "2024-08-06T14:12:04.874848+02:00",
+  "Release": "v0.0.9",
+  "UpdatedAt": "2026-02-10T14:48:30.436197+01:00",
   "Description": "",
   "Binary": ""
  },
@@ -1124,6 +1124,22 @@
   "Repo": "flyctl",
   "Release": "v0.4.0",
   "UpdatedAt": "2025-12-27T20:35:56.411161-06:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "nushell",
+  "Repo": "nushell",
+  "Release": "0.110.0",
+  "UpdatedAt": "2026-02-11T17:01:10.27642+01:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "meilisearch",
+  "Repo": "meilisearch",
+  "Release": "v1.35.0",
+  "UpdatedAt": "2026-02-16T10:42:51.86264+01:00",
   "Description": "",
   "Binary": ""
  }
