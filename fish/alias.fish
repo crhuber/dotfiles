@@ -103,8 +103,8 @@ function md --description 'alias for using glow'
 end
 
 # --
-function nnano
-    hx $argv
+function nano
+    vi $argv
 end
 
 # --
