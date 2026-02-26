@@ -74,5 +74,9 @@ highlight SpecialKey guifg=#45475a ctermfg=238
 highlight EndOfBuffer guifg=#1e1e2e ctermfg=235
 
 " NERDTree configuration
-autocmd VimEnter * NERDTree | wincmd p
-autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
+" autocmd VimEnter * NERDTree | wincmd p
+" autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
+let NERDTreeShowHidden=1
+
+" Always use system clipboard
+set clipboard=unnamed
