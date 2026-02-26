@@ -67,7 +67,7 @@ Plug 'junegunn/fzf.vim'
 call plug#end()
 
 
-" Catppuccin theme"
+" Catppuccin theme
 set termguicolors
 let g:lightline = {'colorscheme': 'catppuccin_mocha'}
 let g:airline_theme = 'catppuccin_mocha'
@@ -82,3 +82,7 @@ let NERDTreeShowHidden=1
 
 " Always use system clipboard
 set clipboard=unnamed
+
+" Airline configuration
+let g:airline_section_z = '%l/%L' " Display current line and total lines in the status bar
+let g:airline_section_y = ''      " Disable showing utf-8 encoding in the status bar
