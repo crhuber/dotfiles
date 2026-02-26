@@ -192,5 +192,3 @@ require('telescope').setup({
 })
 EOF
 
-" Always use system clipboard
-set clipboard=unnamedplus
