@@ -12,6 +12,8 @@ set showmatch       " highlight matching [{()}]
 set incsearch       " search as characters are entered
 set hlsearch        " highlight matches
 
+set showtabline=2   " show filename at top
+set tabline=%t      " show only filename, not full path
 " turn off search highlight by help of prressing
 nnoremap <space> :nohlsearch<CR>
 
@@ -86,3 +88,5 @@ set clipboard=unnamed
 " Airline configuration
 let g:airline_section_z = '%l/%L' " Display current line and total lines in the status bar
 let g:airline_section_y = ''      " Disable showing utf-8 encoding in the status bar
+let g:airline_section_c = ''      " Disable filename
+
