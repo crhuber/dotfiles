@@ -17,6 +17,10 @@ set tabline=%t      " show only filename, not full path
 " turn off search highlight by help of prressing
 nnoremap <space> :nohlsearch<CR>
 
+" VSCode-like shortcuts
+nnoremap <C-e> $
+nnoremap <C-a> ^
+
 set foldenable          " enable folding
 set foldlevelstart=10   " open most folds by default
 set foldnestmax=10      " 10 nested fold max
