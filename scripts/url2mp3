@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -e
+set -u
+set -o pipefail
+
+yt-dlp  https://www.youtube.com/watch?v=y7JeUa_I4GQ -x --audio-format mp3 -o '%(title)s.%(ext)s' "$1"
