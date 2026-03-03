@@ -418,8 +418,8 @@
  {
   "Owner": "cooklang",
   "Repo": "cookcli",
-  "Release": "latest",
-  "UpdatedAt": "2025-07-31T22:00:36.270007+02:00",
+  "Release": "v0.23.0",
+  "UpdatedAt": "2026-03-02T21:52:15.234039+01:00",
   "Description": "",
   "Binary": "cook"
  },
@@ -442,8 +442,8 @@
  {
   "Owner": "crhuber",
   "Repo": "crumb",
-  "Release": "v0.0.20",
-  "UpdatedAt": "2025-11-10T21:32:43.177259+01:00",
+  "Release": "v0.0.21",
+  "UpdatedAt": "2026-03-02T20:12:23.561476+01:00",
   "Description": "",
   "Binary": ""
  },
