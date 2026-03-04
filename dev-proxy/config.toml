@@ -1,1 +1,5 @@
-/Users/Craig/.dotfiles/dev-proxy/config.toml
+
+[go]
+  hostname = "g.internal"
+  port = 8998
+  virtualIP = "127.0.0.2"

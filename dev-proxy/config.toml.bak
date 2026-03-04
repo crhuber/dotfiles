@@ -1,5 +1,0 @@
-
-[go]
-  hostname = "go.internal"
-  port = 8998
-  virtualIP = "127.0.0.2"

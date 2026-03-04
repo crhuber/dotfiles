@@ -37,7 +37,7 @@ function ffind
 end
 
 # --
-function gl --description golinks
+function g --description golinks
     argparse ui -- $argv
     or return
 
