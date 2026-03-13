@@ -15,11 +15,7 @@ set hlsearch        " highlight matches
 set showtabline=2   " show filename at top
 set tabline=%t      " show only filename, not full path
 let mapleader = " "
-
-
-
-" FZF file search
-nnoremap <C-p> :Files<CR>
+set clipboard=unnamed " Always use system clipboard
 
 " VSCode-like shortcuts
 nnoremap <C-e> $
@@ -41,6 +37,7 @@ filetype indent on      " load filetype-specific indent files
 
 " Encoding
 set encoding=utf-8
+set guifont=JetBrains\ Mono:h12
 
 " Speed up scrolling in Vim
 set ttyfast
@@ -73,6 +70,7 @@ Plug 'preservim/nerdtree'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
+Plug 'chriszarate/yazi.vim'
 
 call plug#end()
 
@@ -90,11 +88,17 @@ highlight EndOfBuffer guifg=#1e1e2e ctermfg=235
 " autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
 let NERDTreeShowHidden=1
 
-" Always use system clipboard
-set clipboard=unnamed
 
 " Airline configuration
 let g:airline_section_z = '%l/%L' " Display current line and total lines in the status bar
 let g:airline_section_y = ''      " Disable showing utf-8 encoding in the status bar
 let g:airline_section_c = ''      " Disable filename
 
+
+" Yazi file manager
+nnoremap <silent> - :Yazi<cr>              " open yazi in current file's directory
+nnoremap <silent> _ :YaziWorkingDirectory<cr> " open yazi in working directory
+const g:yazi_exec_on_open = 'tabnew'       " open selected file in new tab
+
+" FZF file search
+nnoremap <C-p> :Files<CR>

@@ -7,7 +7,7 @@
 "bat/config" = "~/.config/bat/config"
 "btop/btop.conf" = "~/.config/btop/btop.conf"
 "crumb/crumb.toml" = "~/.config/crumb/crumb.toml"
-"dev-proxy/config.toml" = "~/.dotfiles/dev-proxy/config.toml"
+"dev-proxy/config.toml" = "~/.config/dev-proxy/config.toml"
 "direnv/direnv.toml" = "~/.config/direnv/direnv.toml"
 "dust/config.toml" = "~/.config/dust/config.toml"
 "fastfetch/config.jsonc" = "~/.config/fastfetch/config.jsonc"
@@ -27,6 +27,7 @@
 "vim/.vimrc" = "~/.vimrc"
 "wezterm/.wezterm.lua" = "~/.config/wezterm/wezterm.lua"
 "zed/settings.json" = "~/.config/zed/settings.json"
+"yazi/yazi.toml" = "~/.config/yazi/yazi.toml"
 
 [work]
 "hammerspoon/init-work.lua" = "~/.hammerspoon/init.lua"
