@@ -450,8 +450,8 @@
  {
   "Owner": "derailed",
   "Repo": "k9s",
-  "Release": "v0.50.6",
-  "UpdatedAt": "2025-06-05T11:56:50.116077+02:00",
+  "Release": "v0.50.18",
+  "UpdatedAt": "2026-03-12T15:57:47.39181+01:00",
   "Description": "Manage Kube from tui",
   "Binary": ""
  },
@@ -986,8 +986,8 @@
  {
   "Owner": "crhuber",
   "Repo": "crumb",
-  "Release": "v0.0.20",
-  "UpdatedAt": "2025-11-11T10:23:24.085322+01:00",
+  "Release": "v0.0.24",
+  "UpdatedAt": "2026-03-13T11:25:30.169511+01:00",
   "Description": "",
   "Binary": ""
  },
@@ -1124,6 +1124,14 @@
   "Repo": "cli",
   "Release": "v0.4.1",
   "UpdatedAt": "2026-03-05T09:15:53.273736+01:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "dlvhdr",
+  "Repo": "gh-dash",
+  "Release": "v4.23.2",
+  "UpdatedAt": "2026-03-12T10:24:36.728629+01:00",
   "Description": "",
   "Binary": ""
  }

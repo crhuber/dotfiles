@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -e
+set -u
+set -o pipefail
+
+if [ -t 0 ] && [ $# -eq 0 ]; then
+  echo "Usage: abbreviate <text>" >&2
+  echo "       echo <text> | abbreviate" >&2
+  exit 1
+fi
+
+if [ $# -gt 0 ]; then
+  echo "$*" | mods "Abbreviate the following to a shorter, more concise version while preserving the key meaning. Output only the abbreviated text with no explanation:"
+else
+  mods "Abbreviate the following to a shorter, more concise version while preserving the key meaning. Output only the abbreviated text with no explanation:"
+fi

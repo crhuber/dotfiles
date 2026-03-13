@@ -14,8 +14,12 @@ set hlsearch        " highlight matches
 
 set showtabline=2   " show filename at top
 set tabline=%t      " show only filename, not full path
-" turn off search highlight by help of prressing
-nnoremap <space> :nohlsearch<CR>
+let mapleader = " "
+
+
+
+" FZF file search
+nnoremap <C-p> :Files<CR>
 
 " VSCode-like shortcuts
 nnoremap <C-e> $
