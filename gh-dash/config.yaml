@@ -1,0 +1,12 @@
+prSections:
+  - title: My Pull Requests
+    filters: >-
+      is:open
+      author:@me
+    layout:
+      lines:
+        hidden: true
+      ci:
+        hidden: false
+defaults:
+  refetchIntervalMinutes: 2

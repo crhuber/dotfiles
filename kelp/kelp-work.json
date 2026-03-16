@@ -146,8 +146,8 @@
  {
   "Owner": "ajeetdsouza",
   "Repo": "zoxide",
-  "Release": "v0.9.3",
-  "UpdatedAt": "2024-02-15T17:29:17.285219+01:00",
+  "Release": "v0.9.9",
+  "UpdatedAt": "2026-03-16T15:34:40.08855+01:00",
   "Description": "A smarter cd command",
   "Binary": "z"
  },
