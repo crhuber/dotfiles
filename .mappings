@@ -12,7 +12,7 @@
 "dust/config.toml" = "~/.config/dust/config.toml"
 "fastfetch/config.jsonc" = "~/.config/fastfetch/config.jsonc"
 "fish/config.fish" = "~/.config/fish/config.fish"
-"gh-dash/config.yaml" = "~/.config/gh-dash/config.yaml"
+"gh-dash/config.yml" = "~/.config/gh-dash/config.yml"
 "ghostty/config" = "~/.config/ghostty/config"
 "ghostty/themes/tokyonight-custom" = "~/.config/ghostty/themes/tokyonight-custom"
 "git/.gitconfig" = "~/.gitconfig"

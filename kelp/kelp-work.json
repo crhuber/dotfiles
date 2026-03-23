@@ -322,8 +322,8 @@
  {
   "Owner": "charmbracelet",
   "Repo": "glow",
-  "Release": "v1.5.1",
-  "UpdatedAt": "2024-07-31T15:06:59.661569+02:00",
+  "Release": "v2.1.1",
+  "UpdatedAt": "2026-03-21T15:34:24.221073+01:00",
   "Description": "Render markdown on the CLI",
   "Binary": ""
  },
