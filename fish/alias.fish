@@ -38,14 +38,7 @@ end
 
 # --
 function g --description golinks
-    argparse ui -- $argv
-    or return
-
-    if set -q _flag_ui
-        curl -s localhost:8998/api/v1/links | jq -r '.[] | "\(.keyword)"' | choose -s 20 -w 20 -c 7287fd | xargs -I % open http://localhost:8998/%
-    else
-        curl -s localhost:8998/api/v1/links | jq -r '.[] | "\(.keyword)"' | fzf | xargs -I % open http://localhost:8998/%
-    end
+    curl -s localhost:8998/api/v1/links | jq -r '.[] | "\(.keyword)"' | fzf | xargs -I % open http://localhost:8998/%
 end
 
 # --
@@ -120,57 +113,39 @@ end
 
 # --
 function rc --description 'repo open in vscode'
-    argparse ui -- $argv
-    or return
-
-    if set -q _flag_ui
-        ls -t ~/Documents/Development/ | choose -s 20 -w 20 -c 7287fd | xargs -I {} code ~/Documents/Development/{}
+    set folder (ls -t ~/Documents/Development/ | fzf )
+    set editor (echo -e "vi\ncode" | fzf)
+    if test "$editor" = vi
+        vi ~/Documents/Development/$folder
+    else if test "$editor" = code
+        code ~/Documents/Development/$folder
     else
-        set folder (ls -t ~/Documents/Development/ | fzf )
-        set editor (echo -e "vi\ncode" | fzf)
-        if test "$editor" = vi
-            vi ~/Documents/Development/$folder
-        else if test "$editor" = code
-            code ~/Documents/Development/$folder
-        else
-            echo "unsupported editor"
-        end
+        echo "unsupported editor"
     end
 end
 
 # --
 function repo
     open https://github.com/goflink/$argv
-
 end
 
 # --
 function rs --description 'repo search'
-    argparse w/web ui -- $argv
+    argparse w/web -- $argv
     or return
-    if set -q _flag_ui
-        cat ~/Documents/Scripts/flink-repos.txt | choose -s 20 -w 20 -c 7287fd | xargs -I {} open "https://github.com/goflink/{}"
+
+    if set -q _flag_web
+        open http://github.com/goflink/?q=$argv
     else
-        if set -q _flag_web
-            open http://github.com/goflink/?q=$argv
-        else
-            gh search repos "$argv" --owner=goflink --archived=false --json name --jq '.[].name' | fzf | pbcopy
-            echo "Copied to clipboard"
-        end
+        gh search repos "$argv" --owner=goflink --archived=false --json name --jq '.[].name' | fzf | pbcopy
+        echo "Copied to clipboard"
     end
 end
 
 # --
 function prc --description 'pr copy'
-    argparse ui -- $argv
-    or return
-
-    if set -q _flag_ui
-        gh search prs --author=@me --state open --json url,title --jq '.[] | "\(.title) - \(.url)"' | choose -s 20 -w 20 -c 7287fd | pbcopy
-    else
-        gh search prs --author=@me --state open --json url,title --jq '.[] | "\(.title) - \(.url)"' | fzf | pbcopy
-        echo "Copied to clipboard"
-    end
+    gh search prs --author=@me --state open --json url,title --jq '.[] | "\(.title) - \(.url)"' | fzf | pbcopy
+    echo "Copied to clipboard"
 end
 
 function ttop
