@@ -5,9 +5,10 @@ set -o pipefail
 USE_CHOOSE=false
 if [ "$1" = "-ui" ]; then
     USE_CHOOSE=true
+    shift  # Remove -ui from arguments so "$*" only has the actual query
 fi
 
-# Get the query from all arguments
+# Get the query from remaining arguments
 query="$*"
 
 # Get search query
