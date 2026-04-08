@@ -127,9 +127,9 @@ function rc --description 'repo open in vscode'
         ls -t ~/Documents/Development/ | choose -s 20 -w 20 -c 7287fd | xargs -I {} code ~/Documents/Development/{}
     else
         set folder (ls -t ~/Documents/Development/ | fzf )
-        set editor (echo -e "hx\ncode" | fzf)
-        if test "$editor" = hx
-            hx ~/Documents/Development/$folder
+        set editor (echo -e "vi\ncode" | fzf)
+        if test "$editor" = vi
+            vi ~/Documents/Development/$folder
         else if test "$editor" = code
             code ~/Documents/Development/$folder
         else
@@ -161,7 +161,7 @@ function rs --description 'repo search'
 end
 
 # --
-function sl --description 'slack prs'
+function prc --description 'pr copy'
     argparse ui -- $argv
     or return
 
