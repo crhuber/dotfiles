@@ -3,4 +3,4 @@ set -e
 set -u
 set -o pipefail
 
-rg --color=always --line-number --no-heading --smart-case "$1" ~/Documents/Notes | fzf -d':' --ansi --preview "command bat -p --color=always {1} --highlight-line {2}" --preview-window ~8,+{2}-5 | awk -F':' '{print $1}'
+rg --column --color=always --line-number --no-heading --smart-case "$1" ~/Documents/Notes | fzf --delimiter ':' --ansi --preview "command bat --style=full --color=always {1} --highlight-line {2}" --preview-window ~8,+{2}-5  --bind 'enter:become:vim {1} +{2}' --bind 'ctrl-o:execute:vim {1} +{2}' --query "$1"
