@@ -1,14 +1,11 @@
 function ccat
     bat $argv
-
 end
 
-# --
 function ccurl
     curlie $argv
 end
 
-# --
 function cs
     argparse gh -- $argv
     or return
@@ -20,41 +17,40 @@ function cs
     end
 end
 
-# --
 function ddig
     doggo $argv
 end
 
-# --
+
 function ddu
     dust $argv
 end
 
-# --
 function ffind
     fd $argv
-
 end
 
-# --
 function g --description golinks
-    curl -s localhost:8998/api/v1/links | jq -r '.[] | "\(.keyword)"' | fzf | xargs -I % open http://localhost:8998/%
+    set keyword (curl -s localhost:8998/api/v1/links | jq -r '.[] | "\(.keyword)"' | fzf )
+    open http://localhost:8998/$keyword
 end
 
-# --
+function g-ui --description golinks from ui
+    set keyword (curl -s localhost:8998/api/v1/links | jq -r '.[] | "\(.keyword)"' | choose -s 20 -w 20 -c 7287fd)
+    open http://localhost:8998/$keyword
+end
+
 function jb --description 'make a new jira branch from current ticket'
-    set TASK_ID (jira issue list --plain --no-headers -q"status not in ('Done', 'Canceled', 'Won\'t Do')"  -a $(jira me) |string split0 | fzf | awk '{print $2}')
-    read --prompt "echo 'Branch suffix: $TASK_ID/' " -l branch_suffix
-    set BRANCH_NAME "$TASK_ID/$branch_suffix"
+    set task_id (jira issue list --plain --no-headers -q"status not in ('Done', 'Canceled', 'Won\'t Do')"  -a $(jira me) |string split0 | fzf | awk '{print $2}')
+    read --prompt "echo 'Branch suffix: $task_id/' " -l branch_suffix
+    set BRANCH_NAME "$task_id/$branch_suffix"
     git checkout -b $BRANCH_NAME
 end
 
-# --
 function ji
     jira issue list --plain --no-headers -q"status not in ('Done', 'Canceled', 'Won\'t Do')" -a $(jira me)
 end
 
-# --
 function k --wraps kubectl
     command kubecolor $argv
 end
@@ -75,32 +71,26 @@ function kgsec --wraps kubectl
     command kubecolor get secret $argv --output=yaml
 end
 
-# --
 function god
     set -x -g KUBECONFIG "/Users/craig/.kube/config-$argv"
 end
 
-# --
 function lg
     lazygit
 end
 
-# --
 function lls
     eza --header -la --git $argv
 end
 
-# --
 function md --description 'alias for using glow'
     bat -l md $argv
 end
 
-# --
 function nano
     vi $argv
 end
 
-# --
 function prl
     gh search prs --author=@me --state open --json url --jq '.[].url'
 end
@@ -111,7 +101,6 @@ function push
     git push
 end
 
-# --
 function rc --description 'repo open in vscode'
     set folder (ls -t ~/Documents/Development/ | fzf )
     set editor (echo -e "vi\ncode" | fzf)
@@ -124,12 +113,19 @@ function rc --description 'repo open in vscode'
     end
 end
 
-# --
+function rc-ui --description 'repo open in vscode with choose'
+  set folder (ls -t ~/Documents/Development/ | choose -s 20 -w 20 -c 7287fd)
+  if test -n "$folder"
+      code ~/Documents/Development/$folder
+  end
+end
+
+
 function repo
     open https://github.com/goflink/$argv
 end
 
-# --
+
 function rs --description 'repo search'
     argparse w/web -- $argv
     or return
@@ -142,10 +138,19 @@ function rs --description 'repo search'
     end
 end
 
-# --
-function prc --description 'pr copy'
+function rs-ui --description 'repo search from ui'
+    repo=$(osascript -e 'text returned of (display dialog "query:" default answer "")')
+    open http://github.com/goflink/?q=$query
+end
+
+
+function prs --description 'pr select and copy'
     gh search prs --author=@me --state open --json url,title --jq '.[] | "\(.title) - \(.url)"' | fzf | pbcopy
     echo "Copied to clipboard"
+end
+
+function prs-ui --description 'pr select and copy from ui'
+    gh search prs --author=@me --state open --json url,title --jq '.[] | "\(.title) - \(.url)"' | choose -s 20 -w 20 -c 7287fd | pbcopy
 end
 
 function ttop
@@ -175,5 +180,4 @@ end
 
 function yaml
     bat -l yaml $argv
-
 end
