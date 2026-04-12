@@ -29,12 +29,11 @@
 "wezterm/.wezterm.lua" = "~/.config/wezterm/wezterm.lua"
 "zed/settings.json" = "~/.config/zed/settings.json"
 "yazi/yazi.toml" = "~/.config/yazi/yazi.toml"
+"hammerspoon/init.lua" = "~/.hammerspoon/init.lua"
 
 [work]
-"hammerspoon/init-work.lua" = "~/.hammerspoon/init.lua"
 "kelp/kelp-work.json" = "~/.kelp/kelp.json"
 
 [home]
-"hammerspoon/init.lua" = "~/.hammerspoon/init.lua"
 "starship/starship.toml" = "~/.config/starship.toml"
 "kelp/kelp.json" = "~/.kelp/kelp.json"

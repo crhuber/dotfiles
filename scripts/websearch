@@ -3,7 +3,7 @@ set -o pipefail
 
 # Parse command line arguments
 USE_CHOOSE=false
-if [ "$1" = "-ui" ]; then
+if [ "$1" = "--ui" ]; then
     USE_CHOOSE=true
     shift  # Remove -ui from arguments so "$*" only has the actual query
 fi

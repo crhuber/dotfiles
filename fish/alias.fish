@@ -30,12 +30,12 @@ function ffind
     fd $argv
 end
 
-function g --description golinks
+function g --description 'golinks'
     set keyword (curl -s localhost:8998/api/v1/links | jq -r '.[] | "\(.keyword)"' | fzf )
     open http://localhost:8998/$keyword
 end
 
-function g-ui --description golinks from ui
+function g-ui --description 'golinks from ui'
     set keyword (curl -s localhost:8998/api/v1/links | jq -r '.[] | "\(.keyword)"' | choose -s 20 -w 20 -c 7287fd)
     open http://localhost:8998/$keyword
 end
@@ -139,7 +139,7 @@ function rs --description 'repo search'
 end
 
 function rs-ui --description 'repo search from ui'
-    repo=$(osascript -e 'text returned of (display dialog "query:" default answer "")')
+    set query (osascript -e 'text returned of (display dialog "query:" default answer "")')
     open http://github.com/goflink/?q=$query
 end
 
