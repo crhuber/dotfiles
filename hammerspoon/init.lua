@@ -19,30 +19,7 @@ for _, app in ipairs(APPS) do
 end
 
 
--- Custom menu configuration
-local fish = "/usr/local/bin/fish"
-local bash = "/bin/bash"
-
-local aliases = {
-  ["golinks"]     = { fn = "g-ui",   shell = fish },
-  ["pr-select"]   = { fn = "prs-ui", shell = fish },
-  ["repo-code"]   = { fn = "rc-ui",  shell = fish },
-  ["repo-search"] = { fn = "rs-ui",  shell = fish },
-  ["websearch"]   = { fn = "websearch --ui",  shell = fish },
-}
-
-local menuItems = "golinks\npr-select\nrepo-code\nrepo-search\nwebsearch"
-
+-- Custom shortcut for app launcher
 hs.hotkey.bind({"alt"}, "space", function()
-  local chooser = hs.task.new("/Users/Craig/.kelp/bin/choose", function(code, stdout)
-    local choice = stdout:gsub("%s+$", "")
-    if choice ~= "" then
-      local alias = aliases[choice]
-      if alias then
-        hs.task.new(alias.shell, nil, {"-l", "-c", alias.fn}):start()
-      end
-    end
-  end, {"-s", "20", "-w", "10", "-c", "7287fd"})
-  chooser:setInput(menuItems)
-  chooser:start()
+    hs.task.new("/usr/local/bin/fish", nil, {"-l", "-c", "launcher"}):start()
 end)

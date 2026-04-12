@@ -75,6 +75,27 @@ function god
     set -x -g KUBECONFIG "/Users/craig/.kube/config-$argv"
 end
 
+function launcher
+    set menuItems golinks\npr-select\nrepo-browse\nrepo-code\nrepo-search\nwebsearch
+    set reply (echo $menuItems | choose -s 20 -w 20 -c 7287fd)
+    switch $reply
+        case "golinks"
+            g-ui
+        case "pr-select"
+            prs-ui
+        case "repo-browse"
+            rb-ui
+        case "repo-code"
+            rc-ui
+        case "repo-search"
+            rs-ui
+        case "websearch"
+            bash websearch --ui
+        case "*"
+            echo "Invalid selection"
+    end
+end
+
 function lg
     lazygit
 end
@@ -99,6 +120,11 @@ function push
     git add .
     git commit -m "$argv"
     git push
+end
+
+function rb-ui --description 'repo open in browser'
+    set repo (osascript -e 'text returned of (display dialog "repo:" default answer "")')
+    open https://github.com/goflink/$repo
 end
 
 function rc --description 'repo open in vscode'
