@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -e
+set -u
+set -o pipefail
+
+prompt=$(ls ~/.dotfiles/prompts/ | fzf --preview 'bat -n --color=always  ~/.dotfiles/prompts/{}' | xargs -I {} cat ~/.dotfiles/prompts/{})
+# ask the user for input to fill in the prompt
+read -p "Enter input for the prompt: " user_input
+mods "$prompt $user_input"
+

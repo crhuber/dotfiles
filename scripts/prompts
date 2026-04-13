@@ -3,4 +3,4 @@ set -e
 set -u
 set -o pipefail
 
-ls ~/.dotfiles/prompts/ | fzf | xargs -I {} cat ~/.dotfiles/prompts/{} | pbcopy
+ls ~/.dotfiles/prompts/ | fzf --preview 'bat -n --color=always  ~/.dotfiles/prompts/{}' | xargs -I {} cat ~/.dotfiles/prompts/{} | pbcopy
