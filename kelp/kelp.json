@@ -64,14 +64,6 @@
   "Binary": ""
  },
  {
-  "Owner": "jigish",
-  "Repo": "slate",
-  "Release": "http://www.ninjamonkeysoftware.com/slate/versions/slate-latest.tar.gz",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
   "Owner": "tankerhq",
   "Repo": "ruplacer",
   "Release": "latest",
@@ -562,8 +554,8 @@
  {
   "Owner": "huseyinbabal",
   "Repo": "taws",
-  "Release": "v1.3.0-rc.3",
-  "UpdatedAt": "2026-01-23T22:21:32.743938+01:00",
+  "Release": "v1.3.0-rc.7",
+  "UpdatedAt": "2026-04-14T21:44:44.966696+02:00",
   "Description": "",
   "Binary": ""
  }
