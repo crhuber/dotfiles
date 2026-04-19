@@ -196,6 +196,12 @@ function y
 	rm -f -- "$tmp"
 end
 
+function yesterday
+    set THINGS_DB ~/Library/Group\ Containers/JLMPQHK86H.com.culturedcode.ThingsMac/ThingsData-WKJC6/Things\ Database.thingsdatabase/main.sqlite
+    sqlite3 $THINGS_DB \
+        "SELECT title FROM TMTask WHERE status=3 AND stopDate IS NOT NULL AND type=0 AND date(stopDate, 'unixepoch', 'localtime') = date('now', 'localtime', '-1 day') ORDER BY stopDate;"
+end
+
 function weather
     # if no args, use berlin
     if test (count $argv) -eq 0

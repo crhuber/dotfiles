@@ -338,8 +338,8 @@
  {
   "Owner": "crhuber",
   "Repo": "golinks",
-  "Release": "0.0.13",
-  "UpdatedAt": "2024-03-13T14:44:50.261545+01:00",
+  "Release": "0.0.15",
+  "UpdatedAt": "2026-04-14T20:22:18.995793+02:00",
   "Description": "Golinks service",
   "Binary": ""
  },
@@ -502,14 +502,6 @@
   "UpdatedAt": "0001-01-01T00:00:00Z",
   "Description": "",
   "Binary": ""
- },
- {
-  "Owner": "helix-editor",
-  "Repo": "helix",
-  "Release": "23.10",
-  "UpdatedAt": "2024-01-25T18:01:01.876185+01:00",
-  "Description": "Vi Replacement",
-  "Binary": "hx"
  },
  {
   "Owner": "ffmpeg",
@@ -802,8 +794,8 @@
  {
   "Owner": "starship",
   "Repo": "starship",
-  "Release": "v1.23.0",
-  "UpdatedAt": "2025-06-25T11:26:23.374438+02:00",
+  "Release": "v1.24.2",
+  "UpdatedAt": "2026-04-15T17:12:12.830514+02:00",
   "Description": "",
   "Binary": ""
  },
@@ -1140,6 +1132,22 @@
   "Repo": "models",
   "Release": "v0.11.4",
   "UpdatedAt": "2026-04-02T22:31:00.144917+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "goflink",
+  "Repo": "datadog-cli",
+  "Release": "v0.0.1",
+  "UpdatedAt": "2026-04-13T14:41:16.970115+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "agentgateway",
+  "Repo": "agentgateway",
+  "Release": "v1.1.0",
+  "UpdatedAt": "2026-04-14T17:18:09.348884+02:00",
   "Description": "",
   "Binary": ""
  }
