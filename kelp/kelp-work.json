@@ -722,8 +722,8 @@
  {
   "Owner": "terrastruct",
   "Repo": "d2",
-  "Release": "v0.6.5",
-  "UpdatedAt": "2024-07-11T16:16:57.890932+02:00",
+  "Release": "v0.7.1",
+  "UpdatedAt": "2026-04-20T12:08:56.158774+02:00",
   "Description": "",
   "Binary": ""
  },
@@ -1148,6 +1148,14 @@
   "Repo": "agentgateway",
   "Release": "v1.1.0",
   "UpdatedAt": "2026-04-14T17:18:09.348884+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "garrickz2",
+  "Repo": "claude-code-cleaner",
+  "Release": "v0.1.0",
+  "UpdatedAt": "2026-04-20T08:23:45.028573+02:00",
   "Description": "",
   "Binary": ""
  }

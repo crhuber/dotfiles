@@ -129,13 +129,20 @@ end
 
 function rc --description 'repo open in vscode'
     set folder (ls -t ~/Documents/Development/ | fzf )
-    set editor (echo -e "vi\ncode" | fzf)
-    if test "$editor" = vi
-        vi ~/Documents/Development/$folder
-    else if test "$editor" = code
-        code ~/Documents/Development/$folder
+    set action (echo -e "edit\nchange-dir" | fzf)
+    if test "$action" = edit
+        set editor (echo -e "vi\ncode" | fzf)
+        if test "$editor" = vi
+            vi ~/Documents/Development/$folder
+        else if test "$editor" = code
+            code ~/Documents/Development/$folder
+        else
+            echo "unsupported editor"
+        end
+    else if test "$action" = change-dir
+        cd ~/Documents/Development/$folder
     else
-        echo "unsupported editor"
+        echo "unsupported action"
     end
 end
 
