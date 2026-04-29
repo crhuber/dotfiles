@@ -34,8 +34,8 @@
  {
   "Owner": "burntsushi",
   "Repo": "ripgrep",
-  "Release": "14.1.1",
-  "UpdatedAt": "2025-09-24T21:32:30.734405+02:00",
+  "Release": "15.1.0",
+  "UpdatedAt": "2026-04-22T21:17:50.880773+02:00",
   "Description": "",
   "Binary": ""
  },
@@ -98,8 +98,8 @@
  {
   "Owner": "crhuber",
   "Repo": "kelp",
-  "Release": "v1.19.0",
-  "UpdatedAt": "2026-01-31T14:08:59.874401+01:00",
+  "Release": "v1.21.0",
+  "UpdatedAt": "2026-04-29T09:11:36.878591+02:00",
   "Description": "",
   "Binary": ""
  },
@@ -424,18 +424,10 @@
   "Binary": ""
  },
  {
-  "Owner": "jdx",
-  "Repo": "mise",
-  "Release": "v2025.11.7",
-  "UpdatedAt": "2025-11-22T21:29:30.980411+01:00",
-  "Description": "",
-  "Binary": ""
- },
- {
   "Owner": "crhuber",
   "Repo": "crumb",
-  "Release": "v0.0.21",
-  "UpdatedAt": "2026-03-02T20:12:23.561476+01:00",
+  "Release": "v0.0.24",
+  "UpdatedAt": "2026-04-29T09:10:17.706998+02:00",
   "Description": "",
   "Binary": ""
  },
@@ -530,8 +522,8 @@
  {
   "Owner": "junegunn",
   "Repo": "fzf",
-  "Release": "v0.65.2",
-  "UpdatedAt": "2025-09-24T20:59:46.607949+02:00",
+  "Release": "v0.72.0",
+  "UpdatedAt": "2026-04-29T09:14:55.639394+02:00",
   "Description": "",
   "Binary": ""
  },
@@ -556,6 +548,38 @@
   "Repo": "taws",
   "Release": "v1.3.0-rc.7",
   "UpdatedAt": "2026-04-14T21:44:44.966696+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "duckdb",
+  "Repo": "duckdb",
+  "Release": "v1.5.2",
+  "UpdatedAt": "2026-04-18T09:51:27.134959+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "cli",
+  "Repo": "cli",
+  "Release": "v2.91.0",
+  "UpdatedAt": "2026-04-22T21:10:02.580089+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "jdx",
+  "Repo": "mise",
+  "Release": "v2026.4.18",
+  "UpdatedAt": "2026-04-22T21:12:06.360845+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "starship",
+  "Repo": "starship",
+  "Release": "v1.25.0",
+  "UpdatedAt": "2026-04-22T21:14:20.622816+02:00",
   "Description": "",
   "Binary": ""
  }
