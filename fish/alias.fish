@@ -76,11 +76,13 @@ function god
 end
 
 function launcher
-    set menuItems golinks\npr-select\nrepo-browse\nrepo-code\nrepo-search\nwebsearch
+    set menuItems golinks\npr-list\npr-select\nrepo-browse\nrepo-code\nrepo-search\nwebsearch
     set reply (echo $menuItems | choose -s 20 -w 20 -c 7287fd)
     switch $reply
         case "golinks"
             g-ui
+        case "pr-list"
+            prl-ui
         case "pr-select"
             prs-ui
         case "repo-browse"
@@ -105,7 +107,7 @@ function lls
 end
 
 function md --description 'alias for using glow'
-    bat -l md $argv
+    mdterm $argv
 end
 
 function nano
@@ -114,6 +116,10 @@ end
 
 function prl
     gh search prs --author=@me --state open --json url --jq '.[].url'
+end
+
+function prl-ui
+    open https://github.com/pulls/authored
 end
 
 function push

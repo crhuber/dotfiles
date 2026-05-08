@@ -154,8 +154,8 @@
  {
   "Owner": "crhuber",
   "Repo": "kelp",
-  "Release": "v1.14.1",
-  "UpdatedAt": "2025-03-04T14:00:43.860883+01:00",
+  "Release": "v1.21.0",
+  "UpdatedAt": "2026-04-24T11:56:57.253762+02:00",
   "Description": "Homebrew alternative",
   "Binary": ""
  },
@@ -338,8 +338,8 @@
  {
   "Owner": "crhuber",
   "Repo": "golinks",
-  "Release": "0.0.15",
-  "UpdatedAt": "2026-04-14T20:22:18.995793+02:00",
+  "Release": "0.0.16",
+  "UpdatedAt": "2026-04-27T20:11:30.840009+02:00",
   "Description": "Golinks service",
   "Binary": ""
  },
@@ -746,8 +746,8 @@
  {
   "Owner": "cloudflare",
   "Repo": "cloudflared",
-  "Release": "latest",
-  "UpdatedAt": "2024-04-04T11:25:27.067903+02:00",
+  "Release": "2026.3.0",
+  "UpdatedAt": "2026-04-21T16:22:08.707786+02:00",
   "Description": "",
   "Binary": ""
  },
@@ -978,8 +978,8 @@
  {
   "Owner": "crhuber",
   "Repo": "crumb",
-  "Release": "v0.0.24",
-  "UpdatedAt": "2026-03-13T11:25:30.169511+01:00",
+  "Release": "v0.1.0",
+  "UpdatedAt": "2026-05-06T19:45:09.127438+02:00",
   "Description": "",
   "Binary": ""
  },
@@ -1156,6 +1156,30 @@
   "Repo": "claude-code-cleaner",
   "Release": "v0.1.0",
   "UpdatedAt": "2026-04-20T08:23:45.028573+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "rtk-ai",
+  "Repo": "rtk",
+  "Release": "v0.38.0",
+  "UpdatedAt": "2026-05-06T10:37:29.97957+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "bufbuild",
+  "Repo": "buf",
+  "Release": "v1.69.0",
+  "UpdatedAt": "2026-05-04T14:15:02.453376+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "bahdotsh",
+  "Repo": "mdterm",
+  "Release": "v2.0.0",
+  "UpdatedAt": "2026-05-06T10:25:28.907104+02:00",
   "Description": "",
   "Binary": ""
  }
