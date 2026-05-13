@@ -1,3 +1,11 @@
+# aliases
+alias tailscale /Applications/Tailscale.app/Contents/MacOS/Tailscale
+
+# abbreviations
+# abbr -a k kubectl
+
+# functions
+
 function ccat
     bat $argv
 end
