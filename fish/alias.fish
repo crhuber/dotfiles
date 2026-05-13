@@ -196,8 +196,8 @@ function ttop
     btop
 end
 
-function ttree
-    yazi $argv
+function tree
+    eza --tree $argv
 end
 
 function y
