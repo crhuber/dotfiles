@@ -192,14 +192,6 @@
   "Binary": ""
  },
  {
-  "Owner": "crhuber",
-  "Repo": "golinks",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
   "Owner": "kornelski",
   "Repo": "cavif-rs",
   "Release": "latest",
@@ -248,14 +240,6 @@
   "Binary": ""
  },
  {
-  "Owner": "grafana",
-  "Repo": "k6",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
   "Owner": "google",
   "Repo": "gcloud",
   "Release": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-421.0.0-darwin-arm.tar.gz",
@@ -266,14 +250,6 @@
  {
   "Owner": "tfutils",
   "Repo": "tfenv",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
-  "Owner": "crhuber",
-  "Repo": "dev-proxy",
   "Release": "latest",
   "UpdatedAt": "0001-01-01T00:00:00Z",
   "Description": "",
@@ -426,8 +402,8 @@
  {
   "Owner": "crhuber",
   "Repo": "crumb",
-  "Release": "v0.0.24",
-  "UpdatedAt": "2026-04-29T09:10:17.706998+02:00",
+  "Release": "v0.1.0",
+  "UpdatedAt": "2026-05-06T20:09:30.626767+02:00",
   "Description": "",
   "Binary": ""
  },
