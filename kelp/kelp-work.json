@@ -2,8 +2,8 @@
  {
   "Owner": "sharkdp",
   "Repo": "fd",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
+  "Release": "v10.4.2",
+  "UpdatedAt": "2026-05-13T16:52:49.347708+02:00",
   "Description": "Alternative to find",
   "Binary": ""
  },
@@ -13,14 +13,6 @@
   "Release": "v0.26.0",
   "UpdatedAt": "2025-10-21T11:10:59.90607+02:00",
   "Description": "Cat clone in rust",
-  "Binary": ""
- },
- {
-  "Owner": "tsenart",
-  "Repo": "vegeta",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "HTTP load testing tool and library",
   "Binary": ""
  },
  {
@@ -48,14 +40,6 @@
   "Binary": ""
  },
  {
-  "Owner": "roboll",
-  "Repo": "helmfile",
-  "Release": "v0.141.0",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
   "Owner": "burntsushi",
   "Repo": "ripgrep",
   "Release": "14.1.1",
@@ -66,33 +50,9 @@
  {
   "Owner": "xo",
   "Repo": "usql",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
+  "Release": "v0.21.4",
+  "UpdatedAt": "2026-05-13T17:08:20.486157+02:00",
   "Description": "Universal command-line interface for SQL databases",
-  "Binary": ""
- },
- {
-  "Owner": "nikolaeu",
-  "Repo": "numi",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
-  "Owner": "rakyll",
-  "Repo": "hey",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "HTTP load generator",
-  "Binary": ""
- },
- {
-  "Owner": "jigish",
-  "Repo": "slate",
-  "Release": "http://www.ninjamonkeysoftware.com/slate/versions/slate-latest.tar.gz",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
   "Binary": ""
  },
  {
@@ -114,8 +74,8 @@
  {
   "Owner": "fullstorydev",
   "Repo": "grpcurl",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
+  "Release": "v1.9.3",
+  "UpdatedAt": "2026-05-13T17:06:35.077797+02:00",
   "Description": "Like cURL, but for gRPC",
   "Binary": ""
  },
@@ -184,22 +144,6 @@
   "Binary": ""
  },
  {
-  "Owner": "open-policy-agent",
-  "Repo": "conftest",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
-  "Owner": "open-policy-agent",
-  "Repo": "opa",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
   "Owner": "direnv",
   "Repo": "direnv",
   "Release": "latest",
@@ -222,14 +166,6 @@
   "UpdatedAt": "2025-01-06T18:44:33.225804+01:00",
   "Description": "Github CLI",
   "Binary": "gh"
- },
- {
-  "Owner": "typesense",
-  "Repo": "typesense",
-  "Release": "https://dl.typesense.org/releases/0.21.0/typesense-server-0.21.0-darwin-amd64.tar.gz",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
  },
  {
   "Owner": "cosmtrek",
@@ -280,14 +216,6 @@
   "Binary": ""
  },
  {
-  "Owner": "ktr0731",
-  "Repo": "evans",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
   "Owner": "filosottile",
   "Repo": "age",
   "Release": "latest",
@@ -306,16 +234,16 @@
  {
   "Owner": "go-task",
   "Repo": "task",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
+  "Release": "v3.50.0",
+  "UpdatedAt": "2026-05-13T16:56:35.973181+02:00",
   "Description": "Make replacement",
   "Binary": ""
  },
  {
   "Owner": "rs",
   "Repo": "curlie",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
+  "Release": "v1.8.2",
+  "UpdatedAt": "2026-05-13T16:55:36.522312+02:00",
   "Description": "Curl replacement",
   "Binary": ""
  },
@@ -341,14 +269,6 @@
   "Release": "0.0.16",
   "UpdatedAt": "2026-04-27T20:11:30.840009+02:00",
   "Description": "Golinks service",
-  "Binary": ""
- },
- {
-  "Owner": "derailed",
-  "Repo": "popeye",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "Kubernetes cluster resource sanitizer",
   "Binary": ""
  },
  {
@@ -400,32 +320,8 @@
   "Binary": ""
  },
  {
-  "Owner": "gruntwork-io",
-  "Repo": "terragrunt",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
-  "Owner": "kubescape",
-  "Repo": "kubescape",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
   "Owner": "grafana",
   "Repo": "k6",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
-  "Owner": "gohugoio",
-  "Repo": "hugo",
   "Release": "latest",
   "UpdatedAt": "0001-01-01T00:00:00Z",
   "Description": "",
@@ -442,8 +338,8 @@
  {
   "Owner": "google",
   "Repo": "gcloud",
-  "Release": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-421.0.0-darwin-arm.tar.gz",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
+  "Release": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-darwin-arm.tar.gz",
+  "UpdatedAt": "2026-05-13T17:18:51.226922+02:00",
   "Description": "",
   "Binary": ""
  },
@@ -468,14 +364,6 @@
   "Repo": "argo-rollouts",
   "Release": "latest",
   "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
-  "Owner": "crhuber",
-  "Repo": "dev-proxy",
-  "Release": "0.0.5",
-  "UpdatedAt": "2024-03-08T17:32:00.99196+01:00",
   "Description": "",
   "Binary": ""
  },
@@ -536,24 +424,8 @@
   "Binary": ""
  },
  {
-  "Owner": "golangci",
-  "Repo": "golangci-lint",
-  "Release": "v2.0.2",
-  "UpdatedAt": "2025-04-02T14:44:57.759281+02:00",
-  "Description": "Golang linter",
-  "Binary": ""
- },
- {
   "Owner": "jetstack",
   "Repo": "version-checker",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
-  "Owner": "grpc-ecosystem",
-  "Repo": "grpc-health-probe",
   "Release": "latest",
   "UpdatedAt": "0001-01-01T00:00:00Z",
   "Description": "",
@@ -565,14 +437,6 @@
   "Release": "v1.6.0",
   "UpdatedAt": "2024-11-20T10:22:14.614094+01:00",
   "Description": "Openai on code",
-  "Binary": ""
- },
- {
-  "Owner": "rantav",
-  "Repo": "go-archetype",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "Project templating",
   "Binary": ""
  },
  {
@@ -696,14 +560,6 @@
   "Binary": ""
  },
  {
-  "Owner": "Zheoni",
-  "Repo": "cooklang-chef",
-  "Release": "v0.9.1",
-  "UpdatedAt": "2024-04-19T17:13:58.769921+02:00",
-  "Description": "",
-  "Binary": ""
- },
- {
   "Owner": "temporalio",
   "Repo": "cli",
   "Release": "latest",
@@ -728,14 +584,6 @@
   "Binary": ""
  },
  {
-  "Owner": "gopasspw",
-  "Repo": "gopass",
-  "Release": "latest",
-  "UpdatedAt": "2024-02-09T13:55:01.249528+01:00",
-  "Description": "",
-  "Binary": ""
- },
- {
   "Owner": "charmbracelet",
   "Repo": "freeze",
   "Release": "latest",
@@ -752,14 +600,6 @@
   "Binary": ""
  },
  {
-  "Owner": "dagger",
-  "Repo": "dagger",
-  "Release": "latest",
-  "UpdatedAt": "2024-04-17T16:30:12.731481+02:00",
-  "Description": "",
-  "Binary": ""
- },
- {
   "Owner": "goflink",
   "Repo": "gh-props",
   "Release": "v0.0.6",
@@ -772,14 +612,6 @@
   "Repo": "gosec",
   "Release": "latest",
   "UpdatedAt": "2024-05-13T10:42:56.661774+02:00",
-  "Description": "",
-  "Binary": ""
- },
- {
-  "Owner": "",
-  "Repo": "mogensen",
-  "Release": "latest",
-  "UpdatedAt": "2024-05-14T11:39:00.462635+02:00",
   "Description": "",
   "Binary": ""
  },
@@ -820,30 +652,6 @@
   "Repo": "tenv",
   "Release": "latest",
   "UpdatedAt": "2024-06-12T16:02:40.141158+02:00",
-  "Description": "",
-  "Binary": ""
- },
- {
-  "Owner": "knative",
-  "Repo": "client",
-  "Release": "latest",
-  "UpdatedAt": "2024-07-03T14:52:45.278324+02:00",
-  "Description": "",
-  "Binary": ""
- },
- {
-  "Owner": "knative-extensions",
-  "Repo": "kn-plugin-quickstart",
-  "Release": "latest",
-  "UpdatedAt": "2024-07-03T14:54:07.526661+02:00",
-  "Description": "",
-  "Binary": ""
- },
- {
-  "Owner": "knative",
-  "Repo": "func",
-  "Release": "latest",
-  "UpdatedAt": "2024-07-03T16:02:55.018994+02:00",
   "Description": "",
   "Binary": ""
  },
@@ -944,26 +752,10 @@
   "Binary": ""
  },
  {
-  "Owner": "bonaysoft",
-  "Repo": "seenvoy",
-  "Release": "latest",
-  "UpdatedAt": "2025-05-07T15:11:32.866475+02:00",
-  "Description": "",
-  "Binary": ""
- },
- {
   "Owner": "Orange-OpenSource",
   "Repo": "hurl",
   "Release": "latest",
   "UpdatedAt": "2025-06-18T16:57:09.760383+02:00",
-  "Description": "",
-  "Binary": ""
- },
- {
-  "Owner": "block",
-  "Repo": "goose",
-  "Release": "latest",
-  "UpdatedAt": "2025-06-25T14:26:24.144222+02:00",
   "Description": "",
   "Binary": ""
  },
@@ -978,8 +770,8 @@
  {
   "Owner": "crhuber",
   "Repo": "crumb",
-  "Release": "v0.1.0",
-  "UpdatedAt": "2026-05-06T19:45:09.127438+02:00",
+  "Release": "v0.2.0",
+  "UpdatedAt": "2026-05-12T11:52:19.395867+02:00",
   "Description": "",
   "Binary": ""
  },
@@ -996,14 +788,6 @@
   "Repo": "skhd.zig",
   "Release": "v0.0.12",
   "UpdatedAt": "2025-08-15T20:41:23.634922+02:00",
-  "Description": "",
-  "Binary": ""
- },
- {
-  "Owner": "neovim",
-  "Repo": "neovim",
-  "Release": "v0.11.3",
-  "UpdatedAt": "2025-08-16T17:20:27.802614+02:00",
   "Description": "",
   "Binary": ""
  },
@@ -1128,18 +912,10 @@
   "Binary": ""
  },
  {
-  "Owner": "arimxyer",
-  "Repo": "models",
-  "Release": "v0.11.4",
-  "UpdatedAt": "2026-04-02T22:31:00.144917+02:00",
-  "Description": "",
-  "Binary": ""
- },
- {
   "Owner": "goflink",
   "Repo": "datadog-cli",
-  "Release": "v0.0.1",
-  "UpdatedAt": "2026-04-13T14:41:16.970115+02:00",
+  "Release": "v0.0.3",
+  "UpdatedAt": "2026-05-12T15:23:03.358335+02:00",
   "Description": "",
   "Binary": ""
  },
