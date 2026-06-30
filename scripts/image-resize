@@ -15,9 +15,11 @@ set -o pipefail
 #-interlace Plane
 #Interlace the image so that it progressively sharpens as more data arrives.
 
-magick $1 \
-    -resize 800x> \
-    -strip \
-    -quality 75 \
-    -interlace Plane \
-    $2
+# magick $1 \
+#     -resize 800x> \
+#     -strip \
+#     -quality 75 \
+#     -interlace Plane \
+#     $2
+
+sips -s format jpeg -s formatOptions 75 -Z 800 "$1" --out "$2"
