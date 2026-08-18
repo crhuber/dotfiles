@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+set -e
+set -u
+set -o pipefail
+
+push() {
+    echo "==> pushing up notes..."
+    rsync --verbose \
+    --compress \
+    --archive \
+    --progress \
+    --human-readable \
+    --recursive \
+    --partial -e \
+    'ssh -p23' "$HOME/Documents/Notes/Work" "cloud:/home/rsync/"
+}
+
+push
