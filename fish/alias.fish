@@ -6,6 +6,84 @@ alias tailscale /Applications/Tailscale.app/Contents/MacOS/Tailscale
 
 # functions
 
+function ci --description 'Watch GitHub Actions CI for the current (or given) branch/PR, with fzf run selection'
+    if not command -q gh
+        echo "ci: gh (GitHub CLI) is required" >&2
+        return 1
+    end
+
+    set -l branch $argv[1]
+    if test -z "$branch"
+        set branch (git branch --show-current 2>/dev/null)
+    end
+    if test -z "$branch"
+        echo "ci: not on a branch (detached HEAD?) or not in a git repo" >&2
+        return 1
+    end
+
+    set -l pr_info (gh pr view $branch --json number,url -q '"#\(.number) \(.url)"' 2>/dev/null)
+    if test -n "$pr_info"
+        echo "PR $pr_info for branch '$branch'"
+    else
+        echo "No open PR for branch '$branch' — checking CI runs directly"
+    end
+
+    set -l tries 0
+    set -l runs
+    while test $tries -lt 10
+        set runs (gh run list --branch $branch --limit 15 \
+            --json databaseId,status,conclusion,workflowName,displayTitle,createdAt \
+            --jq '.[] | [(.databaseId|tostring), .status, (.conclusion // "-"), .workflowName, .displayTitle, .createdAt] | @tsv' 2>/dev/null)
+        if test -n "$runs"
+            break
+        end
+        set tries (math $tries + 1)
+        if test $tries -eq 1
+            echo "No CI runs found yet for '$branch', waiting for one to start..."
+        end
+        sleep 3
+    end
+
+    if test -z "$runs"
+        echo "ci: no CI runs found for branch '$branch'" >&2
+        return 1
+    end
+
+    set -l run_id
+    set -l run_count (count $runs)
+    if test $run_count -eq 1
+        set run_id (echo $runs[1] | cut -f1)
+    else
+        if not command -q fzf
+            echo "ci: multiple runs found but fzf is not installed; picking the most recent" >&2
+            set run_id (echo $runs[1] | cut -f1)
+        else
+            set -l picked (printf '%s\n' $runs | fzf --delimiter='\t' --with-nth=2,3,4,5,6 \
+                --header='status  conclusion  workflow  title  created' \
+                --header-first --prompt="Select CI run for '$branch'> ")
+            if test -z "$picked"
+                echo "ci: no run selected" >&2
+                return 1
+            end
+            set run_id (echo $picked | cut -f1)
+        end
+    end
+
+    echo "Watching run $run_id..."
+    gh run watch $run_id --exit-status
+    set -l watch_status $status
+
+    if test $watch_status -ne 0
+        echo "Run failed — showing failed logs:"
+        gh run view $run_id --log-failed
+    else
+        echo "Run succeeded."
+    end
+
+    return $watch_status
+end
+
+
 function ccat
     bat $argv
 end
