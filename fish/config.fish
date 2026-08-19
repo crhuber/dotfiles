@@ -21,8 +21,6 @@ set -gx GOPATH "$HOME/go"
 if status is-interactive
     # Commands to run in interactive sessions can go here
     zoxide init fish | source
-    # direnv
-    direnv hook fish | source
     # starship
     starship init fish | source
     # mise
@@ -31,6 +29,8 @@ if status is-interactive
     fzf --fish | source
     # crumb
     # crumb hook --shell fish | source
+    # direnv
+    # direnv hook fish | source
     # greeting
     function fish_greeting
         fastfetch
