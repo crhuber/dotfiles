@@ -30,7 +30,7 @@ if status is-interactive
     # fzf
     fzf --fish | source
     # crumb
-    crumb hook --shell fish | source
+    # crumb hook --shell fish | source
     # greeting
     function fish_greeting
         fastfetch
