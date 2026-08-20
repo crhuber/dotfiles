@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+  --font-monospace: 'JetBrains Mono', 'JetBrains Mono NL', Menlo, Consolas, monospace;
+}
+
+.theme-light {
+  /* Catppuccin Latte */
+  --code-background: #F2F0E5;
+  --code-normal: #4c4f69;
+  --code-comment: #7c7f93;
+  --code-function: #1e66f5;
+  --code-important: #e64553;
+  --code-keyword: #8839ef;
+  --code-operator: #04a5e5;
+  --code-property: #e64553;
+  --code-punctuation: #6c6f85;
+  --code-string: #40a02b;
+  --code-tag: #ea76cb;
+  --code-value: #fe640b;
+
+  /* Hyperlinks: Mauve (normal) / Lavender (hover) */
+  --link-color: #7287fd;
+  --link-color-hover: #ea76cb;
+  --link-external-color: #7287fd;
+  --link-external-color-hover: #ea76cb;
+}
+
+.theme-dark {
+  /* Catppuccin Mocha */
+  --code-background: #1e1e2e;
+  --code-normal: #cdd6f4;
+  --code-comment: #9399b2;
+  --code-function: #89b4fa;
+  --code-important: #f38ba8;
+  --code-keyword: #cba6f7;
+  --code-operator: #89dceb;
+  --code-property: #eba0ac;
+  --code-punctuation: #a6adc8;
+  --code-string: #a6e3a1;
+  --code-tag: #f5c2e7;
+  --code-value: #fab387;
+
+  /* Hyperlinks: Mauve (normal) / Lavender (hover) */
+  --link-color: #cba6f7;
+  --link-color-hover: #b4befe;
+  --link-external-color: #cba6f7;
+  --link-external-color-hover: #b4befe;
+}
