@@ -3,7 +3,7 @@ set -e
 set -u
 set -o pipefail
 
-sync() {
+push() {
     echo "==> syncing up notes..."
     rsync --verbose \
     --compress \
@@ -15,4 +15,35 @@ sync() {
     'ssh -p23' "$HOME/Documents/Notes/Work" "cloud:/home/rsync/"
 }
 
-sync
+pull() {
+    echo "==> pulling down notes..."
+    rsync --verbose \
+    --compress \
+    --archive \
+    --progress \
+    --human-readable \
+    --recursive \
+    --partial -e \
+    'ssh -p23' "cloud:/home/rsync/Work" "$HOME/Documents/Notes/"
+}
+
+ function usage() {
+    echo "Usage: $0 [push|pull]"
+    exit 1
+}
+
+if [ $# -ne 1 ]; then
+    usage
+fi
+
+case "$1" in
+    push)
+        push
+        ;;
+    pull)
+        pull
+        ;;
+    *)
+        usage
+        ;;
+esac
