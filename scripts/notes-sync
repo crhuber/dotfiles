@@ -3,8 +3,8 @@ set -e
 set -u
 set -o pipefail
 
-push() {
-    echo "==> pushing up notes..."
+sync() {
+    echo "==> syncing up notes..."
     rsync --verbose \
     --compress \
     --archive \
@@ -15,4 +15,4 @@ push() {
     'ssh -p23' "$HOME/Documents/Notes/Work" "cloud:/home/rsync/"
 }
 
-push
+sync
