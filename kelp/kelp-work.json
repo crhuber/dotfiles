@@ -966,5 +966,21 @@
   "UpdatedAt": "2026-08-24T11:18:36.983679+02:00",
   "Description": "",
   "Binary": ""
+ },
+ {
+  "Owner": "daveshanley",
+  "Repo": "vacuum",
+  "Release": "v0.30.1",
+  "UpdatedAt": "2026-08-31T22:02:52.05014+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "herdrdev",
+  "Repo": "herdr",
+  "Release": "v0.8.2",
+  "UpdatedAt": "2026-09-01T08:10:52.983212+02:00",
+  "Description": "",
+  "Binary": ""
  }
 ]

@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+set -e
+set -u
+set -o pipefail
+
+read -rp "Keep screen awake for how many hours? " hours
+
+seconds=$(echo "$hours * 3600" | bc | cut -d. -f1)
+
+echo "Keeping display awake for ${hours} hour(s)..."
+caffeinate -d -t "$seconds"
