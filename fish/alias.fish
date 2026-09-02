@@ -171,7 +171,7 @@ function god
 end
 
 function launcher
-    set menuItems code-search\ngolinks\npr-list\npr-select\nrepo-browse\nrepo-code\nrepo-search\nws
+    set menuItems ws\ncode-search\ngolinks\npr-list\npr-select\nrepo-browse\nrepo-code\nrepo-search
     set reply (echo $menuItems | choose -s 20 -w 20 -c 7287fd)
     switch $reply
         case "code-search"

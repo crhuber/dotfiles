@@ -26,6 +26,7 @@ declare -a SEARCH_ENGINES=(
     "googlemaps https://www.google.com/maps/search/"
     "youtube https://www.youtube.com/results?search_query="
     "github https://github.com/search?q="
+    "githubstars https://github.com/crhuber?submit=Search&tab=stars&type=&sort=&direction=&submit=Search&q="
     "googlenews https://news.google.com/search?q="
     "googlefinance https://www.google.com/finance/quote/"
     "googleimages https://www.google.com/images?q="
