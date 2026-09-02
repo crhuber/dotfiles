@@ -171,7 +171,7 @@ function god
 end
 
 function launcher
-    set menuItems code-search\ngolinks\npr-list\npr-select\nrepo-browse\nrepo-code\nrepo-search\nwebsearch
+    set menuItems code-search\ngolinks\npr-list\npr-select\nrepo-browse\nrepo-code\nrepo-search\nws
     set reply (echo $menuItems | choose -s 20 -w 20 -c 7287fd)
     switch $reply
         case "code-search"
@@ -188,8 +188,8 @@ function launcher
             rc-ui
         case "repo-search"
             rs-ui
-        case "websearch"
-            bash websearch --ui
+        case "ws"
+            bash ws --ui
         case "*"
             echo "Invalid selection"
     end
