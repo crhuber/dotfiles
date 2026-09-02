@@ -103,6 +103,15 @@ function cs
     end
 end
 
+
+function cs-ui
+    set query (osascript -e 'text returned of (display dialog "query:" default answer "")')
+    if test -z "$query"
+        return 1
+    end
+    open https://github.com/search?q=org%3Agoflink+$query&type=code
+end
+
 function ddig
     doggo $argv
 end
@@ -162,9 +171,11 @@ function god
 end
 
 function launcher
-    set menuItems golinks\npr-list\npr-select\nrepo-browse\nrepo-code\nrepo-search\nwebsearch
+    set menuItems code-search\ngolinks\npr-list\npr-select\nrepo-browse\nrepo-code\nrepo-search\nwebsearch
     set reply (echo $menuItems | choose -s 20 -w 20 -c 7287fd)
     switch $reply
+        case "code-search"
+            cs-ui
         case "golinks"
             g-ui
         case "pr-list"
@@ -256,7 +267,7 @@ function rs --description 'repo search'
     or return
 
     if set -q _flag_web
-        open http://github.com/goflink/?q=$argv
+        open https://github.com/search?q=org%3Agoflink+$argv&type=repositories
     else
         gh search repos "$argv" --owner=goflink --archived=false --json name --jq '.[].name' | fzf | pbcopy
         echo "Copied to clipboard"
@@ -264,8 +275,8 @@ function rs --description 'repo search'
 end
 
 function rs-ui --description 'repo search from ui'
-    set query (osascript -e 'text returned of (display dialog "query:" default answer "")')
-    open http://github.com/goflink/?q=$query
+    set query (osascript -e 'text returned of (display dialog "repo:" default answer "")')
+    open https://github.com/search?q=org%3Agoflink+$query&type=repositories
 end
 
 
@@ -293,12 +304,6 @@ function y
 		builtin cd -- "$cwd"
 	end
 	rm -f -- "$tmp"
-end
-
-function yesterday
-    set THINGS_DB ~/Library/Group\ Containers/JLMPQHK86H.com.culturedcode.ThingsMac/ThingsData-WKJC6/Things\ Database.thingsdatabase/main.sqlite
-    sqlite3 $THINGS_DB \
-        "SELECT title FROM TMTask WHERE status=3 AND stopDate IS NOT NULL AND type=0 AND date(stopDate, 'unixepoch', 'localtime') = date('now', 'localtime', '-1 day') ORDER BY stopDate;"
 end
 
 function weather
