@@ -3,6 +3,7 @@ alias tailscale /Applications/Tailscale.app/Contents/MacOS/Tailscale
 
 # abbreviations
 # abbr -a k kubectl
+abbr -a ts tailscale
 
 # functions
 
