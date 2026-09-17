@@ -982,5 +982,21 @@
   "UpdatedAt": "2026-09-01T08:10:52.983212+02:00",
   "Description": "",
   "Binary": ""
+ },
+ {
+  "Owner": "yt-dlp",
+  "Repo": "yt-dlp",
+  "Release": "2026.08.19",
+  "UpdatedAt": "2026-09-09T10:26:07.677506+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "huseyinbabal",
+  "Repo": "taws",
+  "Release": "v1.3.0-rc.8",
+  "UpdatedAt": "2026-09-11T07:54:52.59572+02:00",
+  "Description": "",
+  "Binary": ""
  }
 ]
