@@ -998,5 +998,13 @@
   "UpdatedAt": "2026-09-11T07:54:52.59572+02:00",
   "Description": "",
   "Binary": ""
+ },
+ {
+  "Owner": "vi",
+  "Repo": "websocat",
+  "Release": "v1.14.1",
+  "UpdatedAt": "2026-09-17T21:14:09.01793+02:00",
+  "Description": "",
+  "Binary": ""
  }
 ]
