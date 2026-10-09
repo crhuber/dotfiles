@@ -114,8 +114,8 @@
  {
   "Owner": "crhuber",
   "Repo": "kelp",
-  "Release": "v1.21.0",
-  "UpdatedAt": "2026-04-24T11:56:57.253762+02:00",
+  "Release": "v1.22.1",
+  "UpdatedAt": "2026-10-07T13:39:08.955407+02:00",
   "Description": "Homebrew alternative",
   "Binary": ""
  },
@@ -578,8 +578,8 @@
  {
   "Owner": "terrastruct",
   "Repo": "d2",
-  "Release": "v0.7.1",
-  "UpdatedAt": "2026-04-20T12:08:56.158774+02:00",
+  "Release": "v0.9.0",
+  "UpdatedAt": "2026-10-05T17:22:49.443706+02:00",
   "Description": "",
   "Binary": ""
  },
@@ -1004,6 +1004,14 @@
   "Repo": "websocat",
   "Release": "v1.14.1",
   "UpdatedAt": "2026-09-17T21:14:09.01793+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "kubernetes-sigs",
+  "Repo": "kustomize",
+  "Release": "kustomize/v5.8.3",
+  "UpdatedAt": "2026-10-09T14:10:03.059176+02:00",
   "Description": "",
   "Binary": ""
  }
