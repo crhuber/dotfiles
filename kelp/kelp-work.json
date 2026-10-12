@@ -146,8 +146,8 @@
  {
   "Owner": "direnv",
   "Repo": "direnv",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
+  "Release": "v2.38.2",
+  "UpdatedAt": "2026-10-12T15:56:51.479792+02:00",
   "Description": "Load .env files",
   "Binary": ""
  },

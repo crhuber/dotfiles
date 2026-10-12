@@ -30,7 +30,7 @@ if status is-interactive
     # crumb
     # crumb hook --shell fish | source
     # direnv
-    # direnv hook fish | source
+    direnv hook fish | source
     # greeting
     function fish_greeting
         fastfetch
