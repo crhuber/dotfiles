@@ -1014,5 +1014,21 @@
   "UpdatedAt": "2026-10-09T14:10:03.059176+02:00",
   "Description": "",
   "Binary": ""
+ },
+ {
+  "Owner": "glincker",
+  "Repo": "sslx",
+  "Release": "v0.3.1",
+  "UpdatedAt": "2026-10-15T14:43:21.404898+02:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "zizmorcore",
+  "Repo": "zizmor",
+  "Release": "v1.31.1",
+  "UpdatedAt": "2026-10-26T10:36:55.026885+01:00",
+  "Description": "",
+  "Binary": ""
  }
 ]

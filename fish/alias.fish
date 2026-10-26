@@ -144,7 +144,7 @@ function jb --description 'make a new jira branch from current ticket'
 end
 
 function ji
-    jira issue list --plain --no-headers -q"status not in ('Done', 'Canceled', 'Won\'t Do')" -a $(jira me)
+    jira issue list --order-by status --columns KEY,SUMMARY,STATUS --plain --no-headers -q"status not in ('Done', 'Canceled', 'Won\'t Do')" -a $(jira me)
 end
 
 function k --wraps kubectl
