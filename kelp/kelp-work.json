@@ -392,14 +392,6 @@
   "Binary": ""
  },
  {
-  "Owner": "ffmpeg",
-  "Repo": "ffmpeg",
-  "Release": "https://evermeet.cx/ffmpeg/ffmpeg-6.0.7z",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
   "Owner": "ffprobe",
   "Repo": "ffprobe",
   "Release": "https://evermeet.cx/ffmpeg/ffprobe-6.0.7z",
