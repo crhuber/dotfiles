@@ -3,7 +3,7 @@ set -e
 set -u
 set -o pipefail
 
-prompt=$(ls ~/.dotfiles/prompts/ | fzf --preview 'bat -n --color=always  ~/.dotfiles/prompts/{}' | xargs -I {} cat ~/.dotfiles/prompts/{})
+prompt=$(ls ~/Development/skills/prompts/ | fzf --preview 'bat -n --color=always  ~/Development/skills/prompts/{}' | xargs -I {} cat ~/Development/skills/prompts/{})
 # ask the user for input to fill in the prompt
 read -p "Enter input for the prompt: " user_input
 claude -p "$prompt $user_input"
