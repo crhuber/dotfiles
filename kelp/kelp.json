@@ -264,14 +264,6 @@
   "Binary": "hx"
  },
  {
-  "Owner": "ffmpeg",
-  "Repo": "ffmpeg",
-  "Release": "https://evermeet.cx/ffmpeg/ffmpeg-8.0.1.zip",
-  "UpdatedAt": "2025-09-24T21:35:56.759715+02:00",
-  "Description": "",
-  "Binary": ""
- },
- {
   "Owner": "golangci",
   "Repo": "golangci-lint",
   "Release": "v2.3.0",
