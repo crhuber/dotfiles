@@ -21,7 +21,6 @@
 "helix/themes/tokyonight.toml" = "~/.config/helix/themes/tokyonight.toml"
 "k9s/config.yaml" = "~/.config/k9s/config.yaml"
 "k9s/skins/catppuccin-mocha.yaml" = "~/.config/k9s/skins/catppuccin-mocha.yaml"
-"kelp/kelp-work.json" = "~/.kelp/kelp-work.json"
 "nano/.nanorc" = "~/.nanorc"
 "nvim/init.vim" = "~/.config/nvim/init.vim"
 "terraform/.terraformrc" = "~/.terraformrc"
@@ -37,4 +36,4 @@
 
 [home]
 "starship/starship.toml" = "~/.config/starship.toml"
-"kelp/kelp.json" = "~/.kelp/kelp.json"
+"kelp/kelp.json" = "~/config/kelp/kelp.json"
