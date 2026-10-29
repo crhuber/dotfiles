@@ -33,7 +33,7 @@
 "obsidian/catppuccin-code.css" = "~/Documents/Notes/Work/.obsidian/snippets/catppuccin-code.css"
 
 [work]
-"kelp/kelp-work.json" = "~/.kelp/kelp.json"
+"kelp/kelp-work.json" = "~/.config/kelp/kelp.json"
 
 [home]
 "starship/starship.toml" = "~/.config/starship.toml"

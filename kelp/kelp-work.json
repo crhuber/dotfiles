@@ -114,8 +114,8 @@
  {
   "Owner": "crhuber",
   "Repo": "kelp",
-  "Release": "v1.22.1",
-  "UpdatedAt": "2026-10-07T13:39:08.955407+02:00",
+  "Release": "v1.23.0",
+  "UpdatedAt": "2026-10-29T17:24:30.075823+01:00",
   "Description": "Homebrew alternative",
   "Binary": ""
  },
@@ -234,8 +234,8 @@
  {
   "Owner": "go-task",
   "Repo": "task",
-  "Release": "v3.50.0",
-  "UpdatedAt": "2026-05-13T16:56:35.973181+02:00",
+  "Release": "v3.54.0",
+  "UpdatedAt": "2026-10-29T15:48:37.554105+01:00",
   "Description": "Make replacement",
   "Binary": ""
  },
@@ -930,8 +930,8 @@
  {
   "Owner": "rtk-ai",
   "Repo": "rtk",
-  "Release": "v0.38.0",
-  "UpdatedAt": "2026-05-06T10:37:29.97957+02:00",
+  "Release": "v1.1.0",
+  "UpdatedAt": "2026-10-29T17:17:24.068529+01:00",
   "Description": "",
   "Binary": ""
  },
@@ -978,8 +978,8 @@
  {
   "Owner": "yt-dlp",
   "Repo": "yt-dlp",
-  "Release": "2026.08.19",
-  "UpdatedAt": "2026-09-09T10:26:07.677506+02:00",
+  "Release": "2026.10.26",
+  "UpdatedAt": "2026-10-29T17:13:57.108122+01:00",
   "Description": "",
   "Binary": ""
  },
@@ -1020,6 +1020,14 @@
   "Repo": "zizmor",
   "Release": "v1.31.1",
   "UpdatedAt": "2026-10-26T10:36:55.026885+01:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "nvidia",
+  "Repo": "openshell",
+  "Release": "v0.1.6",
+  "UpdatedAt": "2026-10-29T10:40:45.456084+01:00",
   "Description": "",
   "Binary": ""
  }
