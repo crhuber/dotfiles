@@ -162,8 +162,8 @@
  {
   "Owner": "cli",
   "Repo": "cli",
-  "Release": "v2.64.0",
-  "UpdatedAt": "2025-01-06T18:44:33.225804+01:00",
+  "Release": "v2.103.3",
+  "UpdatedAt": "2026-10-29T17:33:44.057357+01:00",
   "Description": "Github CLI",
   "Binary": "gh"
  },
@@ -330,8 +330,8 @@
  {
   "Owner": "kubectl",
   "Repo": "kubectl",
-  "Release": "latest",
-  "UpdatedAt": "2025-02-18T10:20:35.349736+01:00",
+  "Release": "https://dl.k8s.io/release/v1.37.2/bin/darwin/arm64/kubectl",
+  "UpdatedAt": "2026-10-29T17:30:46.268402+01:00",
   "Description": "",
   "Binary": ""
  },
@@ -416,22 +416,6 @@
   "Binary": ""
  },
  {
-  "Owner": "jetstack",
-  "Repo": "version-checker",
-  "Release": "latest",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
-  "Owner": "charmbracelet",
-  "Repo": "mods",
-  "Release": "v1.6.0",
-  "UpdatedAt": "2024-11-20T10:22:14.614094+01:00",
-  "Description": "Openai on code",
-  "Binary": ""
- },
- {
   "Owner": "terraform-docs",
   "Repo": "terraform-docs",
   "Release": "latest",
@@ -482,8 +466,8 @@
  {
   "Owner": "sharkdp",
   "Repo": "pastel",
-  "Release": "latest",
-  "UpdatedAt": "2023-10-09T23:58:43.46349+02:00",
+  "Release": "v0.12.0",
+  "UpdatedAt": "2026-10-29T17:38:35.640535+01:00",
   "Description": "Convert colors on command line",
   "Binary": ""
  },
@@ -602,8 +586,8 @@
  {
   "Owner": "securego",
   "Repo": "gosec",
-  "Release": "latest",
-  "UpdatedAt": "2024-05-13T10:42:56.661774+02:00",
+  "Release": "v2.30.0",
+  "UpdatedAt": "2026-10-29T17:32:55.367585+01:00",
   "Description": "",
   "Binary": ""
  },
@@ -632,14 +616,6 @@
   "Binary": ""
  },
  {
-  "Owner": "crhuber",
-  "Repo": "cellar",
-  "Release": "latest",
-  "UpdatedAt": "2024-05-30T14:45:57.296022+02:00",
-  "Description": "",
-  "Binary": ""
- },
- {
   "Owner": "tofuutils",
   "Repo": "tenv",
   "Release": "latest",
@@ -656,14 +632,6 @@
   "Binary": ""
  },
  {
-  "Owner": "crhuber",
-  "Repo": "pocket-exporter",
-  "Release": "latest",
-  "UpdatedAt": "2024-08-13T15:29:49.785707+02:00",
-  "Description": "",
-  "Binary": ""
- },
- {
   "Owner": "sundowndev",
   "Repo": "phoneinfoga",
   "Release": "latest",
@@ -674,8 +642,8 @@
  {
   "Owner": "dandavison",
   "Repo": "delta",
-  "Release": "latest",
-  "UpdatedAt": "2024-09-05T20:07:33.646938+02:00",
+  "Release": "0.20.1",
+  "UpdatedAt": "2026-10-29T17:38:02.469606+01:00",
   "Description": "",
   "Binary": ""
  },
@@ -714,16 +682,16 @@
  {
   "Owner": "astral-sh",
   "Repo": "uv",
-  "Release": "latest",
-  "UpdatedAt": "2025-02-24T11:15:45.603178+01:00",
+  "Release": "0.13.6",
+  "UpdatedAt": "2026-10-29T17:37:14.682041+01:00",
   "Description": "",
   "Binary": ""
  },
  {
   "Owner": "kubecolor",
   "Repo": "kubecolor",
-  "Release": "latest",
-  "UpdatedAt": "2025-02-27T11:07:50.109482+01:00",
+  "Release": "v0.8.0",
+  "UpdatedAt": "2026-10-29T17:34:41.317829+01:00",
   "Description": "",
   "Binary": ""
  },
@@ -964,14 +932,6 @@
   "Repo": "vacuum",
   "Release": "v0.30.1",
   "UpdatedAt": "2026-08-31T22:02:52.05014+02:00",
-  "Description": "",
-  "Binary": ""
- },
- {
-  "Owner": "herdrdev",
-  "Repo": "herdr",
-  "Release": "v0.8.2",
-  "UpdatedAt": "2026-09-01T08:10:52.983212+02:00",
   "Description": "",
   "Binary": ""
  },
