@@ -1,33 +1,38 @@
-#!/usr/bin/env ruby
-require 'date'
-require 'json'
+#!/usr/bin/env python3
+import json
+import subprocess
+import sys
+from datetime import datetime
 
-def exec(*args)
-  begin
-    pid = spawn(*args)
-  rescue Errno::ENOENT
-    return false
-  end
-  return Process.wait2(pid)[1].exited?
-end
 
-def notify(title, description)
-  return if exec('notify-send', '--expire-time=5000', title, description)
+def run(*args: str) -> bool:
+    try:
+        proc = subprocess.run(args)
+    except FileNotFoundError:
+        return False
+    return proc.returncode >= 0
 
-  js = "
-  var app = Application.currentApplication()
-  app.includeStandardAdditions = true
-  app.displayNotification(#{JSON.generate(description)}, {
-    withTitle: #{JSON.generate(title)},
-  })
-  "
-  return if exec('osascript', '-l', 'JavaScript', '-e', js)
 
-  $stderr.puts("can't send notifications")
-  exit(1)
-end
+def notify(title: str, description: str) -> None:
+    js = f"""
+    var app = Application.currentApplication()
+    app.includeStandardAdditions = true
+    app.displayNotification({json.dumps(description)}, {{
+      withTitle: {json.dumps(title)},
+    }})
+    """
+    if run("osascript", "-l", "JavaScript", "-e", js):
+        return
 
-title = ARGV[0] || "Notification"
-description = ARGV[1] || DateTime.now.iso8601
+    print("can't send notifications", file=sys.stderr)
+    sys.exit(1)
 
-notify(title, description)
+
+if __name__ == "__main__":
+    title = sys.argv[1] if len(sys.argv) > 1 else "Notification"
+    description = (
+        sys.argv[2]
+        if len(sys.argv) > 2
+        else datetime.now().astimezone().isoformat(timespec="seconds")
+    )
+    notify(title, description)
