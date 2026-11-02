@@ -26,13 +26,16 @@ def main():
     parser.add_argument(
         "-a", "--archive", action="store_true", help="Put note in archive instead"
     )
+    parser.add_argument(
+        "-e", "--env", default="work", help="Base directory for notes"
+    )
     args = parser.parse_args()
 
     now = datetime.now()
 
     filename = get_filename(now, args.title)
 
-    notes_path = Path.home() / "Documents" / "Notes"
+    notes_path = Path.home() / "Notes" / args.env.capitalize()
     path = notes_path
     if args.archive:
         path /= "archive"
