@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+set -e
+set -u
+set -o pipefail
+
+TLS=~/.local/state/openshell/tls
+
+certs() {
+    mkdir -p $TLS && chmod 700 $TLS
+    openshell-gateway generate-certs --output-dir $TLS --server-san localhost --server-san 127.0.0.1
+    chmod -R go-rwx $TLS
+}
+
+
+run() {
+    # openshell-gateway run --tls-cert $TLS/server.crt --tls-key $TLS/server.key
+    openshell-gateway --tls-cert $TLS/server/tls.crt --tls-key $TLS/server/tls.key \
+    --tls-client-ca $TLS/ca.crt
+    openshell gateway add https://localhost:17670 --local --name openshell
+    openshell status    # look for a "Version:" line
+}
+
+case "$1" in
+    certs)
+        certs
+        ;;
+    run)
+        run
+        ;;
+    *)
+        echo "Usage: $0 {certs|run}"
+        exit 1
+        ;;
+esac
