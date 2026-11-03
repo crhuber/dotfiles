@@ -3,6 +3,17 @@ set -e
 set -u
 set -o pipefail
 
+# check if magick command is available
+define check_magick_installed() {
+    if ! command -v magick &> /dev/null; then
+        echo "magick command not found. Please install ImageMagick."
+        echo "You can install it using your package manager, for example:"
+        echo "brew install imagemagick"
+        exit 1
+    fi
+}
+check_magick_installed
+
 # fuzz 7%
 #Allow a 7% color difference when comparing pixels for optimization. This helps further reduce size by treating near-identical colors as the same.
 
