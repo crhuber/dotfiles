@@ -3,7 +3,14 @@
   "logo": "none",
   "modules": [
     {
+      "type": "title",
+      "key": "Hostname",
+      "format": "{host-name}",
+      "keyColor": "blue"
+    },
+    {
       "type": "host",
+      "key": "Model",
       "keyColor": "blue"
     },
     {
@@ -16,7 +23,7 @@
       "keyColor": "magenta"
     },
     {
-      "type": "cpuusage",
+      "type": "loadavg",
       "keyColor": "magenta"
     },
     {
