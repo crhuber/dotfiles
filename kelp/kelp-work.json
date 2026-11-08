@@ -266,8 +266,8 @@
  {
   "Owner": "crhuber",
   "Repo": "golinks",
-  "Release": "0.0.16",
-  "UpdatedAt": "2026-04-27T20:11:30.840009+02:00",
+  "Release": "0.0.18",
+  "UpdatedAt": "2026-11-06T11:58:27.759105+01:00",
   "Description": "Golinks service",
   "Binary": ""
  },
@@ -832,14 +832,6 @@
   "Binary": ""
  },
  {
-  "Owner": "ookla",
-  "Repo": "speedtest",
-  "Release": "https://install.speedtest.net/app/cli/ookla-speedtest-1.2.0-macosx-universal.tgz",
-  "UpdatedAt": "2025-11-24T10:21:12.985957+01:00",
-  "Description": "",
-  "Binary": ""
- },
- {
   "Owner": "tealdeer-rs",
   "Repo": "tealdeer",
   "Release": "v1.8.1",
@@ -988,6 +980,14 @@
   "Repo": "openshell",
   "Release": "v0.1.6",
   "UpdatedAt": "2026-10-29T10:40:45.456084+01:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "nickgerace",
+  "Repo": "gfold",
+  "Release": "2026.9.0",
+  "UpdatedAt": "2026-11-05T07:32:02.783685+01:00",
   "Description": "",
   "Binary": ""
  }
