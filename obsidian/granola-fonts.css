@@ -1,0 +1,25 @@
+/* Granola look: Quadrant serif titles, Melange Grotesk body (free lookalikes) */
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400..600&family=Hanken+Grotesk:ital,wght@0,400..700;1,400&display=swap');
+
+body {
+  --font-text-theme: 'Hanken Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  /* beat Appearance > Text font override (SF Pro); editor/reading only */
+  --font-text: var(--font-text-theme);
+  --line-height-normal: 1.6;
+  --code-size: 0.85em; /* JetBrains Mono runs large next to Hanken Grotesk */
+
+  /* Serif H1 + note title */
+  --h1-font: 'Source Serif 4', Georgia, serif;
+  --h1-weight: 400;
+  --h1-size: 2.4em;
+  --h1-letter-spacing: -0.01em;
+  --inline-title-font: var(--h1-font);
+  --inline-title-weight: 400;
+  --inline-title-size: 2.4em;
+
+  /* H2+ : bold grotesk, muted */
+  --h2-weight: 700;
+  --h3-weight: 700;
+  --h2-color: var(--text-muted);
+  --h3-color: var(--text-muted);
+}

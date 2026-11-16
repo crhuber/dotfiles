@@ -392,14 +392,6 @@
   "Binary": ""
  },
  {
-  "Owner": "ffprobe",
-  "Repo": "ffprobe",
-  "Release": "https://evermeet.cx/ffmpeg/ffprobe-6.0.7z",
-  "UpdatedAt": "0001-01-01T00:00:00Z",
-  "Description": "",
-  "Binary": ""
- },
- {
   "Owner": "kubernetes-sigs",
   "Repo": "kind",
   "Release": "v0.30.0",
@@ -604,14 +596,6 @@
   "Repo": "starship",
   "Release": "v1.26.0",
   "UpdatedAt": "2026-08-19T16:05:15.005426+02:00",
-  "Description": "",
-  "Binary": ""
- },
- {
-  "Owner": "zellij-org",
-  "Repo": "zellij",
-  "Release": "latest",
-  "UpdatedAt": "2024-05-29T10:57:55.083785+02:00",
   "Description": "",
   "Binary": ""
  },

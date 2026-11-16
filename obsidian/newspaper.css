@@ -1,0 +1,49 @@
+/* Minimal theme's Flexoki light scheme, ported to the default theme (light mode only) */
+body.theme-light {
+  /* base palette: default theme derives most UI colours from these */
+  --color-base-00: #FFFCF0;
+  --color-base-05: #F2F0E5;
+  --color-base-10: #F2F0E5;
+  --color-base-20: #FFFCF0;
+  --color-base-25: #E6E4D9;
+  --color-base-30: #E6E4D9;
+  --color-base-35: #DAD8CE;
+  --color-base-40: #CECDC3;
+  --color-base-50: #B7B5AC;
+  --color-base-60: #878580;
+  --color-base-70: #6F6E69;
+  --color-base-100: #100F0F;
+
+  /* same mapping Minimal uses (bg1/bg2/ui1/tx1-3) */
+  --background-primary: #FFFCF0;
+  --background-primary-alt: #F2F0E5;
+  --background-secondary: #FFFCF0;
+  --background-secondary-alt: #FFFCF0;
+  --background-modifier-border: #E6E4D9;
+  --background-modifier-hover: rgba(16, 15, 15, 0.05);
+  --titlebar-background: #FFFCF0;
+  --titlebar-background-focused: #F2F0E5;
+  --text-normal: #100F0F;
+  --text-muted: #6F6E69;
+  --text-faint: #B7B5AC;
+  --text-highlight-bg: rgba(247, 209, 61, 0.3);
+  --text-selection: rgba(187, 220, 206, 0.3);
+
+  /* Flexoki accent colours (tags, callouts, etc.) */
+  --color-red-rgb: 175, 48, 41;
+  --color-orange-rgb: 188, 82, 21;
+  --color-yellow-rgb: 173, 131, 1;
+  --color-green-rgb: 102, 128, 11;
+  --color-cyan-rgb: 36, 131, 123;
+  --color-blue-rgb: 32, 94, 166;
+  --color-purple-rgb: 94, 64, 157;
+  --color-pink-rgb: 160, 47, 111;
+  --color-red: #AF3029;
+  --color-orange: #BC5215;
+  --color-yellow: #AD8301;
+  --color-green: #66800B;
+  --color-cyan: #24837B;
+  --color-blue: #205EA6;
+  --color-purple: #5E409D;
+  --color-pink: #A02F6F;
+}
