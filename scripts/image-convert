@@ -3,4 +3,7 @@ set -e
 set -u
 set -o pipefail
 
-sips -s format jpeg "$1" --out "${1%.heic}.jpg"
+format=$(printf '%s\n' jpeg png heic tiff gif bmp pdf | fzf --prompt="Convert $1 to: ")
+ext=${format/jpeg/jpg}
+
+sips -s format "$format" "$1" --out "${1%.*}.$ext"

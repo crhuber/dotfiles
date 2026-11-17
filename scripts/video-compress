@@ -1,4 +1,23 @@
 #!/usr/bin/env bash
-# -vcodec video codec libx264
-# -crf constant rate factor 21 (lower is better quality, 18-28 is a good range). 23 is a common default.
-ffmpeg -i $1 -vcodec libx264 -crf 21 $2
+# Re-encode a video to H.264. Writes <name>-compressed.mp4, original untouched.
+set -e
+set -u
+set -o pipefail
+
+choice=$(printf '%s\n' \
+    "quality  - near-original, moderate size reduction (crf 21, medium preset)" \
+    "small    - much smaller, visibly lower quality (crf 30, superfast preset)" \
+    | fzf --prompt="Compress $1: ")
+
+case "$choice" in
+    quality*) crf=21; preset=medium ;;
+    small*)   crf=30; preset=superfast ;;
+esac
+
+# -crf: quality target, lower = better quality + bigger file (each ~6 halves/doubles size)
+# -preset: encode effort; slower = smaller file at the same quality
+# -tag:v avc1: mark stream as H.264 in a way Apple players (Safari, iOS, QuickTime) accept
+# -movflags faststart: put the index at the front so playback starts before the full download
+ffmpeg -i "$1" -c:v libx264 -crf "$crf" -preset "$preset" \
+    -tag:v avc1 -movflags faststart \
+    "${1%.*}-compressed.mp4"

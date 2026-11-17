@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+# Lossless image optimisation, like ImageOptim's defaults. Writes <name>-compressed.<ext>, original untouched.
+# Needs: brew install jpegoptim oxipng gifsicle svgo
+set -e
+set -u
+set -o pipefail
+
+src="$1"
+f="${src%.*}-compressed.${src##*.}"
+
+case "$(echo "${src##*.}" | tr '[:upper:]' '[:lower:]')" in
+    jpg|jpeg) cmd=(jpegoptim --strip-all --all-progressive -q) ;;
+    png)      cmd=(oxipng -o max --strip safe -q) ;;
+    gif)      cmd=(gifsicle -O3 --batch) ;;
+    svg)      cmd=(svgo -q) ;;
+    *)        echo "Unsupported file type: $src" >&2; exit 1 ;;
+esac
+
+if ! command -v "${cmd[0]}" &> /dev/null; then
+    echo "${cmd[0]} not found. Install it with: brew install ${cmd[0]}" >&2
+    exit 1
+fi
+
+cp "$src" "$f"
+trap 'rm -f "$f"' ERR
+before=$(stat -f%z "$f")
+"${cmd[@]}" "$f"
+after=$(stat -f%z "$f")
+echo "$f: $before -> $after bytes ($(( (before - after) * 100 / before ))% saved)"
