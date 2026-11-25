@@ -3,4 +3,4 @@ set -e
 set -u
 set -o pipefail
 
-ls ~/Development/skills/prompts/ | fzf --preview 'bat -n --color=always  ~/Development/skills/prompts/{}' | xargs -I {} cat ~/Development/skills/prompts/{} | pbcopy
+ls ~/Documents/Development/skills/prompts/ | fzf --preview 'bat -n --color=always  ~/Documents/Development/skills/prompts/{}' | xargs -I {} cat ~/Documents/Development/skills/prompts/{} | pbcopy
