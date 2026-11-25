@@ -974,5 +974,21 @@
   "UpdatedAt": "2026-11-05T07:32:02.783685+01:00",
   "Description": "",
   "Binary": ""
+ },
+ {
+  "Owner": "tfutils",
+  "Repo": "tfenv",
+  "Release": "v3.2.2",
+  "UpdatedAt": "2026-11-18T11:55:20.590164+01:00",
+  "Description": "",
+  "Binary": ""
+ },
+ {
+  "Owner": "terraform-linters",
+  "Repo": "tflint",
+  "Release": "v0.66.0",
+  "UpdatedAt": "2026-11-19T10:37:29.217987+01:00",
+  "Description": "",
+  "Binary": ""
  }
 ]
