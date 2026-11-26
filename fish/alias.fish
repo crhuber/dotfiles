@@ -212,6 +212,10 @@ function nano
     vi $argv
 end
 
+function plex
+    rclone serve ftp ~/Movies/Media\ Server/ --read-only --addr 0.0.0.0:2121
+end
+
 function prl
     gh search prs --author=@me --state open --json url --jq '.[].url'
 end
